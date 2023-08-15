@@ -20,6 +20,7 @@ n0d3s.UI.Style(`
 
 .image-body {
 
+    width: 100%;
     min-height: fit-content;
 
     border-radius: min(1.5vh, 1.5vw);

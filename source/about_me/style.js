@@ -51,9 +51,21 @@ n0d3s.UI.Style(`
 
 @media (min-width: 1000px) {
 
+    .img-content {
+    
+        width: min(100%, ${1400/3 - 50}px);
+    
+    }
+
 }
 
 @media (max-width: 1000px) {
+
+    .img-content {
+    
+        width: 100%;
+    
+    }
 
     .two-content-body {
     
