@@ -210,23 +210,28 @@ return [
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
             .appendInner(
 
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
-                )
-                .appendClass("img-content"),
+                Common.SubPageContent()
+                .appendClass("two-content-body-reverse")
+                .appendInner(
 
-                Common.EnhancedParagraph(
-                    third_stage,
-                    null,
-                    4
-                )
-                .$(
-                    ".paragraph-name",
-                    e => e
-                    .appendClass("item-justify")
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                    )
+                    .appendClass("img-content"),
+
+                    Common.EnhancedParagraph(
+                        third_stage,
+                        null,
+                        4
+                    )
+                    .$(
+                        ".paragraph-name",
+                        e => e
+                        .appendClass("item-justify")
+                    ),
+
                 ),
 
                 Common.ImageBody(
