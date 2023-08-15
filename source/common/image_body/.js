@@ -37,7 +37,8 @@ function ImageBody(url){
             return image_body;
         }
 
-    });
+    })
+    .setWidthLevel(2);
     
 
     return result;
