@@ -47,7 +47,7 @@ n0d3s.UI.Style(`
     position: fixed;
     top: 0;
     
-    box-shadow: 2px 2px 6px rgba(0,0,0,0.2);
+    box-shadow: 0px 6px 6px rgba(0,0,0,0.3);
 
     z-index: 39;
 
@@ -67,6 +67,8 @@ n0d3s.UI.Style(`
     transition: 0.4s;
 
     cursor: pointer;
+    
+    filter: drop-shadow(6px 6px 6px rgba(0,0,0,0.3));
 
 }
 

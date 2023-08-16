@@ -25,6 +25,10 @@ module.use({
 
     HR: "./hr",
 
+    isInVP: "./is_in_vp",
+
+    LightingOnVisible: "./lighting_on_visible",
+
 })
 .use([
 
@@ -55,6 +59,10 @@ const Common = {
     TypingEffect,
 
     HR,
+
+    isInVP,
+
+    LightingOnVisible,
 
 };
 

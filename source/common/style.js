@@ -15,6 +15,9 @@ n0d3s.UI.Style(`
 
     html {
         overflow: auto;
+
+        color-scheme: dark;
+
     }
 
     body {
@@ -26,6 +29,8 @@ n0d3s.UI.Style(`
         margin: 0;
 
         background-color: ${BG_COLOR};
+
+        color-scheme: dark;
 
     }
 

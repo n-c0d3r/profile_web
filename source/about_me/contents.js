@@ -16,9 +16,11 @@ module.use({
     basic_about_me: "text/about_me/basic_about_me",
     first_stage: "text/about_me/first_stage",
     second_stage_a: "text/about_me/second_stage_a",
-    second_stage_b: "text/about_me/second_stage_b",
+    second_stage_b1: "text/about_me/second_stage_b1",
+    second_stage_b2: "text/about_me/second_stage_b2",
     third_stage: "text/about_me/third_stage",
-    fourth_stage: "text/about_me/fourth_stage",
+    fourth_stage1: "text/about_me/fourth_stage1",
+    fourth_stage2: "text/about_me/fourth_stage2",
 
 });
 
@@ -101,43 +103,6 @@ return [
                 )
     
             ),
-    
-    
-    
-            // Common.SubPageContent()
-            // .appendClass("item-center")
-            // .appendInner(
-            //     Common.EnhancedParagraph(
-            //         hello,
-            //         null, 
-            //         3,
-            //         0
-            //     )
-            //     .appendClass("item-center")
-            //     .setWidthLevel(0)
-    
-            //     .setStyle({
-    
-            //         width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
-    
-            //     })
-        
-            //     .$(
-            //         '.paragraph-name',
-            //         e => e
-            //         .appendClass("item-justify")
-            //         .setStyle({
-        
-            //             color: "rgba(200, 220, 220, 0.8)",
-        
-            //             paddingTop: "0",
-        
-            //             fontSize: `min(5vw, ${1400 / 2 * 0.025}px)`,
-            //             lineHeight: `min(5vw, ${1400 / 2 * 0.025}px)`,
-        
-            //         })
-            //     )
-            // )
 
         ),
 
@@ -163,6 +128,11 @@ return [
             ".paragraph-name",
             e => e
             .appendClass("item-left")
+            
+            .applyEffect(
+                Common.TypingEffect('1px', 500, false, false), 
+                10
+            ),
 
         )
         .$$(
@@ -199,6 +169,10 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic2.jpg`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
                 Common.SubPageContent()
@@ -209,15 +183,19 @@ return [
                 })
                 .appendInner(
     
-                    Common.EnhancedParagraph(
-                        basic_about_me,
-                        null,
-                        4
+                    Common.EnhancedTextBody(basic_about_me)
+                    .appendClass("item-justify")
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
+                    ),
+
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/other/ge_arch.png`
                     )
-                    .$(
-                        ".paragraph-name",
-                        e => e
-                        .appendClass("item-justify"),
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
                     ),
     
                 ),
@@ -249,6 +227,10 @@ return [
             ".paragraph-name",
             e => e
             .appendClass("item-left")
+            .applyEffect(
+                Common.TypingEffect('1px', 500, false, false), 
+                10
+            ),
 
         )
         .$$(
@@ -285,17 +267,17 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic.jpg`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
-                Common.EnhancedParagraph(
-                    first_stage,
-                    null,
-                    4
-                )
-                .$(
-                    ".paragraph-name",
-                    e => e
-                    .appendClass("item-justify"),
+                Common.EnhancedTextBody(first_stage)
+                .appendClass("item-justify")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
             ),
@@ -306,19 +288,19 @@ return [
             .appendClass("two-content-body")
             .appendInner(
 
-                Common.EnhancedParagraph(
-                    second_stage_a,
-                    null,
-                    4
-                )
-                .$(
-                    ".paragraph-name",
-                    e => e
-                    .appendClass("item-justify"),
+                Common.EnhancedTextBody(second_stage_a)
+                .appendClass("item-justify")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/turbo_pascal_7_0.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
             ),
@@ -334,27 +316,52 @@ return [
     
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/ohhh.png`
+                    )
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
                     ),
 
-                    Common.EnhancedParagraph(
-                        second_stage_b,
-                        null,
-                        4
-                    )
-                    .$(
-                        ".paragraph-name",
-                        e => e
+                    Common.SubPageContent()
+                    .setStyle({
+    
+                        width: `min(100%, ${1400 / 3 - 50}px)`,
+    
+                    })
+                    .appendInner(
+        
+                        Common.EnhancedTextBody(second_stage_b1)
                         .appendClass("item-justify")
+                        .applyEffect(
+                            Common.LightingOnVisible(),
+                            50,
+                        ),
+
+                        Common.EnhancedTextBody(second_stage_b2)
+                        .appendClass("item-justify")
+                        .applyEffect(
+                            Common.LightingOnVisible(),
+                            50,
+                        ),
+        
                     ),
 
                 ),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/hgscene.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ohqg.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
             ),
@@ -368,29 +375,37 @@ return [
                 .appendClass("two-content-body")
                 .appendInner(
 
-                    Common.EnhancedParagraph(
-                        third_stage,
-                        null,
-                        4
-                    )
-                    .$(
-                        ".paragraph-name",
-                        e => e
-                        .appendClass("item-justify")
+                    Common.EnhancedTextBody(third_stage)
+                    .appendClass("item-justify")
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
                     ),
 
                     Common.ImageBody(
                         `${window.origin}/resources/image/other/dx11.png`
+                    )
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
                     ),
 
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/hlsl.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ing.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
                 ),
 
             ),
@@ -406,27 +421,52 @@ return [
     
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/gdr.png`
+                    )
+                    .applyEffect(
+                        Common.LightingOnVisible(),
+                        50,
                     ),
 
-                    Common.EnhancedParagraph(
-                        fourth_stage,
-                        null,
-                        4
-                    )
-                    .$(
-                        ".paragraph-name",
-                        e => e
+                    Common.SubPageContent()
+                    .setStyle({
+    
+                        width: `min(100%, ${1400 / 3 - 50}px)`,
+    
+                    })
+                    .appendInner(
+        
+                        Common.EnhancedTextBody(fourth_stage1)
                         .appendClass("item-justify")
+                        .applyEffect(
+                            Common.LightingOnVisible(),
+                            50,
+                        ),
+
+                        Common.EnhancedTextBody(fourth_stage2)
+                        .appendClass("item-justify")
+                        .applyEffect(
+                            Common.LightingOnVisible(),
+                            50,
+                        ),
+        
                     ),
 
                 ),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/depth_pyramid.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    200,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    200,
                 ),
 
             ),

@@ -3,6 +3,8 @@ module.use({
 
     n0d3s: "./n0d3s",
 
+    isInVP: "./is_in_vp",
+
 });
 
 
@@ -26,7 +28,7 @@ n0d3s.UI.Style(`
 
 
 
-function TypingEffect(cursor_width, idle_time = 0) {
+function TypingEffect(cursor_width, idle_time = 0, loop = true, spawn_cursor = true) {
 
     return {
 
@@ -43,28 +45,37 @@ function TypingEffect(cursor_width, idle_time = 0) {
 
         idle_time: idle_time,
 
+        cursor_element: null,
+
 
 
         init(element) {
 
-            if(element.childElementCount == 0){
+            this.span_elements = [];
 
-                this.full_text = element.textContent;
+            let childs = element.childNodes;
 
-                element.textContent = '';
+            for(let span_index = 0; span_index < childs.length; ++span_index){
 
-                element.appendChild(
-                    n0d3s.UI.Element('span')
-                    .setTextContent(this.full_text)
-                );
+                let child = childs[span_index];
 
-                this.full_text = '';
+                let span = null;
+
+                if (child.nodeType === Node.TEXT_NODE) {
+                    
+                    let text = child.nodeValue;
+
+                    span = n0d3s.UI.Element('span').setTextContent(text);
+
+                    element.replaceChild(span, child);
+                    
+                } 
+                else 
+                    span = child;
+
+                this.span_elements.push(span);
 
             }
-
-            this.span_elements = [...element.querySelectorAll('span')];
-
-            
 
             for(let span_index = 0; span_index < this.span_elements.length; ++span_index){
 
@@ -88,15 +99,19 @@ function TypingEffect(cursor_width, idle_time = 0) {
 
             }
 
-            element.appendChild(
-                n0d3s.UI.Element('span')
+            if(spawn_cursor) {
+
+                this.cursor_element = n0d3s.UI.Element('span')
                 .appendClass('typing-effect-cursor')
                 .setStyle({
 
                     border: `solid ${cursor_width}`,
 
-                })
-            );
+                });
+
+                element.appendChild(this.cursor_element);
+
+            }
 
             this.last_time = performance.now();
 
@@ -104,8 +119,11 @@ function TypingEffect(cursor_width, idle_time = 0) {
 
         update(element) {
 
-            if(performance.now() < this.enable_time)
-                return;
+            if(
+                performance.now() < this.enable_time
+                || !isInVP(element)
+            )
+                return true;
             
             if(this.current_flow < 0){
 
@@ -136,12 +154,25 @@ function TypingEffect(cursor_width, idle_time = 0) {
 
                 span_element.textContent += this.full_text[this.current_end];
 
-                this.current_flow -= 2 * (this.current_end == this.full_text.length - 1);
+                if(this.current_end == this.full_text.length - 1){
 
-                this.enable_time = (this.current_end == this.full_text.length - 1) * (performance.now() + this.idle_time);
+                    this.current_flow = -1;
+
+                    this.enable_time = performance.now() + this.idle_time;
+
+                    if(!loop){
+
+                        if(spawn_cursor)
+                            element.removeChild(this.cursor_element);
+
+                        return false;
+                    }
+
+                }
 
             }
 
+            return true;
         }
 
     };

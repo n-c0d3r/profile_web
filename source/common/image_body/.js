@@ -26,7 +26,7 @@ function ImageBody(url){
 
         let image_body = this;
         
-        image_body.setWidthLevel = function(width_level){
+        image_body.setWidthLevel = function(width_level = 1){
 
             image_body.setStyle({
         
