@@ -13,7 +13,7 @@ module.use({
 ])
 .text({
 
-    hello: "text/about_me/hello",
+    basic_about_me: "text/about_me/basic_about_me",
     first_stage: "text/about_me/first_stage",
     second_stage_a: "text/about_me/second_stage_a",
     second_stage_b: "text/about_me/second_stage_b",
@@ -145,14 +145,13 @@ return [
 
 
 
-    // My Journey
+    // Who I Am
     Common.PageContent()
     .appendClass("item-center")
-    .appendClass("my-journey-content")
     .appendInner(
 
         Common.Section(
-            [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
+            [ "| WHO I AM | ", "I AM A TECHNOLOGY LOVER", " |" ],
         )    
         .appendClass("item-left")
         .setStyle({
@@ -191,13 +190,93 @@ return [
 
         Common.HR(),
 
-        Common.PageContent()
+        Common.SubPageContent()
+        .appendInner(
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/other/robotic2.jpg`
+                ),
+
+                Common.SubPageContent()
+                .setStyle({
+
+                    width: `min(100%, ${1400 / 3 - 50}px)`,
+
+                })
+                .appendInner(
+    
+                    Common.EnhancedParagraph(
+                        basic_about_me,
+                        null,
+                        4
+                    )
+                    .$(
+                        ".paragraph-name",
+                        e => e
+                        .appendClass("item-justify"),
+                    ),
+    
+                ),
+
+            ),
+
+        ),
+
+    ),
+
+
+
+    // My Journey
+    Common.PageContent()
+    .appendClass("item-center")
+    .appendClass("my-journey-content")
+    .appendInner(
+
+        Common.Section(
+            [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
+        )    
+        .appendClass("item-left")
         .setStyle({
 
-            padding: "0",
-            width: "100%",
+            width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
 
         })
+        .$(
+            ".paragraph-name",
+            e => e
+            .appendClass("item-left")
+
+        )
+        .$$(
+            ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
+            e => e
+            .setStyle({
+
+                color: "rgb(110, 115, 120)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(2)",
+            e => e
+            .setStyle({
+
+                color: "rgb(120, 210, 220)",
+                fontWeight: "200",
+
+            })
+
+        ),
+
+        Common.HR(),
+
+        Common.SubPageContent()
         .appendInner(
 
             Common.SubPageContent()

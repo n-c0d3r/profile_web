@@ -13,6 +13,10 @@ const BG_COLOR = `rgb(22, 22, 22)`;
 
 n0d3s.UI.Style(`
 
+    html {
+        overflow: auto;
+    }
+
     body {
 
         padding-top: 50px;
