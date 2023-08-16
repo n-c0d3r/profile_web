@@ -18,6 +18,7 @@ module.use({
     second_stage_a: "text/about_me/second_stage_a",
     second_stage_b: "text/about_me/second_stage_b",
     third_stage: "text/about_me/third_stage",
+    fourth_stage: "text/about_me/fourth_stage",
 
 });
 
@@ -34,8 +35,8 @@ return [
         Common.SubPageContent()
         .appendInner(
 
-            Common.Section(
-                ["Hello ", "there", ", ", "I", "'m ", "N", "Coder"],
+            Common.BigSection(
+                ["HELLO ", "THERE", ", ", "I", " AM ", "N", "CODER"],
                 null, 
                 3,
                 0
@@ -46,14 +47,6 @@ return [
             .$(
                 '.paragraph-name',
                 e => e
-    
-                .setStyle({
-    
-                    fontWeight: "600",
-                    fontSize: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
-                    lineHeight: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
-    
-                })
     
                 // Text colors
                 .$(
@@ -139,8 +132,8 @@ return [
         
                         paddingTop: "0",
         
-                        fontSize: `min(5vw, ${1400 / 2 * 0.026}px)`,
-                        lineHeight: `min(5vw, ${1400 / 2 * 0.026}px)`,
+                        fontSize: `min(5vw, ${1400 / 2 * 0.025}px)`,
+                        lineHeight: `min(5vw, ${1400 / 2 * 0.025}px)`,
         
                     })
                 )
@@ -155,7 +148,60 @@ return [
     // My Journey
     Common.PageContent()
     .appendClass("item-center")
+    .appendClass("my-journey-content")
     .appendInner(
+
+        Common.Section(
+            [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
+            // "from ... to self-learning boy"
+        )    
+        .appendClass("item-left")
+        .setStyle({
+
+            width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+
+        })
+        // .$(
+        //     ".paragraph-content",
+        //     e => e
+        //     .setStyle({
+
+        //         color: "rgb(75, 75, 75)",
+        //         fontWeight: "200",
+
+        //     })
+
+        // )
+        .$(
+            ".paragraph-name",
+            e => e
+            .appendClass("item-left")
+
+        )
+        .$$(
+            ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
+            e => e
+            .setStyle({
+
+                color: "rgb(100, 100, 100)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(2)",
+            e => e
+            .setStyle({
+
+                color: "rgb(100, 220, 225)",
+                fontWeight: "200",
+
+            })
+
+        ),
+
+        Common.HR(),
 
         Common.PageContent()
         .setStyle({
@@ -267,17 +313,53 @@ return [
                     ),
 
                     Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                        `${window.origin}/resources/image/other/dx11.png`
                     ),
 
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/gdr.png`
+                    `${window.origin}/resources/image/other/hlsl.png`
                 ),
 
                 Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ing.png`
+                ),
+
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendInner(
+
+                Common.SubPageContent()
+                .appendClass("two-content-body-reverse")
+                .appendInner(
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/gdr.png`
+                    ),
+
+                    Common.EnhancedParagraph(
+                        fourth_stage,
+                        null,
+                        4
+                    )
+                    .$(
+                        ".paragraph-name",
+                        e => e
+                        .appendClass("item-justify")
+                    ),
+
+                ),
+    
+                Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/depth_pyramid.png`
+                ),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
                 ),
 
             ),

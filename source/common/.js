@@ -14,6 +14,7 @@ module.use({
     Paragraph: "./paragraph",
     EnhancedParagraph: "./enhanced_paragraph",
     Section: "./section",
+    BigSection: "./big_section",
 
     PageContent: "./page_content",
     SubPageContent: "./sub_page_content",
@@ -44,6 +45,7 @@ const Common = {
     Paragraph,
     EnhancedParagraph,
     Section,
+    BigSection,
 
     PageContent,
     SubPageContent,

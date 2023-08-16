@@ -9,7 +9,7 @@ module.use({
 
 
 
-function Section(name, content, level = 3, tabs = 0, width_level = 2, use_html_inner_for_name = false){
+function BigSection(name, content, level = 3, tabs = 0, width_level = 2, use_html_inner_for_name = false){
 
     return Paragraph(name, content, level, tabs, width_level, use_html_inner_for_name)
     .$(
@@ -19,8 +19,10 @@ function Section(name, content, level = 3, tabs = 0, width_level = 2, use_html_i
         .appendClass("prevent-select")
         .setStyle({
     
-            fontSize: `min(4.1vw, ${1400 / 2 * 0.138 / 2}px)`,
-            lineHeight: `min(4.1vw, ${1400 / 2 * 0.138 / 2}px)`,
+            fontWeight: "600",
+    
+            fontSize: `min(6.85vw, ${1400 / 2 * 0.1125}px)`,
+            lineHeight: `min(6.85vw, ${1400 / 2 * 0.1125}px)`,
     
         })
 
@@ -30,4 +32,4 @@ function Section(name, content, level = 3, tabs = 0, width_level = 2, use_html_i
 
 
 
-return Section;
+return BigSection;
