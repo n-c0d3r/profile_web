@@ -67,4 +67,26 @@ n0d3s.UI.Style(`
 
 }
 
+    
+    
+@media (min-width: 1000px) {
+
+}
+
+@media (max-width: 1000px) {
+
+    .two-content-body {
+    
+        flex-flow: column;
+    
+    }
+    
+    .two-content-body-reverse {
+    
+        flex-flow: column-reverse;
+    
+    }
+
+}
+
 `);

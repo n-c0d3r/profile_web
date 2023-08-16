@@ -13,7 +13,7 @@ return function HR(){
     .setStyle({
 
         width: "100vw",
-        borderColor: "rgba(33, 33, 33, 0.4)",
+        borderColor: "rgba(33, 33, 33, 0.2)",
 
     });
 };

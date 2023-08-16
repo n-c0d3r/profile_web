@@ -39,12 +39,12 @@ n0d3s.UI.Style(`
 
     margin-bottom: 10px;
 
-    font-weight: 600;
+    /*font-weight: 600;*/
 
     flex-flow: row;
     flex-wrap: wrap;
     
-    text-shadow: 6px 6px 6px rgba(0,0,0,0.4);
+    /*text-shadow: 6px 6px 6px rgba(0,0,0,0.4);*/
 
 }
 

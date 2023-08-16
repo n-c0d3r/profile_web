@@ -31,87 +31,126 @@ return [
     .appendClass("hello-content")
     .appendInner( 
 
-        Common.Section(
-            ["Hello ", "there", ", ", "I", " am ", "N", "Coder"],
-            hello,
-            3,
-            0
-        )
-        .appendClass("item-center")
-        .setWidthLevel(1)
+        Common.SubPageContent()
+        .appendInner(
 
-        .$(
-            '.paragraph-content',
-            e => e
-            .appendClass("item-justify")
-            .setStyle({
-
-                color: "rgba(200, 220, 220, 0.8)",
-
-                paddingTop: "min(5vh, 10vw)",
-
-            })
-        )
-
-        .$(
-            '.paragraph-name',
-            e => e
-
-            // Text colors
-            .$(
-                'span:nth-child(2)',
-                e => e
-                .setStyle({
-
-                    color: 'rgb(100, 210, 250)',
-
-                })
+            Common.Section(
+                ["Hello ", "there", ", ", "I", "'m ", "N", "Coder"],
+                null, 
+                3,
+                0
             )
+            .appendClass("item-center")
+            .setWidthLevel(0)
+    
             .$(
-                'span:nth-child(1)',
+                '.paragraph-name',
                 e => e
+    
                 .setStyle({
-
-                    color: 'rgb(220, 120, 225)',
-
+    
+                    fontWeight: "600",
+                    fontSize: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
+                    lineHeight: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
+    
                 })
-            )
-            .$(
-                'span:nth-child(3)',
-                e => e
+    
+                // Text colors
+                .$(
+                    'span:nth-child(2)',
+                    e => e
+                    .setStyle({
+    
+                        color: 'rgb(100, 210, 250)',
+    
+                    })
+                )
+                .$(
+                    'span:nth-child(1)',
+                    e => e
+                    .setStyle({
+    
+                        color: 'rgb(220, 120, 225)',
+    
+                    })
+                )
+                .$(
+                    'span:nth-child(3)',
+                    e => e
+                    .setStyle({
+    
+                        color: 'rgb(80, 80, 80)',
+    
+                    })
+                )
+                .$(
+                    'span:nth-child(5)',
+                    e => e
+                    .setStyle({
+    
+                        // color: 'rgb(120, 120, 120)',
+    
+                    })
+                )
+                .$(
+                    'span:nth-child(6)',
+                    e => e
+                    .setStyle({
+    
+                        color: 'rgb(100, 220, 225)',
+    
+                    })
+                )
+    
+                .applyEffect(
+                    Common.TypingEffect('1px', 500), 
+                    50
+                )
+    
+            ),
+    
+    
+    
+            Common.SubPageContent()
+            .appendClass("item-center")
+            .appendInner(
+                Common.EnhancedParagraph(
+                    hello,
+                    null, 
+                    3,
+                    0
+                )
+                .appendClass("item-center")
+                .setWidthLevel(0)
+    
                 .setStyle({
-
-                    color: 'rgb(80, 80, 80)',
-
+    
+                    width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+    
                 })
-            )
-            .$(
-                'span:nth-child(5)',
-                e => e
-                .setStyle({
-
-                    color: 'rgb(135, 135, 135)',
-
-                })
-            )
-            .$(
-                'span:nth-child(6)',
-                e => e
-                .setStyle({
-
-                    color: 'rgb(100, 220, 225)',
-
-                })
-            )
-
-            .applyEffect(
-                Common.TypingEffect('1px', 500), 
-                75
+        
+                .$(
+                    '.paragraph-name',
+                    e => e
+                    .appendClass("item-justify")
+                    .setStyle({
+        
+                        color: "rgba(200, 220, 220, 0.8)",
+        
+                        paddingTop: "0",
+        
+                        fontSize: `min(5vw, ${1400 / 2 * 0.026}px)`,
+                        lineHeight: `min(5vw, ${1400 / 2 * 0.026}px)`,
+        
+                    })
+                )
             )
 
         ),
 
     ),
+
+
 
     // My Journey
     Common.PageContent()
@@ -133,8 +172,7 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic.jpg`
-                )
-                .appendClass("img-content"),
+                ),
 
                 Common.EnhancedParagraph(
                     first_stage,
@@ -168,42 +206,7 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/turbo_pascal_7_0.png`
-                )
-                .appendClass("img-content"),
-
-            ),
-
-            Common.HR(),
-
-            Common.SubPageContent()
-            .appendClass("two-content-body")
-            .appendInner(
-
-                Common.EnhancedParagraph(
-                    second_stage_b,
-                    null,
-                    4
-                )
-                .$(
-                    ".paragraph-name",
-                    e => e
-                    .appendClass("item-justify")
                 ),
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ohhh.png`
-                )
-                .appendClass("img-content"),
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/hgscene.png`
-                )
-                .appendClass("img-content"),
-
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ohqg.png`
-                )
-                .appendClass("img-content"),
 
             ),
 
@@ -215,11 +218,42 @@ return [
                 Common.SubPageContent()
                 .appendClass("two-content-body-reverse")
                 .appendInner(
-
+    
                     Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                        `${window.origin}/resources/image/demonstrates/ohhh.png`
+                    ),
+
+                    Common.EnhancedParagraph(
+                        second_stage_b,
+                        null,
+                        4
                     )
-                    .appendClass("img-content"),
+                    .$(
+                        ".paragraph-name",
+                        e => e
+                        .appendClass("item-justify")
+                    ),
+
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/hgscene.png`
+                ),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ohqg.png`
+                ),
+
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendInner(
+
+                Common.SubPageContent()
+                .appendClass("two-content-body")
+                .appendInner(
 
                     Common.EnhancedParagraph(
                         third_stage,
@@ -232,17 +266,19 @@ return [
                         .appendClass("item-justify")
                     ),
 
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                    ),
+
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/gdr.png`
-                )
-                .appendClass("img-content"),
+                ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/depth_pyramid.png`
-                )
-                .appendClass("img-content"),
+                ),
 
             ),
     

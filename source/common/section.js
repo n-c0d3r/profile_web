@@ -19,8 +19,8 @@ function Section(name, content, level = 3, tabs = 0, width_level = 2, use_html_i
         .appendClass("prevent-select")
         .setStyle({
     
-            fontSize: `min(7.95vw, ${1400 / 2 * 0.082}px)`,
-            lineHeight: `min(7.95vw, ${1400 / 2 * 0.082}px)`,
+            fontSize: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
+            lineHeight: `min(8.2vw, ${1400 / 2 * 0.138}px)`,
     
         })
 
