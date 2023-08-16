@@ -104,40 +104,40 @@ return [
     
     
     
-            Common.SubPageContent()
-            .appendClass("item-center")
-            .appendInner(
-                Common.EnhancedParagraph(
-                    hello,
-                    null, 
-                    3,
-                    0
-                )
-                .appendClass("item-center")
-                .setWidthLevel(0)
+            // Common.SubPageContent()
+            // .appendClass("item-center")
+            // .appendInner(
+            //     Common.EnhancedParagraph(
+            //         hello,
+            //         null, 
+            //         3,
+            //         0
+            //     )
+            //     .appendClass("item-center")
+            //     .setWidthLevel(0)
     
-                .setStyle({
+            //     .setStyle({
     
-                    width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+            //         width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
     
-                })
+            //     })
         
-                .$(
-                    '.paragraph-name',
-                    e => e
-                    .appendClass("item-justify")
-                    .setStyle({
+            //     .$(
+            //         '.paragraph-name',
+            //         e => e
+            //         .appendClass("item-justify")
+            //         .setStyle({
         
-                        color: "rgba(200, 220, 220, 0.8)",
+            //             color: "rgba(200, 220, 220, 0.8)",
         
-                        paddingTop: "0",
+            //             paddingTop: "0",
         
-                        fontSize: `min(5vw, ${1400 / 2 * 0.025}px)`,
-                        lineHeight: `min(5vw, ${1400 / 2 * 0.025}px)`,
+            //             fontSize: `min(5vw, ${1400 / 2 * 0.025}px)`,
+            //             lineHeight: `min(5vw, ${1400 / 2 * 0.025}px)`,
         
-                    })
-                )
-            )
+            //         })
+            //     )
+            // )
 
         ),
 
@@ -153,7 +153,6 @@ return [
 
         Common.Section(
             [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
-            // "from ... to self-learning boy"
         )    
         .appendClass("item-left")
         .setStyle({
@@ -161,17 +160,6 @@ return [
             width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
 
         })
-        // .$(
-        //     ".paragraph-content",
-        //     e => e
-        //     .setStyle({
-
-        //         color: "rgb(75, 75, 75)",
-        //         fontWeight: "200",
-
-        //     })
-
-        // )
         .$(
             ".paragraph-name",
             e => e
