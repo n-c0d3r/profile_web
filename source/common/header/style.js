@@ -51,6 +51,8 @@ n0d3s.UI.Style(`
 
     z-index: 39;
 
+    border-bottom: solid 1px rgb(33, 33, 33);
+
 }
 
 .header-logo {

@@ -9,7 +9,7 @@ module.use({
 
 
 
-function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_time = '0.3s') {
+function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_time = '0.5s') {
 
     return {
 
@@ -17,7 +17,7 @@ function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_
 
             element.setStyle({
 
-                filter: `brightness(0.0) blur(2px) opacity(${init_opacity}) grayscale(${init_grayscale})`,
+                filter: `opacity(${init_opacity}) grayscale(${init_grayscale})`,
 
                 webkitTransition : `-webkit-filter ${transition_time} linear`,
 
@@ -31,7 +31,7 @@ function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_
                 
                 element.setStyle({
 
-                    filter: `brightness(1.0) blur(0px) opacity(1.0) grayscale(0.0)`,
+                    filter: `opacity(1.0) grayscale(0.0)`,
 
                 });
 
@@ -40,7 +40,7 @@ function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_
                 
                 element.setStyle({
 
-                    filter: `brightness(0.0) blur(2px) opacity(${init_opacity}) grayscale(${init_grayscale})`,
+                    filter: `opacity(${init_opacity}) grayscale(${init_grayscale})`,
 
                 });
 

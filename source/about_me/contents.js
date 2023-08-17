@@ -113,6 +113,7 @@ return [
     // Who I Am
     Common.PageContent()
     .appendClass("item-center")
+    .appendClass("who-i-am-content")
     .appendInner(
 
         Common.Section(

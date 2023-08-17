@@ -23,6 +23,12 @@ body {
 
 }
 
+.who-i-am-content {
+
+    
+
+}
+
 .my-journey-content {
 
     background-color: rgba(30, 40, 45, 1);
