@@ -119,16 +119,19 @@ function TypingEffect(cursor_width, idle_time = 0, loop = true, spawn_cursor = t
 
         update(element) {
 
-            if(
-                performance.now() < this.enable_time
-                || !isInVP(element)
-            )
+            if(performance.now() < this.enable_time)
                 return true;
             
-            if(this.current_flow < 0){
+            if(
+                (this.current_flow < 0)
+                && (
+                    loop
+                    || (!loop && !isInVP(element))
+                )
+            ){
 
                 let span_index = this.span_indices[this.current_end];
-
+    
                 let span_element = this.span_elements[span_index];
 
                 if(this.current_end == 0)
@@ -141,7 +144,24 @@ function TypingEffect(cursor_width, idle_time = 0, loop = true, spawn_cursor = t
                 this.current_flow += 2 * (this.current_end == -1);
 
             }
-            else {
+            else if(
+                isInVP(element)
+                && (
+                    this.current_flow > 0
+                    || (this.current_flow < 0 && !loop)
+                )
+            ) {
+
+                if(this.current_flow < 0 && !loop){
+
+                    if(this.current_end == this.full_text.length - 1){
+
+                        return true;
+                    }
+                    else
+                        this.current_flow = 1;
+
+                }
 
                 this.current_end += this.current_flow;
 
@@ -162,10 +182,10 @@ function TypingEffect(cursor_width, idle_time = 0, loop = true, spawn_cursor = t
 
                     if(!loop){
 
-                        if(spawn_cursor)
-                            element.removeChild(this.cursor_element);
+                        // if(spawn_cursor)
+                        //     element.removeChild(this.cursor_element);
 
-                        return false;
+                        // return false;
                     }
 
                 }

@@ -12,7 +12,7 @@ return function HR(){
     return n0d3s.UI.Element('hr')
     .setStyle({
 
-        width: "100vw",
+        width: "100%",
         borderColor: "rgba(33, 33, 33, 0.2)",
 
     });
