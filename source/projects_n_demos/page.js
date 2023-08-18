@@ -12,6 +12,10 @@ module.use({
 
 
 
+$("title").setInner("Projects & Demos");
+
+
+
 $("body")
 .appendInner(
     Common.Header({

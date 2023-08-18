@@ -12,6 +12,10 @@ module.use({
 
 
 
+$("title").setInner("Contact");
+
+
+
 $("body")
 .appendInner(
     Common.Header({

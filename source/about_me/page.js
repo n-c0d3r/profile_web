@@ -12,6 +12,10 @@ module.use({
 
 
 
+$("title").setInner("About Me");
+
+
+
 $("body")
 .appendInner(
     Common.Header({
