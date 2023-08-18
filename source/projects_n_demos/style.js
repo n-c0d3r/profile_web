@@ -13,8 +13,8 @@ n0d3s.UI.Style(`
 
 .title-content {
 
-    background-image: url("${window.origin}/resources/image/demonstrates/gdr_hgscene_dark.png");
-    background-position: 50% 36%;
+    background-image: url("${window.origin}/resources/image/demonstrates/ohqg_dark.png");
+    background-position: 50% 47%;
     background-size: cover;
 
 }

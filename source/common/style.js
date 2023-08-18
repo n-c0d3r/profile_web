@@ -138,6 +138,108 @@ n0d3s.UI.Style(`
 
     }
 
+    .text-tag-0 {
+
+        background-color: rgb(60, 160, 170);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
+    .text-tag-1 {
+
+        background-color: rgb(160, 60, 170);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
+    .text-tag-2 {
+
+        background-color: rgb(160, 170, 60);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
+    .text-tag-3 {
+
+        background-color: rgb(30, 170, 120);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
+    .text-tag-4 {
+
+        background-color: rgb(80, 170, 40);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
+    .text-tag-5 {
+
+        background-color: rgb(170, 40, 40);
+
+        color: rgb(18, 18, 18);
+
+        font-weight: 500;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+    }
+
     .item-center {
 
         display: flex;

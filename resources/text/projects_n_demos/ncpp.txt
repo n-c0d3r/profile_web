@@ -1,4 +1,6 @@
 <span class="info-text-3">NCPP</span>, a <span class="info-text-2">Game Engine</span> Learning Aimed <span class="info-text-0">C++ Library</span>
+<span class="text-tag-2">CMake</span> 
+<span class="text-tag-0">C++ 17, 20</span>
     ⦿ <span class="info-text-1">Features</span>:
         ○ <span class="info-text-3">Memory management</span> (tagged heap, stack heap,...)
         ○ <span class="info-text-3">Logging</span> (for vector, handle map,...)

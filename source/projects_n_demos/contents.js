@@ -21,6 +21,7 @@ module.use({
 
     foot_placement: "text/projects_n_demos/foot_placement",
     distance_matching: "text/projects_n_demos/distance_matching",
+    aa: "text/projects_n_demos/aa",
 
     ohhh: "text/projects_n_demos/ohhh",
     ohhh2: "text/projects_n_demos/ohhh2",
@@ -59,51 +60,57 @@ return [
             
                 })
                 
-            )
-            .$(
-                ".paragraph-name > span:nth-child(3)",
-                e => e
-                
                 .setStyle({
             
-                    color: "rgb(230, 150, 160)",
+                    color: "rgb(200, 200, 200)",
             
                 })
                 
             )
-            .$(
-                ".paragraph-name > span:nth-child(1)",
-                e => e
+            // .$(
+            //     ".paragraph-name > span:nth-child(3)",
+            //     e => e
                 
-                .setStyle({
+            //     .setStyle({
             
-                    color: "rgb(230, 120, 235)",
+            //         color: "rgb(230, 150, 160)",
             
-                })
+            //     })
                 
-            )
-            .$(
-                ".paragraph-name > span:nth-child(2)",
-                e => e
+            // )
+            // .$(
+            //     ".paragraph-name > span:nth-child(1)",
+            //     e => e
                 
-                .setStyle({
+            //     .setStyle({
             
-                    color: "rgb(80, 80, 80)",
+            //         color: "rgb(230, 120, 235)",
             
-                })
+            //     })
                 
-            )
-            .$(
-                ".paragraph-name > span:nth-child(5)",
-                e => e
+            // )
+            // .$(
+            //     ".paragraph-name > span:nth-child(2)",
+            //     e => e
                 
-                .setStyle({
+            //     .setStyle({
             
-                    color: "rgb(210, 180, 120)",
+            //         color: "rgb(80, 80, 80)",
             
-                })
+            //     })
                 
-            )
+            // )
+            // .$(
+            //     ".paragraph-name > span:nth-child(5)",
+            //     e => e
+                
+            //     .setStyle({
+            
+            //         color: "rgb(210, 180, 120)",
+            
+            //     })
+                
+            // )
             .$(
                 ".paragraph-name",
                 e => e         
@@ -488,6 +495,32 @@ return [
                     `${window.origin}/resources/image/demonstrates/distance_matching.png`,
                     "https://www.youtube.com/watch?v=FbWhEf3iBuk"
                 )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/aa.png`,
+                    "https://www.youtube.com/watch?v=PmepmEqGyxQ"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.EnhancedTextBody(
+                    aa
+                )
+                .appendClass("item-left")
                 .applyEffect(
                     Common.LightingOnVisible(),
                     50,
