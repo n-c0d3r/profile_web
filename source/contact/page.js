@@ -5,16 +5,20 @@ module.use({
 
     Common: "./common",
 
+    contents: "./contents",
+
 })
 .register_page();
 
 
 
 $("body")
-.appendChild(
+.appendInner(
     Common.Header({
 
         current_page_index: 3
 
-    })
+    }),
+
+    ...contents,
 );

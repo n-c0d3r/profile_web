@@ -51,9 +51,9 @@ const header_data = {
         social_urls: {
 
             github: "https://github.com/n-c0d3r",
+            youtube: "https://www.youtube.com/channel/UCpliLhWxstPpFBx8R7ckSsQ",
             facebook: "https://www.facebook.com/tao.sang.543",
             linkedin: "https://www.linkedin.com/in/h%C3%B9ng-nguy%E1%BB%85n-950952254/",
-            youtube: "https://www.youtube.com/channel/UCpliLhWxstPpFBx8R7ckSsQ",
 
         }
 

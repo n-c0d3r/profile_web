@@ -10,4 +10,4 @@
                 ○ <span class="info-text-3">Stream compaction and expansion for instance and cluster</span>
                 ○ <span class="info-text-3">Frustum, Occlusion culling for instance and cluster</span>
                 . . .
-        ⦿ <span class="info-text-1">Links</span>: <a href="https://www.youtube.com/watch?v=Phhg8GvmpT4" class="ytb-link"></a>
+        ⦿ <span class="info-text-1">Links</span>: <a href="https://www.youtube.com/watch?v=Phhg8GvmpT4" class="ex-link-5">Youtube 🔗</a>

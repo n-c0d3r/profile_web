@@ -9,4 +9,4 @@
                 ○ <span class="info-text-3">Support JS Minify, Encoding</span>
                 ○ <span class="info-text-3">Support Single HTML Build</span>
                 . . .
-        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/n-c0d3r/n0d3s" class="github-link"></a>
+        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/n-c0d3r/n0d3s" class="ex-link-1">GitHub 🔗</a>

@@ -5,12 +5,33 @@ module.use({
 
     header_data: "./data",
 
+    FullscreenContainer: "./common/fullscreen_container",
+    HR: "./common/hr"
+
 })
 .use([
 
     "./style"
 
 ]);
+
+    
+
+function HeaderMenuSearchBar(){
+
+    return n0d3s.UI.Element("div")
+    .appendClass(
+        `header-menu-search-btn`
+    )
+    .on(
+        "click",
+        function(){
+
+            
+
+        }
+    );
+}
 
 
 
@@ -75,16 +96,6 @@ function HeaderMenuDesktop(current_page_index){
         }
 
         return btns;
-    }
-
-    
-
-    function HeaderMenuSearchBar(){
-
-        return n0d3s.UI.Element("div")
-        .appendClass(
-            `header-menu-search-btn`
-        );
     }
 
 
@@ -175,6 +186,46 @@ function HeaderMenuMobile(current_page_index){
 
 
 
+    function HeaderMenuFullscreenContainer(){
+
+        function Bar(){
+
+            return n0d3s.UI.Element('div')
+            .appendClass("header-menu-mobile-bar");
+        }
+
+        return FullscreenContainer()
+        .setStyle({
+
+            justifyContent: "center",
+
+        })
+        .appendInner(
+
+            ...HeaderMenuNavBtns(),
+
+            Bar()
+            .setStyle({
+
+                gap: "20px",
+                position: "fixed",
+                bottom: "0",
+
+            })
+            .appendInner(
+
+                ...HeaderMenuSocailBtns(),
+            ),
+
+        );        
+    }
+
+
+
+    let fullscreenCon = HeaderMenuFullscreenContainer();
+
+
+
     return n0d3s.UI.Element("div")
     .appendClass("header-menu-mobile")
     .setInner(
@@ -185,7 +236,19 @@ function HeaderMenuMobile(current_page_index){
 
             
 
-        ),
+        )
+        .on("click", function(){
+
+            if($(".header-menu-mobile").is_closed)
+                $(".header-menu-mobile").open();
+            else
+                $(".header-menu-mobile").close();
+    
+        }),
+
+        HeaderMenuSearchBar(),
+
+        fullscreenCon,
 
     )
     .exe(function(){
@@ -198,6 +261,8 @@ function HeaderMenuMobile(current_page_index){
 
         menu.open = function(){
 
+            menu.is_closed = false;
+
             container_open_btn.setStyle({
 
                 transform: "rotate(180deg)",
@@ -206,11 +271,13 @@ function HeaderMenuMobile(current_page_index){
 
             });
 
-            menu.is_closed = false;
+            fullscreenCon.open();
 
         };
 
         menu.close = function(){
+            
+            menu.is_closed = true;
 
             container_open_btn.setStyle({
 
@@ -219,18 +286,10 @@ function HeaderMenuMobile(current_page_index){
                 backgroundImage: `url("${window.origin}/resources/image/icon/menu_btn.png")`,
 
             });
-            
-            menu.is_closed = true;
+
+            fullscreenCon.close();
             
         };
-
-    })
-    .on("click", function(){
-
-        if(this.is_closed)
-            this.open();
-        else
-            this.close();
 
     });
 }

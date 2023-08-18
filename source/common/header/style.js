@@ -315,6 +315,123 @@ n0d3s.UI.Style(`
 
     }
 
+    .header-menu-mobile-bar {
+
+        display: flex;
+        flex-flow: row;
+        justify-content: center;
+
+        width: 100%;
+        height: 50px;
+
+    }
+
+    .header-menu-search-btn {
+
+        width: ${MENU_SEARCH_BTN_SIZE_PX}px;
+        height: ${MENU_SEARCH_BTN_SIZE_PX}px;
+
+        margin-top: ${(50 - MENU_SEARCH_BTN_SIZE_PX) / 2}px;
+        margin-bottom: ${(50 - MENU_SEARCH_BTN_SIZE_PX) / 2}px;
+        margin-left: ${(50 - 18) / 2}px;
+        margin-right: ${(50 - 18) / 2}px;
+
+        background-size: cover;
+
+        filter: brightness(0.5) grayscale(1.0);
+
+        transition: 0.4s;
+
+        cursor: pointer;
+
+        background-image: url("${window.origin}/resources/image/icon/search.png");
+
+    }
+
+    .header-menu-search-btn:hover {
+
+        filter: brightness(1.0) grayscale(0.0);
+
+    }
+
+    .header-menu-social-btn {
+
+        width: ${18}px;
+        height: ${18}px;
+
+        margin-top: ${(50 - 18) / 2}px;
+        margin-bottom: ${(50 - 18) / 2}px;
+
+        background-size: cover;
+
+        filter: brightness(0.5) grayscale(1.0);
+
+        transition: 0.4s;
+
+        cursor: pointer;
+
+        background-image: url("${window.origin}/resources/image/icon/search.png");
+
+    }
+
+    .header-menu-social-btn:hover {
+
+        filter: brightness(1.0) grayscale(0.0);
+
+    }
+
+    .header-menu-vertical-line {
+
+        width: 1px;
+        height: calc(100% - 24px);
+
+        margin-top: 12px;
+        margin-bottom: 12px;
+
+        background-color: ${VERTICAL_LINE_COLOR};
+    
+    }
+
+    .header-menu-nav-btn {
+
+        width: 100%;
+        height: 50px;
+
+        transform: translate(0, -50px);
+
+    }
+
+    .header-menu-nav-btn-text-current-page {
+
+        color: rgba(220, 220, 220, 1);
+
+        font-weight: 600;
+        font-size: 24px;
+
+        border-bottom: solid 1px rgba(80, 140, 142, 1.0);
+
+    }
+
+    .header-menu-nav-btn-text-other-page {
+
+        color: rgba(72, 72, 72, 1);
+
+        border-bottom: solid 1px rgba(40, 40, 40, 0.3);
+
+    }
+
+    .header-menu-nav-btn-text-current-page:hover {
+
+        filter: brightness(1.25);
+
+    }
+
+    .header-menu-nav-btn-text-other-page:hover {
+
+        filter: brightness(1.25);
+
+    }
+
 }
 
 `);

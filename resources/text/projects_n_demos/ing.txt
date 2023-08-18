@@ -10,4 +10,4 @@
                         • <span class="info-text-3">Multi-Pass Shader</span>
                         • <span class="info-text-3">Layer System</span>
                 . . .
-        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/INGTechnologies/ING" class="github-link"></a>
+        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/INGTechnologies/ING" class="ex-link-1">GitHub 🔗</a>

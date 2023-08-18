@@ -19,4 +19,4 @@
         ⦿ <span class="info-text-1">Platforms</span>:
                 ○ <span class="info-text-3">Windows</span>:
                 ○ <span class="info-text-3">Unix</span>:
-        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/INGTechnologies/ING" class="github-link"></a>
+        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/INGTechnologies/ING" class="ex-link-1">GitHub 🔗</a>

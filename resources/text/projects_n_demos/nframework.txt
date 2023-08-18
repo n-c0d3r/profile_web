@@ -9,4 +9,4 @@
                 ○ <span class="info-text-3">UI Component with tags like JSX</span>
                 ○ <span class="info-text-3">Support Namespace</span>
                 . . .
-        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/N1ghtTeam/NFramework" class="github-link"></a>
+        ⦿ <span class="info-text-1">Links</span>: <a href="https://github.com/N1ghtTeam/NFramework" class="ex-link-1">GitHub 🔗</a>

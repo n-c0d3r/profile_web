@@ -11,7 +11,7 @@ module.use({
 
 
 $("body")
-.appendChild(
+.appendInner(
     Common.Header({
 
         current_page_index: 2
