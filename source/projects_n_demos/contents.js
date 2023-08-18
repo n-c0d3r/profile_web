@@ -586,6 +586,8 @@ return [
     
             ),
 
+            Common.HR(),
+
             Common.SubPageContent()
             .appendClass("two-content-body")
             .appendInner(
@@ -609,6 +611,8 @@ return [
                 ),
     
             ),
+
+            Common.HR(),
 
             Common.SubPageContent()
             .appendClass("two-content-body-reverse")
