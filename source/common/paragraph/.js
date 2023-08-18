@@ -72,7 +72,7 @@ function Paragraph(name, content, level = 3, tabs = 0, width_level = 2, use_html
 
             paragraph.setStyle({
         
-                width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+                width: `min(calc(${(1400 / 3 - 50) * 2}px + 10vw), calc(100vw - 10vw))`,
         
             });
 
