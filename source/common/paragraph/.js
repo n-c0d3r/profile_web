@@ -63,7 +63,34 @@ function Paragraph(name, content, level = 3, tabs = 0, width_level = 2, use_html
         name_element,
 
     )
-    .appendInnerArray(content_elements);
+    .appendInnerArray(content_elements)
+    .exe(function(){
+
+        let paragraph = this;
+
+        paragraph.useLargeWidth = function(){
+
+            paragraph.setStyle({
+        
+                width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+        
+            });
+
+            return paragraph;
+        }
+
+        paragraph.setWidthLevel = function(width_level){
+
+            paragraph.setStyle({
+        
+                width: `min(100%, ${1400 / (width_level + 1) - 50}px)`,
+        
+            });
+
+            return paragraph;
+        }
+
+    });
 }
 
 

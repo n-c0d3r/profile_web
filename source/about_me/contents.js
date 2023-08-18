@@ -177,11 +177,7 @@ return [
                 ),
 
                 Common.SubPageContent()
-                .setStyle({
-
-                    width: `min(100%, ${1400 / 3 - 50}px)`,
-
-                })
+                .setWidthLevel(2)
                 .appendInner(
     
                     Common.EnhancedTextBody(basic_about_me)
@@ -192,7 +188,8 @@ return [
                     ),
 
                     Common.ImageBody(
-                        `${window.origin}/resources/image/other/ge_arch.png`
+                        `${window.origin}/resources/image/other/ge_arch.png`,
+                        "https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459"
                     )
                     .applyEffect(
                         Common.LightingOnVisible(),
@@ -219,11 +216,7 @@ return [
             [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
         )    
         .appendClass("item-left")
-        .setStyle({
-
-            width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
-
-        })
+        .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
@@ -316,7 +309,8 @@ return [
                 .appendInner(
     
                     Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/ohhh.png`
+                        `${window.origin}/resources/image/demonstrates/ohhh.png`,
+                        "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
                     )
                     .applyEffect(
                         Common.LightingOnVisible(),
@@ -394,7 +388,8 @@ return [
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/other/hlsl.png`
+                    `${window.origin}/resources/image/other/hlsl.png`,
+                    "https://www.packtpub.com/product/hlsl-development-cookbook/9781849694209"
                 )
                 .applyEffect(
                     Common.LightingOnVisible(),
@@ -402,7 +397,8 @@ return [
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ing.png`
+                    `${window.origin}/resources/image/demonstrates/ing.png`,
+                    "https://github.com/INGTechnologies/ING"
                 )
                 .applyEffect(
                     Common.LightingOnVisible(),
@@ -421,7 +417,8 @@ return [
                 .appendInner(
     
                     Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/gdr.png`
+                        `${window.origin}/resources/image/demonstrates/gdr.png`,
+                        "https://www.youtube.com/watch?v=Phhg8GvmpT4"
                     )
                     .applyEffect(
                         Common.LightingOnVisible(),
@@ -455,7 +452,8 @@ return [
                 ),
     
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/depth_pyramid.png`
+                    `${window.origin}/resources/image/demonstrates/depth_pyramid.png`,
+                    "https://www.youtube.com/watch?v=bT3vQ93ZZpQ"
                 )
                 .applyEffect(
                     Common.LightingOnVisible(),
@@ -463,7 +461,8 @@ return [
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/mesh_clustering.png`
+                    `${window.origin}/resources/image/demonstrates/mesh_clustering.png`,
+                    "https://www.youtube.com/watch?v=cJYO5oo_A3o&t=65s"
                 )
                 .applyEffect(
                     Common.LightingOnVisible(),
@@ -475,6 +474,5 @@ return [
         ),
 
     ),
-
 
 ];

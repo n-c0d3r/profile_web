@@ -9,7 +9,7 @@ module.use({
 
 
 
-function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_time = '0.5s') {
+function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0) {
 
     return {
 
@@ -18,8 +18,6 @@ function LightingOnVisible(init_opacity = 0.0, init_grayscale = 1.0, transition_
             element.setStyle({
 
                 filter: `opacity(${init_opacity}) grayscale(${init_grayscale})`,
-
-                webkitTransition : `-webkit-filter ${transition_time} linear`,
 
             });
 

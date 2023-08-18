@@ -21,8 +21,8 @@ function BigSection(name, content, level = 3, tabs = 0, width_level = 2, use_htm
     
             fontWeight: "600",
     
-            fontSize: `min(6.85vw, ${1400 / 2 * 0.1125}px)`,
-            lineHeight: `min(6.85vw, ${1400 / 2 * 0.1125}px)`,
+            fontSize: `min(6.85vw, ${1400 / 2 * 0.1122}px)`,
+            lineHeight: `min(6.85vw, ${1400 / 2 * 0.1122}px)`,
     
         })
 

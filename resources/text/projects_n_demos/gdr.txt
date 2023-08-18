@@ -1,0 +1,11 @@
+<span class="info-text-2">GPU-Driven</span> <span class="info-text-0">Rendering</span> with <span class="info-text-1">Unity SRP</span>
+    ⦿ <span class="info-text-1">Features</span>:
+        ○ <span class="info-text-3">Only one CPU-GPU fence per frame</span>
+        ○ <span class="info-text-3">Unified mesh system</span>
+        ○ <span class="info-text-3">Parallel prefix sum</span>
+        ○ <span class="info-text-3">Depth Pyramid</span>
+        ○ <span class="info-text-3">Mesh Clustering</span>
+        ○ <span class="info-text-3">Stream compaction and expansion for instance and cluster</span>
+        ○ <span class="info-text-3">Frustum, Occlusion culling for instance and cluster</span>
+        . . .
+    ⦿ <span class="info-text-1">Links</span>: <a href="https://www.youtube.com/watch?v=Phhg8GvmpT4" class="ytb-link"></a>

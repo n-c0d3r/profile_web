@@ -1,0 +1,2 @@
+<span class="info-text-2">Physically Based Shading</span> with <span class="info-text-1">Cook-Torrance</span> <span class="info-text-3">GGX</span>
+    ⦿ <span class="info-text-1">Links</span>: <a href="https://www.youtube.com/watch?v=p6w_qwCLJYc" class="ytb-link"></a>

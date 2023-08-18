@@ -85,7 +85,42 @@ n0d3s.UI.Style(`
 
     a {
 
+        color: rgba(255, 255, 255, 1.0);
         text-decoration: none;
+        
+        -webkit-user-select: none; /* Safari */
+        -ms-user-select: none; /* IE 10 and IE 11 */
+        user-select: none; /* Standard syntax */
+
+        cursor: pointer;
+
+    }
+
+    .github-link {
+
+        background-image: url("${window.origin}/resources/image/icon/github-mark-white_32.png");
+        background-size: cover;
+
+        display: inline-block;
+
+        height: 18px;
+        width: 18px;
+
+        transform: translate(0, 3px);
+
+    }
+
+    .ytb-link {
+
+        background-image: url("${window.origin}/resources/image/icon/youtube_fullcolor.png");
+        background-size: cover;
+
+        display: inline-block;
+
+        height: 18px;
+        width: 18px;
+
+        transform: translate(0, 4px);
 
     }
 

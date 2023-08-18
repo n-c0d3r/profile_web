@@ -30,8 +30,12 @@ function TextBody(content, level = 3, tabs = 0, width_level = 2, use_content_as_
 
         let result = content;
 
-        if(use_content_as_html_inner)
+        if(use_content_as_html_inner){
+
             result = tabs_characters + result.replaceAll('\n', `</br>${tabs_characters}`);
+            result = result.replaceAll('\t', `&emsp;`);
+
+        }
         else
             result = tabs_characters + result.replaceAll('\n', `\n${tabs_characters}`);
 
@@ -117,6 +121,17 @@ function TextBody(content, level = 3, tabs = 0, width_level = 2, use_content_as_
             text_body.setStyle({
         
                 width: `min(100%, ${text_body_config.max_widths[width_level]}px)`,
+        
+            });
+
+            return text_body;
+        }
+
+        text_body.useLargeWidth = function(){
+
+            text_body.setStyle({
+        
+                width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
         
             });
 

@@ -12,19 +12,23 @@ module.use({
 
 
 
-function ImageBody(url){
+function ImageBody(url, href){
 
-    let result = n0d3s.UI.Element("img")
+    let result = n0d3s.UI.Element("div")
     .appendClass("image-body")
+    .appendInner(
+        n0d3s.UI.Element("img")
+        .setAttribute("src", url)
+    )
     .setStyle({
 
         
 
     })
-    .setAttribute("src", url)
     .exe(function(){
 
         let image_body = this;
+        let img_element = image_body.querySelector("img");
         
         image_body.setWidthLevel = function(width_level = 1){
 
@@ -37,6 +41,35 @@ function ImageBody(url){
             return image_body;
         }
 
+        image_body.useLargeWidth = function(){
+
+            image_body.setStyle({
+        
+                width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
+        
+            });
+
+            return image_body;
+        }
+
+        if(href != null){
+
+            img_element.on(
+                "click",
+                function(e) {
+    
+                    if(href != null)
+                        window.open(href);
+    
+                }   
+            );
+
+            image_body.appendChild(
+                n0d3s.UI.Element("div")
+            );
+
+        }
+        
     });
     
 

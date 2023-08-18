@@ -20,14 +20,57 @@ n0d3s.UI.Style(`
 
 .image-body {
 
-    /*width: 100%;*/
-    min-height: fit-content;
+    cursor: pointer;
 
-    border-radius: min(1.5vh, 1.5vw);
+    height: fit-content;
+
+    transition: filter 0.75s;
+
+}
+
+.image-body > img {
+
+    width: 100%;
+    height: fit-content;
+
+    border-radius: min(1.5vh, 3vw);
     
-    border: solid 1px rgb(100, 100, 100);
+    border: solid 2px rgba(200, 200, 200, 0.2);
+
+    transition: border 0.25s;
     
     box-shadow: 12px 12px 12px rgba(0,0,0,0.3);
+
+}
+
+.image-body:hover > img {
+
+    border: solid 2px rgba(200, 200, 200, 1.0);
+
+}
+
+.image-body:hover > div {
+
+    filter: brightness(1.0);
+
+}
+
+.image-body > div {
+
+    filter: brightness(0.4);
+
+    position: absolute;
+
+    width: 24px;
+    height: 24px;
+
+    top: 4px;
+    right: 4px;
+    
+    background-size: cover;
+    background-image: url("${window.origin}/resources/image/icon/ex_link.png");
+
+    transition: filter 0.25s;
 
 }
     
