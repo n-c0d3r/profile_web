@@ -19,6 +19,13 @@ module.use({
     gdr: "text/projects_n_demos/gdr",
     cook_torrance: "text/projects_n_demos/cook_torrance",
 
+    foot_placement: "text/projects_n_demos/foot_placement",
+    distance_matching: "text/projects_n_demos/distance_matching",
+
+    ohhh: "text/projects_n_demos/ohhh",
+    ohhh2: "text/projects_n_demos/ohhh2",
+    bhop: "text/projects_n_demos/bhop",
+
 });
 
 
@@ -372,6 +379,262 @@ return [
             ),
 
         ),
+
+    ),
+
+
+
+    // AA
+    Common.PageContent()
+    .appendClass("item-center")
+    .appendClass("aa-content")
+    .appendInner(
+
+        Common.Section(
+            [ "| ", "ADVANCED ", "ANIMATION", " |" ],
+        )    
+        .appendClass("item-left")
+        .useLargeWidth()
+        .$(
+            ".paragraph-name",
+            e => e
+            .appendClass("item-left")
+            
+            .applyEffect(
+                Common.TypingEffect('1px', 500, false, false), 
+                10
+            ),
+
+        )
+        .$$(
+            ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3), .paragraph-name > span:nth-child(4)",
+            e => e
+            .setStyle({
+
+                color: "rgb(100, 100, 100)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(2)",
+            e => e
+            .setStyle({
+
+                color: "rgb(90, 200, 230)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(3)",
+            e => e
+            .setStyle({
+
+                color: "rgb(120, 200, 180)",
+                fontWeight: "200",
+
+            })
+
+        ),
+
+        Common.HR(),
+
+        Common.SubPageContent()
+        .appendInner(
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/foot_placement.png`,
+                    "https://www.youtube.com/watch?v=0jOpu6XEZ58"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.EnhancedTextBody(
+                    foot_placement
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+    
+                Common.EnhancedTextBody(
+                    distance_matching
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/distance_matching.png`,
+                    "https://www.youtube.com/watch?v=FbWhEf3iBuk"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+        ),
+
+    ),
+
+
+
+    // Games & Demos
+    Common.PageContent()
+    .appendClass("item-center")
+    .appendClass("games-demos-content")
+    .appendInner(
+
+        Common.Section(
+            [ "| ", "GAMES ", "& ", "DEMOS", " |" ],
+        )    
+        .appendClass("item-left")
+        .useLargeWidth()
+        .$(
+            ".paragraph-name",
+            e => e
+            .appendClass("item-left")
+            
+            .applyEffect(
+                Common.TypingEffect('1px', 500, false, false), 
+                10
+            ),
+
+        )
+        .$$(
+            ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3), .paragraph-name > span:nth-child(5)",
+            e => e
+            .setStyle({
+
+                color: "rgb(100, 100, 100)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(2)",
+            e => e
+            .setStyle({
+
+                color: "rgb(180, 200, 160)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(4)",
+            e => e
+            .setStyle({
+
+                color: "rgb(150, 160, 230)",
+                fontWeight: "200",
+
+            })
+
+        ),
+
+        Common.HR(),
+
+        Common.SubPageContent()
+        .appendInner(
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ohhh.png`,
+                    "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.EnhancedTextBody(
+                    ohhh
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+    
+                Common.EnhancedTextBody(
+                    ohhh2
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ohhh2.png`,
+                    "https://www.youtube.com/watch?v=ROBR3i-oPm0"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/bhop.png`,
+                    "https://www.youtube.com/watch?v=8yr5bNBZKJs"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+                Common.EnhancedTextBody(
+                    bhop
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+    
+            ),
+
+        )
 
     )
 

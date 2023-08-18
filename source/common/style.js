@@ -106,13 +106,27 @@ n0d3s.UI.Style(`
         height: 18px;
         width: 18px;
 
-        transform: translate(0, 3px);
+        transform: translate(0, 4px);
 
     }
 
     .ytb-link {
 
         background-image: url("${window.origin}/resources/image/icon/youtube_fullcolor.png");
+        background-size: cover;
+
+        display: inline-block;
+
+        height: 18px;
+        width: 18px;
+
+        transform: translate(0, 4px);
+
+    }
+
+    .gg-play-link {
+
+        background-image: url("${window.origin}/resources/image/icon/ggplay.png");
         background-size: cover;
 
         display: inline-block;

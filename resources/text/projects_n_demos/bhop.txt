@@ -1,0 +1,2 @@
+<span class="info-text-2">Character Bhopping</span> and <span class="info-text-0">First Person Character</span>
+    ⦿ <span class="info-text-1">Links</span>: <a href="https://www.youtube.com/watch?v=8yr5bNBZKJs" class="ytb-link"></a>

@@ -31,4 +31,16 @@ n0d3s.UI.Style(`
 
 }
 
+.aa-content {
+
+    
+
+}
+
+.games-demos-content {
+
+    background-color: rgba(37, 39, 42, 1);
+
+}
+
 `);
