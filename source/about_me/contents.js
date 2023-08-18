@@ -21,6 +21,7 @@ module.use({
     third_stage: "text/about_me/third_stage",
     fourth_stage1: "text/about_me/fourth_stage1",
     fourth_stage2: "text/about_me/fourth_stage2",
+    knowledge: "text/about_me/knowledge",
 
 });
 
@@ -120,11 +121,7 @@ return [
             [ "| WHO I AM | ", "I AM A TECHNOLOGY LOVER", " |" ],
         )    
         .appendClass("item-left")
-        .setStyle({
-
-            width: `calc(${(1400 / 3 - 50) * 2}px + 10vw)`,
-
-        })
+        .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
@@ -471,6 +468,70 @@ return [
 
             ),
     
+        ),
+
+    ),
+
+
+
+    // My Knowledge
+    Common.PageContent()
+    .appendClass("item-center")
+    .appendClass("my-knowledge-content")
+    .appendInner(
+
+        Common.Section(
+            [ "| ", "MY KNOWLEDGE", " |" ],
+        )    
+        .appendClass("item-left")
+        .useLargeWidth()
+        .$$(
+
+            ".paragraph-name > span",
+            e => e
+            .appendClass("item-left")
+            .setStyle({
+
+                color: "rgb(110, 115, 120)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+
+            ".paragraph-name > span:nth-child(2)",
+            e => e
+            .setStyle({
+
+                color: "rgb(240, 240, 240)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name",
+            e => e            
+            .appendClass("item-left")
+            .applyEffect(
+                Common.TypingEffect('1px', 500, false, false), 
+                10
+            ),
+
+        ),
+
+        Common.HR(),
+
+        Common.SubPageContent()
+        .appendInner(
+
+            Common.EnhancedTextBody(
+                knowledge
+            )
+            .appendClass("item-left")
+            .useLargeWidth(),
+
         ),
 
     ),

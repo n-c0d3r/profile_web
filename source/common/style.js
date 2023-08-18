@@ -153,6 +153,9 @@ n0d3s.UI.Style(`
 
         border-radius: 6px;
 
+        font-size: 15px;
+        line-height: 25px;
+
     }
 
     .text-tag-1 {
@@ -169,6 +172,9 @@ n0d3s.UI.Style(`
         padding-bottom: 1px;
 
         border-radius: 6px;
+
+        font-size: 15px;
+        line-height: 25px;
 
     }
 
@@ -187,6 +193,9 @@ n0d3s.UI.Style(`
 
         border-radius: 6px;
 
+        font-size: 15px;
+        line-height: 25px;
+
     }
 
     .text-tag-3 {
@@ -203,6 +212,9 @@ n0d3s.UI.Style(`
         padding-bottom: 1px;
 
         border-radius: 6px;
+
+        font-size: 15px;
+        line-height: 25px;
 
     }
 
@@ -221,6 +233,9 @@ n0d3s.UI.Style(`
 
         border-radius: 6px;
 
+        font-size: 15px;
+        line-height: 25px;
+
     }
 
     .text-tag-5 {
@@ -237,6 +252,52 @@ n0d3s.UI.Style(`
         padding-bottom: 1px;
 
         border-radius: 6px;
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    /*
+    line_heights: [
+        55,
+        45,
+        35,
+        25,
+    ],
+
+    sizes: [
+        45,
+        35,
+        25,
+        15,
+    ],*/
+
+    .text-0 {
+
+        font-size: 15px;
+        line-height: 25px;
+
+    }
+
+    .text-1 {
+
+        font-size: 25px;
+        line-height: 35px;
+
+    }
+
+    .text-2 {
+
+        font-size: 35px;
+        line-height: 45px;
+
+    }
+
+    .text-3 {
+
+        font-size: 45px;
+        line-height: 55px;
 
     }
 

@@ -15,6 +15,8 @@ module.use({
 
     ing: "text/projects_n_demos/ing",
     ncpp: "text/projects_n_demos/ncpp",
+    nframework: "text/projects_n_demos/nframework",
+    n0d3s: "text/projects_n_demos/n0d3s",
 
     gdr: "text/projects_n_demos/gdr",
     cook_torrance: "text/projects_n_demos/cook_torrance",
@@ -135,7 +137,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "ENGINE ", "& ", "LIBRARIES", " |" ],
+            [ "| ", "ENGINES", ", ", "LIBRARIES", ", ", "FRAMEWORKS"," |" ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -151,7 +153,7 @@ return [
 
         )
         .$$(
-            ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3), .paragraph-name > span:nth-child(5)",
+            ".paragraph-name > span",
             e => e
             .setStyle({
 
@@ -178,6 +180,17 @@ return [
             .setStyle({
 
                 color: "rgb(150, 160, 230)",
+                fontWeight: "200",
+
+            })
+
+        )
+        .$(
+            ".paragraph-name > span:nth-child(6)",
+            e => e
+            .setStyle({
+
+                color: "rgb(200, 150, 200)",
                 fontWeight: "200",
 
             })
@@ -231,6 +244,58 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ncpp.png`,
                     "https://github.com/n-c0d3r/ncpp"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+
+            ),
+
+            Common.HR(),            
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nframework.png`,
+                    "https://github.com/N1ghtTeam/NFramework"
+                )
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+
+                Common.EnhancedTextBody(
+                    nframework
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.EnhancedTextBody(
+                    n0d3s
+                )
+                .appendClass("item-left")
+                .applyEffect(
+                    Common.LightingOnVisible(),
+                    50,
+                ),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/n0d3s.png`,
+                    "https://github.com/n-c0d3r/n0d3s"
                 )
                 .applyEffect(
                     Common.LightingOnVisible(),
