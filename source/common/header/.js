@@ -208,8 +208,8 @@ function HeaderMenuMobile(current_page_index){
             .setStyle({
 
                 gap: "20px",
-                position: "fixed",
-                bottom: "0",
+                // position: "fixed",
+                // bottom: "0",
 
             })
             .appendInner(

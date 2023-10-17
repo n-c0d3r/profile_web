@@ -22,18 +22,20 @@ n0d3s.UI.Style(`
 
         position: fixed;
 
-        top: 50px;
+        top: 51px;
         left: 0;
 
         width: 100vw;
-        height: calc(100vh - 50px);
+        height: calc(100vh - 51px);
 
-        background-color: rgba(18, 18, 18, 1);
+        background-color: rgba(24, 24, 24, 1);
 
         overflow: visible;
 
         display: flex;
         flex-flow: column;
+
+        z-index: 22;
 
     }
 

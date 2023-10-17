@@ -156,7 +156,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #213F42;
 
     }
 
@@ -178,7 +182,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #3F2142;
 
     }
 
@@ -200,7 +208,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #3F4221;
 
     }
 
@@ -222,7 +234,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #164031;
 
     }
 
@@ -244,7 +260,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #26401A;
 
     }
 
@@ -266,7 +286,11 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.6);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px #401A1A;
 
     }
 
@@ -290,6 +314,10 @@ n0d3s.UI.Style(`
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
+
     }
 
     .ex-link-1 {
@@ -311,6 +339,10 @@ n0d3s.UI.Style(`
         line-height: 25px;
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
 
     }
 
@@ -334,6 +366,10 @@ n0d3s.UI.Style(`
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
+
     }
 
     .ex-link-3 {
@@ -355,6 +391,10 @@ n0d3s.UI.Style(`
         line-height: 25px;
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
 
     }
 
@@ -378,6 +418,10 @@ n0d3s.UI.Style(`
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
 
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
+
     }
 
     .ex-link-5 {
@@ -399,6 +443,10 @@ n0d3s.UI.Style(`
         line-height: 25px;
 
         box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
 
     }
 

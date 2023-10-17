@@ -39,6 +39,8 @@ n0d3s.UI.Style(`
 
     gap: ${PAGE_CONTENT_PADDING_HORIZONTAL_PX}px ${PAGE_CONTENT_PADDING_VERTICAL_PX}px;
 
+    z-index: 0;
+
 }
 
 @media (min-width: ${PAGE_CONTENT_MAX_INNER_WIDTH_PX}px) {
