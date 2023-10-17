@@ -32,7 +32,6 @@
                         • <span class="info-text-3">Metadata supports</span>
                         • <span class="info-text-3">Flexible</span>
                         • <span class="info-text-3">Highly customizable</span>
-                . . .
         ⦿ <span class="info-text-1">Platforms</span>:
                 ○ <span class="info-text-3">Windows</span>
                 ○ <span class="info-text-3">Macos</span>
