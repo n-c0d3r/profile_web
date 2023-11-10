@@ -24,7 +24,7 @@ n0d3s.UI.Style(`
 
     height: fit-content;
 
-    transition: filter 0.75s;
+    transition: filter 0.5s;
 
 }
 
@@ -35,7 +35,7 @@ n0d3s.UI.Style(`
 
     border-radius: min(1.5vh, 3vw);
     
-    border: solid 2px rgba(200, 200, 200, 0.2);
+    border: solid 2px rgba(80, 80, 80, 0.2);
 
     transition: border 0.25s;
     

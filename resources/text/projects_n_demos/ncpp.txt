@@ -1,38 +1,38 @@
 <span class="info-text-3">NCPP</span>, a <span class="info-text-2">game engine</span> learning aimed <span class="info-text-0">C++ library</span>
-<span class="text-tag-5">Private</span> for <span class="text-tag-1">Abytek team</span>
-<span class="text-tag-2">CMake</span> 
-<span class="text-tag-0">C++ 17, 20</span>
+        <span class="text-tag-5">Private</span> <span class="text-tag-1">Abytek team</span>
+        <span class="text-tag-2">CMake</span> 
+        <span class="text-tag-0">C++ 17, 20</span>      
         ⦿ <span class="info-text-1">Features</span>:
-                ○ <span class="info-text-3">Memory management</span>:
-                        • <span class="info-text-3">Incremental chunk allocator</span>
-                        • <span class="info-text-3">Smart chunk allocator</span>
-                        • <span class="info-text-3">Link allocator</span>
-                        • <span class="info-text-3">Flexible and high performance</span>
-                ○ <span class="info-text-3">Logging</span>
-                        • <span class="info-text-3">eastl::basic_string</span>
-                        • <span class="info-text-3">eastl::vector</span>
-                        • <span class="info-text-3">eastl::array</span>
-                        • <span class="info-text-3">std::initialier_list</span>
+                ○ Memory management</span>:
+                        • Incremental chunk allocator</span>
+                        • Smart chunk allocator</span>
+                        • Link allocator</span>
+                        • Flexible and high performance</span>
+                ○ Logging</span>
+                        • eastl::basic_string</span>
+                        • eastl::vector</span>
+                        • eastl::array</span>
+                        • std::initialier_list</span>
                         • ...                        
-                ○ <span class="info-text-3">Utilities</span>
-                        • <span class="info-text-3">Nth template argument getter</span>
-                        • <span class="info-text-3">Function traits</span>
-                        • <span class="info-text-3">Is derived from checker</span>
-                        • <span class="info-text-3">Is streamable</span>
-                        • <span class="info-text-3">Singleton</span>
+                ○ Utilities</span>
+                        • Nth template argument getter</span>
+                        • Function traits</span>
+                        • Is derived from checker</span>
+                        • Is streamable</span>
+                        • Singleton</span>
                         • ...
-                ○ <span class="info-text-3">Containers</span>:
-                        • <span class="info-text-3">Ring buffer</span>
-                        • <span class="info-text-3">Concurrent ring buffer</span>
-                ○ <span class="info-text-3">Parallelism</span> and <span class="info-text-3">Concurrency</span>:
-                        • <span class="info-text-3">Spinlock</span>
-                ○ <span class="info-text-3">RTTI</span>:
-                        • <span class="info-text-3">Easy to use</span>
-                        • <span class="info-text-3">No memory cost on reflected object</span>
-                        • <span class="info-text-3">Metadata supports</span>
-                        • <span class="info-text-3">Flexible</span>
-                        • <span class="info-text-3">Highly customizable</span>
+                ○ Containers</span>:
+                        • Ring buffer</span>
+                        • Concurrent ring buffer</span>
+                ○ Parallelism</span> and Concurrency</span>:
+                        • Spinlock</span>
+                ○ RTTI</span>:
+                        • Easy to use</span>
+                        • No memory cost on reflected object</span>
+                        • Metadata supports</span>
+                        • Flexible</span>
+                        • Highly customizable</span>
         ⦿ <span class="info-text-1">Platforms</span>:
-                ○ <span class="info-text-3">Windows</span>
-                ○ <span class="info-text-3">Macos</span>
-                ○ <span class="info-text-3">Unix</span>
+                ○ Windows</span>
+                ○ Macos</span>
+                ○ Unix</span>

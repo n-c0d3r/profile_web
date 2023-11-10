@@ -13,7 +13,7 @@ n0d3s.UI.Style(`
 
 .hello-content {
 
-    background: linear-gradient(to top right, rgba(18, 18, 18, 0.5), rgba(120, 215, 240, 0.21));
+    background: linear-gradient(to top right, rgba(18, 18, 18, 0.5), rgba(70, 95, 110, 0.21));
 
 }
 
@@ -25,7 +25,7 @@ n0d3s.UI.Style(`
 
 .my-journey-content {
 
-    background-color: rgba(30, 40, 45, 1);
+    background-color: rgba(70, 95, 110, 0.1);
 
 }
 
