@@ -87,7 +87,7 @@ function Navigator(info){
                 lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
                 letterSpacing: `min(1.5vw, ${150 / 2 * 0.138 / 2}px)`,
 
-                color: "rgba(230, 255, 255, 0.84)",
+                color: "rgba(230, 255, 255, 0.75)",
 
                 textAlign: "left",
 
