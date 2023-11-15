@@ -96,12 +96,7 @@ return [
                         color: 'rgb(100, 220, 225)',
     
                     })
-                )
-    
-                .applyEffect(
-                    Common.TypingEffect('1px', 500), 
-                    50
-                )
+                ),
     
             ),
 
@@ -125,12 +120,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -167,10 +157,6 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic2.jpg`
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.SubPageContent()
@@ -178,19 +164,11 @@ return [
                 .appendInner(
     
                     Common.EnhancedTextBody(basic_about_me)
-                    .appendClass("item-justify")
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
-                    ),
+                    .appendClass("item-justify"),
 
                     Common.ImageBody(
                         `${window.origin}/resources/image/other/ge_arch.png`,
                         "https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459"
-                    )
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
                     ),
     
                 ),
@@ -217,11 +195,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -258,18 +232,10 @@ return [
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic.jpg`
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.EnhancedTextBody(first_stage)
-                .appendClass("item-justify")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-justify"),
 
             ),
 
@@ -280,18 +246,10 @@ return [
             .appendInner(
 
                 Common.EnhancedTextBody(second_stage_a)
-                .appendClass("item-justify")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-justify"),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/turbo_pascal_7_0.png`
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -308,10 +266,6 @@ return [
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/ohhh.png`,
                         "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
-                    )
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
                     ),
 
                     Common.SubPageContent()
@@ -323,18 +277,10 @@ return [
                     .appendInner(
         
                         Common.EnhancedTextBody(second_stage_b1)
-                        .appendClass("item-justify")
-                        .applyEffect(
-                            Common.LightingOnVisible(),
-                            50,
-                        ),
+                        .appendClass("item-justify"),
 
                         Common.EnhancedTextBody(second_stage_b2)
-                        .appendClass("item-justify")
-                        .applyEffect(
-                            Common.LightingOnVisible(),
-                            50,
-                        ),
+                        .appendClass("item-justify"),
         
                     ),
 
@@ -342,18 +288,10 @@ return [
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/hgscene.png`
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ohqg.png`
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -368,18 +306,10 @@ return [
                 .appendInner(
 
                     Common.EnhancedTextBody(third_stage)
-                    .appendClass("item-justify")
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
-                    ),
+                    .appendClass("item-justify"),
 
                     Common.ImageBody(
                         `${window.origin}/resources/image/other/dx11.png`
-                    )
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
                     ),
 
                 ),
@@ -387,19 +317,11 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/hlsl.png`,
                     "https://www.packtpub.com/product/hlsl-development-cookbook/9781849694209"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ing.png`,
                     "https://github.com/INGTechnologies/ING"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -416,10 +338,6 @@ return [
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/gdr.png`,
                         "https://www.youtube.com/watch?v=Phhg8GvmpT4"
-                    )
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
                     ),
 
                     Common.SubPageContent()
@@ -431,18 +349,10 @@ return [
                     .appendInner(
         
                         Common.EnhancedTextBody(fourth_stage1)
-                        .appendClass("item-justify")
-                        .applyEffect(
-                            Common.LightingOnVisible(),
-                            50,
-                        ),
+                        .appendClass("item-justify"),
 
                         Common.EnhancedTextBody(fourth_stage2)
-                        .appendClass("item-justify")
-                        .applyEffect(
-                            Common.LightingOnVisible(),
-                            50,
-                        ),
+                        .appendClass("item-justify"),
         
                     ),
 
@@ -451,19 +361,11 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/depth_pyramid.png`,
                     "https://www.youtube.com/watch?v=bT3vQ93ZZpQ"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    200,
                 ),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/mesh_clustering.png`,
                     "https://www.youtube.com/watch?v=cJYO5oo_A3o&t=65s"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    200,
                 ),
 
             ),
@@ -513,11 +415,7 @@ return [
         .$(
             ".paragraph-name",
             e => e            
-            .appendClass("item-left")
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         ),
 

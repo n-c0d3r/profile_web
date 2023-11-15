@@ -22,8 +22,6 @@ n0d3s.UI.Style(`
 
     cursor: pointer;
 
-    height: fit-content;
-
     transition: filter 0.5s;
 
 }
@@ -31,7 +29,6 @@ n0d3s.UI.Style(`
 .image-body > img {
 
     width: 100%;
-    height: fit-content;
 
     border-radius: min(1.5vh, 3vw);
     

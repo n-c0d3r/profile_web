@@ -115,11 +115,7 @@ return [
             // )
             .$(
                 ".paragraph-name",
-                e => e         
-                .applyEffect(
-                    Common.TypingEffect('1px', 500), 
-                    50
-                )
+                e => e
             )
             .setWidthLevel(0)            
 
@@ -144,12 +140,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -209,20 +200,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ing.png`,
                     "https://github.com/INGTechnologies/ING"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.EnhancedTextBody(
                     ing
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
 
             ),
 
@@ -235,19 +218,11 @@ return [
                 Common.EnhancedTextBody(
                     ncpp
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ncpp.png`,
                     "https://github.com/n-c0d3r/ncpp"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -261,20 +236,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/nframework.png`,
                     "https://github.com/N1ghtTeam/NFramework"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
                 Common.EnhancedTextBody(
                     nframework
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
 
             ),
 
@@ -287,19 +254,11 @@ return [
                 Common.EnhancedTextBody(
                     n0d3s
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/n0d3s.png`,
                     "https://github.com/n-c0d3r/n0d3s"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -324,12 +283,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -382,39 +336,23 @@ return [
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/gdr.png`,
                         "https://www.youtube.com/watch?v=Phhg8GvmpT4"
-                    )
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
                     ),
     
                     Common.EnhancedTextBody(
                         gdr
                     )
-                    .appendClass("item-left")
-                    .applyEffect(
-                        Common.LightingOnVisible(),
-                        50,
-                    ),
+                    .appendClass("item-left"),
     
                 ),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/depth_pyramid.png`,
                     "https://www.youtube.com/watch?v=bT3vQ93ZZpQ"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/mesh_clustering.png`,
                     "https://www.youtube.com/watch?v=cJYO5oo_A3o&t=70s"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -433,19 +371,11 @@ return [
                 Common.EnhancedTextBody(
                     cook_torrance
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/cook_torrance.png`,
                     "https://www.youtube.com/watch?v=p6w_qwCLJYc"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
 
             ),
@@ -470,12 +400,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -524,20 +449,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/foot_placement.png`,
                     "https://www.youtube.com/watch?v=0jOpu6XEZ58"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
                 Common.EnhancedTextBody(
                     foot_placement
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
             ),
 
@@ -550,19 +467,11 @@ return [
                 Common.EnhancedTextBody(
                     distance_matching
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/distance_matching.png`,
                     "https://www.youtube.com/watch?v=FbWhEf3iBuk"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
             ),
@@ -576,20 +485,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/aa.png`,
                     "https://www.youtube.com/watch?v=PmepmEqGyxQ"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
                 Common.EnhancedTextBody(
                     aa
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
             ),
 
@@ -613,12 +514,7 @@ return [
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left")
-            
-            .applyEffect(
-                Common.TypingEffect('1px', 500, false, false), 
-                10
-            ),
+            .appendClass("item-left"),
 
         )
         .$$(
@@ -667,20 +563,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ohhh.png`,
                     "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
                 Common.EnhancedTextBody(
                     ohhh
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
             ),
 
@@ -693,19 +581,11 @@ return [
                 Common.EnhancedTextBody(
                     ohhh2
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ohhh2.png`,
                     "https://www.youtube.com/watch?v=ROBR3i-oPm0"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
             ),
@@ -719,20 +599,12 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/bhop.png`,
                     "https://www.youtube.com/watch?v=8yr5bNBZKJs"
-                )
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
                 ),
     
                 Common.EnhancedTextBody(
                     bhop
                 )
-                .appendClass("item-left")
-                .applyEffect(
-                    Common.LightingOnVisible(),
-                    50,
-                ),
+                .appendClass("item-left"),
     
             ),
 
