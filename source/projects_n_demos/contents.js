@@ -54,14 +54,6 @@ return [
             .$(
                 ".paragraph-name",
                 e => e
-                
-                .setStyle({
-            
-                    fontSize: `min(6.0vw, ${1400 / 2 * 0.0994}px)`,
-                    lineHeight: `min(6.0vw, ${1400 / 2 * 0.0994}px)`,
-            
-                })
-                
                 .setStyle({
             
                     color: "rgb(200, 200, 200)",
@@ -69,50 +61,6 @@ return [
                 })
                 
             )
-            // .$(
-            //     ".paragraph-name > span:nth-child(3)",
-            //     e => e
-                
-            //     .setStyle({
-            
-            //         color: "rgb(230, 150, 160)",
-            
-            //     })
-                
-            // )
-            // .$(
-            //     ".paragraph-name > span:nth-child(1)",
-            //     e => e
-                
-            //     .setStyle({
-            
-            //         color: "rgb(230, 120, 235)",
-            
-            //     })
-                
-            // )
-            // .$(
-            //     ".paragraph-name > span:nth-child(2)",
-            //     e => e
-                
-            //     .setStyle({
-            
-            //         color: "rgb(80, 80, 80)",
-            
-            //     })
-                
-            // )
-            // .$(
-            //     ".paragraph-name > span:nth-child(5)",
-            //     e => e
-                
-            //     .setStyle({
-            
-            //         color: "rgb(210, 180, 120)",
-            
-            //     })
-                
-            // )
             .$(
                 ".paragraph-name",
                 e => e

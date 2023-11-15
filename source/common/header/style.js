@@ -151,6 +151,8 @@ n0d3s.UI.Style(`
         border-bottom: solid 1px rgba(0,0,0,0.0); 
 
         color: ${MENU_NAV_BTN_TEXT_OTHER_PAGE_COLOR};
+
+        font-weight: 200;
     
     }
 
@@ -173,6 +175,8 @@ n0d3s.UI.Style(`
         border-bottom: solid 1px rgba(120,190,200,1.0); 
 
         color: ${MENU_NAV_BTN_TEXT_CURRENT_PAGE_COLOR};
+
+        font-weight: 400;
     
     }
 
@@ -403,7 +407,7 @@ n0d3s.UI.Style(`
 
         color: rgba(220, 220, 220, 1);
 
-        font-weight: 600;
+        font-weight: 400;
         font-size: 24px;
 
         border-bottom: solid 1px rgba(80, 140, 142, 1.0);
@@ -415,6 +419,8 @@ n0d3s.UI.Style(`
         color: rgba(72, 72, 72, 1);
 
         border-bottom: solid 1px rgba(40, 40, 40, 0.3);
+
+        font-weight: 200;
 
     }
 

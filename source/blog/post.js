@@ -13,7 +13,7 @@ function ApplyPostWidth(){
 
     this.setStyle({
         
-        width: `min(66vw, 840px)`,
+        width: `min(75vw, 840px)`,
 
     });
 }
@@ -72,8 +72,9 @@ function Post(info){
                 paddingLeft: "0",
                 paddingBottom: "0",
 
-                fontSize: `min(4.1vw, ${800 / 2 * 0.138 / 2}px)`,
-                lineHeight: `min(4.1vw, ${800 / 2 * 0.138 / 2}px)`,
+                fontSize: `min(5vw, ${600 / 2 * 0.138 / 2}px)`,
+                lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
+                letterSpacing: `min(1.5vw, ${150 / 2 * 0.138 / 2}px)`,
 
                 color: "rgba(230, 255, 255, 0.84)",
 
@@ -87,11 +88,30 @@ function Post(info){
                 ["Written by ", info.author, " at ", info.date]
             )
             .$$(
+                ".paragraph-name > span",
+                e => e
+                .setStyle({
+        
+                    paddingRight: "0",
+                    paddingLeft: "0",
+                    paddingTop: "5px",
+    
+                    fontSize: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
+                    lineHeight: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
+        
+                    letterSpacing: `1px`,
+        
+                }),
+            )
+            .$$(
                 ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
                 e => e
                 .setStyle({
     
-                    color: "rgb(55, 60, 60)",
+                    color: "rgb(65, 70, 70)",
+                    fontWeight: "200",
+
+                    borderTop: "solid 2px rgba(30, 40, 42, 1.0)",
     
                 })
     
@@ -102,6 +122,9 @@ function Post(info){
                 .setStyle({
     
                     color: "rgb(150, 100, 230)",
+                    fontWeight: "300",
+
+                    borderTop: "solid 2px rgba(30, 40, 42, 1.0)",
     
                 })
     
@@ -117,24 +140,16 @@ function Post(info){
             
                         })
 
+                    e.setStyle({
+
+                        fontWeight: "300",
+                        fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
+                        lineHeight: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
+
+                    })
+
                 }
     
-            )
-            .$$(
-                ".paragraph-name > span",
-                e => e
-                .setStyle({
-        
-                    paddingRight: "0",
-                    paddingLeft: "0",
-                    paddingTop: "5px",
-    
-                    fontSize: `15px`,
-                    lineHeight: `15px`,
-
-                    borderTop: "solid 2px rgba(30, 40, 42, 1.0)",
-        
-                }),
             ),
 
         ),
@@ -147,7 +162,7 @@ function Post(info){
             flexWrap: "none",
             flexFlow: "column",
 
-            marginLeft: `max(17vw, calc(50vw - 420px))`,
+            marginLeft: `max(13vw, calc(50vw - 420px))`,
 
             paddingLeft: "0",
             paddingRight: "0",

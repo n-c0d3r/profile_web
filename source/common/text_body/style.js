@@ -33,6 +33,8 @@ n0d3s.UI.Style(`
     white-space: pre-wrap;
 
     transition: filter 0.75s;
+
+    font-weight: 100;
 }
 
 .text-body > span {

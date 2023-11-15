@@ -36,21 +36,21 @@ n0d3s.UI.Style(`
 
     .info-text-0 {
 
-        font-weight: 500;
+        font-weight: 400;
         color: rgba(140, 235, 240, 0.8);
 
     }
 
     .info-text-1 {
 
-        font-weight: 500;
+        font-weight: 400;
         color: rgba(140, 200, 255, 0.8);
 
     }
 
     .info-text-2 {
 
-        font-weight: 500;
+        font-weight: 400;
         color: rgba(180, 255, 180, 0.8);
 
     }
@@ -144,7 +144,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -170,7 +170,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -196,7 +196,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -222,7 +222,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -248,7 +248,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -274,7 +274,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -300,7 +300,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -326,7 +326,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -352,7 +352,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -378,7 +378,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -404,7 +404,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -430,7 +430,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(36, 36, 36);
 
-        font-weight: 500;
+        font-weight: 400;
 
         padding-left: 3px;
         padding-right: 3px;
