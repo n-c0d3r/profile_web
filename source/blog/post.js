@@ -28,6 +28,7 @@ function Paragraph(name) {
     return n0d3s.UI.Element("div").setStyle({
 
         fontSize: "30px",
+        color: "rgba(255, 255, 255, 0.75)",
 
     })
     .setTextContent(name);
