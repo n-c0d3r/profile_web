@@ -32,8 +32,12 @@ Post({
     Post.Paragraph("Introduction"),
     Post.EnhancedTextSection(introduction),
 
+    Common.HR(),
+
     Post.Paragraph("High Performance"),
     Post.EnhancedTextSection(high_performance),
+
+    Common.HR(),
 
     Post.Paragraph("OS API Direct Access"),
     Post.EnhancedTextSection(os_api_direct_access),
