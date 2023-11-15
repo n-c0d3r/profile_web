@@ -40,7 +40,7 @@ n0d3s.UI.Style(`
     height: 50px;
 
     /* background-color: ${HEADER_BG_COLOR}; */
-    background: linear-gradient(to top right, rgba(12, 12, 12, 1), rgba(18, 18, 24, 0.95));
+    background: linear-gradient(to top right, rgba(12, 12, 12, 1), rgba(20, 20, 22, 0.95));
 
     display: flex;
     flex-flow: row;
