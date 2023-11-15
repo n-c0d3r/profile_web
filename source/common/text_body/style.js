@@ -34,7 +34,7 @@ n0d3s.UI.Style(`
 
     transition: filter 0.75s;
 
-    font-weight: 100;
+    font-weight: 150;
 }
 
 .text-body > span {

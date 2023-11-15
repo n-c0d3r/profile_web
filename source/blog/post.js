@@ -13,7 +13,7 @@ function ApplyPostWidth(){
 
     this.setStyle({
         
-        width: `min(75vw, 840px)`,
+        width: `min(calc(100vw - 40px), 840px)`,
 
     });
 }
@@ -162,7 +162,7 @@ function Post(info){
             flexWrap: "none",
             flexFlow: "column",
 
-            marginLeft: `max(13vw, calc(50vw - 420px))`,
+            marginLeft: `max(20px, calc(50vw - 420px))`,
 
             paddingLeft: "0",
             paddingRight: "0",
