@@ -24,7 +24,7 @@ Post({
     title: "C++, The Best Programming Language for Game Engine Development",
 
     author: "NCoder",
-    date: "November 15th, 2023",
+    date: "November 16th, 2023",
 
 })
 .appendInner(
