@@ -1,6 +1,6 @@
 ⦿ <span class="info-text-3">Game Engine Architecture</span>
         <span class="text-tag-0">Memory Management</span>
-        <span class="text-tag-1">Cross Platform</span> (Windows, Unix)
+        <span class="text-tag-1">Cross Platform</span> (Windows, Unix, MacOS)
         <span class="text-tag-2">Job System</span>
         <span class="text-tag-3">Plugin System</span>
         <span class="text-tag-4">Graphics Abtraction Layer</span>
