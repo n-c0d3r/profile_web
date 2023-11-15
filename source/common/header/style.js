@@ -12,7 +12,7 @@ module.use({
 
 
 
-const HEADER_BG_COLOR = `rgba(16, 16, 16, 0.95)`;
+const HEADER_BG_COLOR = `rgba(14, 14, 14, 0.95)`;
 
 const LOGO_TEXT_COLOR = `rgb(120, 120, 120)`;
 const LOGO_TEXT_COLOR_HOVER = `rgb(120, 190, 200)`;
@@ -39,8 +39,7 @@ n0d3s.UI.Style(`
     width: 100vw;
     height: 50px;
 
-    /* background-color: ${HEADER_BG_COLOR}; */
-    background: linear-gradient(to top right, rgba(12, 12, 12, 1), rgba(20, 20, 22, 0.95));
+    background-color: ${HEADER_BG_COLOR};
 
     display: flex;
     flex-flow: row;

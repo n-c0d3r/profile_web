@@ -58,7 +58,7 @@ function Navigator(info){
         Common.ImageBody(info.thumbnailURL)
         .setStyle({
 
-            width: `min(calc(70vw - 40px), 500px)`,
+            width: `min(calc(100vw - 40px), 500px)`,
 
             borderRadius: "10px",
 
@@ -68,7 +68,7 @@ function Navigator(info){
         n0d3s.UI.Element("div")
         .setStyle({
 
-            width: `min(calc(70vw - 40px), 500px)`,
+            width: `min(calc(100vw - 40px), 500px)`,
 
             justifyContent: "center",
 
@@ -91,7 +91,7 @@ function Navigator(info){
 
                 textAlign: "left",
 
-                width: `min(calc(70vw - 40px), 500px)`,
+                width: `min(calc(100vw - 40px), 500px)`,
     
             })
             .setInner(`${info.title}`)
@@ -103,7 +103,7 @@ function Navigator(info){
             .appendClass("prevent-select")
             .setStyle({
 
-                width: `min(calc(70vw - 40px), 500px)`,
+                width: `min(calc(100vw - 40px), 500px)`,
 
             })
             .$(
