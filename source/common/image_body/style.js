@@ -46,23 +46,30 @@ n0d3s.UI.Style(`
 
 }
 
-.image-body:hover > div {
+.image-body > div {
+
+    height: 0px;
+    overflow-y: visible;
+
+}
+
+.image-body:hover > div > div{
 
     filter: brightness(1.0);
 
 }
 
-.image-body > div {
+.image-body > div > div {
 
     filter: brightness(0.4);
 
-    position: absolute;
+    transform: translateY(4px);
+    margin-left: calc(100% - 28px);
+
+    position: static;
 
     width: 24px;
     height: 24px;
-
-    top: 4px;
-    right: 4px;
     
     background-size: cover;
     background-image: url("${window.origin}/resources/image/icon/ex_link.png");

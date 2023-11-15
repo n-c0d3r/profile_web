@@ -24,7 +24,7 @@ const MENU_NAV_BTN_TEXT_OTHER_PAGE_COLOR_HOVER = `rgb(80, 120, 125)`;
 const MENU_NAV_BTN_TEXT_CURRENT_PAGE_COLOR = `rgb(180, 180, 180)`;
 const MENU_NAV_BTN_TEXT_CURRENT_PAGE_COLOR_HOVER = `rgb(120, 220, 230)`;
 
-const VERTICAL_LINE_COLOR = `rgb(60, 60, 60)`;
+const VERTICAL_LINE_COLOR = `rgb(40, 40, 40)`;
 
 const MENU_SOCIAL_BTN_SIZE_PX = 18;
 
@@ -39,7 +39,8 @@ n0d3s.UI.Style(`
     width: 100vw;
     height: 50px;
 
-    background-color: ${HEADER_BG_COLOR};
+    /* background-color: ${HEADER_BG_COLOR}; */
+    background: linear-gradient(to top right, rgba(12, 12, 12, 1), rgba(18, 18, 24, 0.95));
 
     display: flex;
     flex-flow: row;
@@ -51,7 +52,7 @@ n0d3s.UI.Style(`
 
     z-index: 39;
 
-    border-bottom: solid 1px rgb(33, 33, 33);
+    border-bottom: solid 1px rgb(24, 24, 24);
 
 }
 

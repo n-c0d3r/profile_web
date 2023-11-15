@@ -45,7 +45,7 @@ return [
         .appendInner(
 
             Common.BigSection(
-                [ "HERE", "'s ", "MY ", "PROJECTS ", "& ", "DEMOS" ],
+                [ "HERE", "'", "s ", "MY PROJECTS ", "& ", "DEMOS" ],
                 null, 
                 3,
                 0
@@ -57,6 +57,56 @@ return [
                 .setStyle({
             
                     color: "rgb(200, 200, 200)",
+            
+                })
+                
+            )
+            .$(
+                ".paragraph-name > span:nth-child(1)",
+                e => e
+                .setStyle({
+            
+                    color: "rgb(80, 170, 150)",
+            
+                })
+                
+            )
+            .$$(
+                ".paragraph-name > span:nth-child(3), .paragraph-name > span:nth-child(5)",
+                e => e
+                .setStyle({
+            
+                    color: "rgb(60, 60, 60)",
+            
+                })
+                
+            )
+            .$(
+                ".paragraph-name > span:nth-child(2)",
+                e => e
+                .setStyle({
+            
+                    color: "rgb(50, 170, 200)",
+            
+                })
+                
+            )
+            .$(
+                ".paragraph-name > span:nth-child(6)",
+                e => e
+                .setStyle({
+            
+                    color: "rgb(150, 80, 150)",
+            
+                })
+                
+            )
+            .$(
+                ".paragraph-name > span:nth-child(4)",
+                e => e
+                .setStyle({
+            
+                    color: "rgb(100, 150, 50)",
             
                 })
                 
@@ -81,7 +131,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "ENGINES", ", ", "LIBRARIES", ", ", "FRAMEWORKS"," |" ],
+            [ " ", "ENGINES", ", ", "LIBRARIES", ", ", "FRAMEWORKS"," " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -97,7 +147,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -108,7 +158,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 230, 160)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -119,7 +169,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 160, 230)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -130,7 +180,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 150, 200)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -224,7 +274,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "COMPUTER ", "GRAPHICS", " |" ],
+            [ " ", "COMPUTER ", "GRAPHICS", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -240,7 +290,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -251,7 +301,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 150, 210)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -262,7 +312,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 160, 180)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -341,7 +391,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "ADVANCED ", "ANIMATION", " |" ],
+            [ " ", "ADVANCED ", "ANIMATION", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -357,7 +407,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -368,7 +418,7 @@ return [
             .setStyle({
 
                 color: "rgb(90, 200, 230)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -379,7 +429,7 @@ return [
             .setStyle({
 
                 color: "rgb(120, 200, 180)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -455,7 +505,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "GAMES ", "& ", "DEMOS", " |" ],
+            [ " ", "GAMES ", "& ", "DEMOS", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -471,7 +521,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -482,7 +532,7 @@ return [
             .setStyle({
 
                 color: "rgb(180, 200, 160)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -493,7 +543,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 160, 230)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 

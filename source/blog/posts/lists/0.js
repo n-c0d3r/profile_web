@@ -3,6 +3,8 @@ module.use({
 
     n0d3s: "./n0d3s",
 
+    Common: "./common",
+
     Post: "./blog/post",
     BlogPage: "./blog/page",
 
@@ -28,6 +30,8 @@ BlogPage(
             targetURL: `${window.origin}/build/pages/blog/posts/the_best_programming_language_for_game_engine_developmment.html`,
 
         }),
+
+        Common.HR(),
 
     ]
 );

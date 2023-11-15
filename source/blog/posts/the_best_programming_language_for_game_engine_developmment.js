@@ -10,6 +10,9 @@ module.use({
 .text({
 
     introduction: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/introduction",
+    high_performance: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/high_performance",
+    os_api_direct_access: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/os_api_direct_access",
+    compile_time_features: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/os_api_direct_access",
 
 })
 .register_page();
@@ -28,5 +31,11 @@ Post({
 
     Post.Paragraph("Introduction"),
     Post.EnhancedTextSection(introduction),
+
+    Post.Paragraph("High Performance"),
+    Post.EnhancedTextSection(high_performance),
+
+    Post.Paragraph("OS API Direct Access"),
+    Post.EnhancedTextSection(os_api_direct_access),
 
 );

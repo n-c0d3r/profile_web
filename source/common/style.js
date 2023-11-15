@@ -7,7 +7,7 @@ module.use({
 
 
 
-const BG_COLOR = `rgb(15, 15, 16)`;
+const BG_COLOR = `rgb(12, 12, 13)`;
 
 
 

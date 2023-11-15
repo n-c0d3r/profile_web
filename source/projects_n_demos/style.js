@@ -13,7 +13,7 @@ n0d3s.UI.Style(`
 
 .title-content {
 
-    background: linear-gradient(to top right, rgba(18, 18, 18, 0.5), rgba(20, 40, 55, 0.21));
+    background: linear-gradient(to top right, rgba(12, 12, 12, 0.75), rgba(18, 18, 23, 1));
 
 }
 

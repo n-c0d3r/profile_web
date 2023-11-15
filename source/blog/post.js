@@ -201,7 +201,7 @@ function Post(info){
 
             paddingTop: "0",
 
-            background: "linear-gradient(to top right, rgba(18, 18, 18, 0.5), rgb(10, 25, 30))",
+            background: "linear-gradient(to top right, rgba(12, 12, 12, 0.75), rgb(16, 16, 25))",
 
         })
         .appendInner(

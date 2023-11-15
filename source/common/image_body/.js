@@ -16,6 +16,20 @@ function ImageBody(url, href){
 
     let result = n0d3s.UI.Element("div")
     .appendClass("image-body")
+    .exe(function(){
+
+        let image_body = this;
+
+        if(href != null){
+
+            image_body.appendChild(
+                n0d3s.UI.Element("div")
+                .appendInner(n0d3s.UI.Element("div"))
+            );
+
+        }
+        
+    })
     .appendInner(
         n0d3s.UI.Element("img")
         .setAttribute("src", url)
@@ -62,10 +76,6 @@ function ImageBody(url, href){
                         window.open(href);
     
                 }   
-            );
-
-            image_body.appendChild(
-                n0d3s.UI.Element("div")
             );
 
         }

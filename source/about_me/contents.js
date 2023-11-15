@@ -121,7 +121,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| WHO I AM | ", "I AM A TECHNOLOGY LOVER", " |" ],
+            [ " WHO I AM ? . ", "I AM A TECHNOLOGY LOVER", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -137,7 +137,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -148,7 +148,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 220, 225)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -196,7 +196,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| MY JOURNEY | ", "THE THIRD DOOR", " |" ],
+            [ " MY JOURNEY . ", "THE THIRD DOOR", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -212,7 +212,7 @@ return [
             .setStyle({
 
                 color: "rgb(110, 115, 120)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -223,7 +223,7 @@ return [
             .setStyle({
 
                 color: "rgb(120, 210, 220)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -391,7 +391,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ "| ", "MY KNOWLEDGE", " |" ],
+            [ " ", "MY KNOWLEDGE", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
@@ -403,7 +403,7 @@ return [
             .setStyle({
 
                 color: "rgb(110, 115, 120)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
@@ -415,7 +415,7 @@ return [
             .setStyle({
 
                 color: "rgb(240, 240, 240)",
-                fontWeight: "200",
+                fontWeight: "300",
 
             })
 
