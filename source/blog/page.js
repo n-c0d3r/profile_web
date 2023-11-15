@@ -5,24 +5,45 @@ module.use({
 
     Common: "./common",
 
-    contents: "./contents",
+    Contents: "./contents",
 
-})
-.register_page();
-
-
-
-$("title").setInner("Blog");
+});
 
 
 
-$("body")
-.appendInner(
-    Common.Header({
+return function BlogPage(index, prev, next, list) {
 
-        current_page_index: 2
+    $("title").setInner("Blog");
 
-    }),
 
-    ...contents
-);
+
+    $("body")
+    .appendInner(
+        Common.Header({
+    
+            current_page_index: 2
+    
+        }),
+    
+        ...Contents(list),
+
+        Common.SubPageContent()
+        .setStyle({
+
+            justifyContent: "center",
+            color: "rgba(200, 200, 200, 0.75)",
+
+        })
+        .appendInner(
+
+            (!prev) ? "" : n0d3s.UI.Element("span")
+            .setTextContent(": prev :")
+            .exe(Common.LinkTo(`${window.origin}/build/pages/blog/posts/lists/${index - 1}.js`)),
+
+            (!next) ? "" : n0d3s.UI.Element("span")
+            .setTextContent(": next :")
+            .exe(Common.LinkTo(`${window.origin}/build/pages/blog/posts/lists/${index + 1}.js`)),
+
+        )
+    );
+}

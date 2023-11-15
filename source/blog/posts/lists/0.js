@@ -4,23 +4,30 @@ module.use({
     n0d3s: "./n0d3s",
 
     Post: "./blog/post",
+    BlogPage: "./blog/page",
 
-});
+})
+.register_page();
 
 
 
-return [
+BlogPage(
+    0,
+    false,
+    false,
+    [
 
-    Post.Navigator({
+        Post.Navigator({
 
-        title: "C++, The Best Programming Language for Game Engine Development",
+            title: "C++, The Best Programming Language for Game Engine Development",
 
-        author: "NCoder",
-        date: "November 15th, 2023",
+            author: "NCoder",
+            date: "November 15th, 2023",
 
-        thumbnailURL: `${window.origin}/resources/image/for_blogs/ing_app_module_demo_image.png`,
-        targetURL: `${window.origin}/build/pages/blog/posts/the_best_programming_language_for_game_engine_developmment.html`,
+            thumbnailURL: `${window.origin}/resources/image/for_blogs/ing_app_module_demo_image.png`,
+            targetURL: `${window.origin}/build/pages/blog/posts/the_best_programming_language_for_game_engine_developmment.html`,
 
-    }),
+        }),
 
-];
+    ]
+);
