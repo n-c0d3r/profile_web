@@ -10,6 +10,10 @@ module.use({
 
 
 
+$("title").setInner("Blog");
+
+
+
 $("body")
 .appendInner(
     Common.Header({
