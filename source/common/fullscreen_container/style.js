@@ -28,7 +28,7 @@ n0d3s.UI.Style(`
         width: 100vw;
         height: calc(100vh - 51px);
 
-        background-color: rgba(20, 20, 20, 0.95);
+        background: linear-gradient(to top right, rgba(18, 18, 18, 1), rgba(12, 15, 17, 0.965));
 
         overflow: visible;
 

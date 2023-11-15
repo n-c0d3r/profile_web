@@ -29,6 +29,8 @@ module.use({
 
     LightingOnVisible: "./lighting_on_visible",
 
+    LinkTo: "./link_to"
+
 })
 .use([
 
@@ -63,6 +65,8 @@ const Common = {
     isInVP,
 
     LightingOnVisible,
+
+    LinkTo
 
 };
 

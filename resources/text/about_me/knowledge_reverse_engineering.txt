@@ -1,0 +1,3 @@
+⦿ <span class="info-text-3">Reverse Engineering</span> (Basic)
+        <span class="text-tag-1">Cheat Engine</span>
+        <span class="text-tag-0">x64Dbg</span>

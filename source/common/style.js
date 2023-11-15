@@ -96,6 +96,14 @@ n0d3s.UI.Style(`
 
     }
 
+    .link:hover {
+
+        cursor: pointer;
+
+        text-decoration: underline;
+
+    }
+
     .github-link {
 
         background-image: url("${window.origin}/resources/image/icon/github-mark-white_32.png");

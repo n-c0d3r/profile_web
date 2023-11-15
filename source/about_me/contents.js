@@ -21,7 +21,15 @@ module.use({
     third_stage: "text/about_me/third_stage",
     fourth_stage1: "text/about_me/fourth_stage1",
     fourth_stage2: "text/about_me/fourth_stage2",
-    knowledge: "text/about_me/knowledge",
+
+    knowledge_animation: "text/about_me/knowledge_animation",
+    knowledge_cg_rendering: "text/about_me/knowledge_cg_rendering",
+    knowledge_fundamental: "text/about_me/knowledge_fundamental",
+    knowledge_game_engine: "text/about_me/knowledge_game_engine",
+    knowledge_modern_cpp: "text/about_me/knowledge_modern_cpp",
+    knowledge_reverse_engineering: "text/about_me/knowledge_reverse_engineering",
+    knowledge_tools: "text/about_me/knowledge_tools",
+    knowledge_web: "text/about_me/knowledge_web",
 
 });
 
@@ -425,7 +433,37 @@ return [
         .appendInner(
 
             Common.EnhancedTextBody(
-                knowledge
+                knowledge_fundamental
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_modern_cpp
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_cg_rendering
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_animation
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_game_engine
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_tools
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_reverse_engineering
             )
             .appendClass("item-left")
             .useLargeWidth(),

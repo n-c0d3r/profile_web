@@ -5,6 +5,8 @@ module.use({
 
     Common: "./common",
 
+    contents: "./contents",
+
 })
 .register_page();
 
@@ -20,5 +22,7 @@ $("body")
 
         current_page_index: 2
 
-    })
+    }),
+
+    ...contents
 );

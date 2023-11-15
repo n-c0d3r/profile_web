@@ -8,6 +8,9 @@ module.use({
 
     "./page",
 
-    "./posts/**"
+    "./posts/**",
 
 ]);
+
+
+

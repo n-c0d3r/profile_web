@@ -13,9 +13,7 @@ n0d3s.UI.Style(`
 
 .title-content {
 
-    background-image: url("${window.origin}/resources/image/demonstrates/ohqg_dark.png");
-    background-position: 50% 47%;
-    background-size: cover;
+    background: linear-gradient(to top right, rgba(18, 18, 18, 0.5), rgba(20, 40, 55, 0.21));
 
 }
 

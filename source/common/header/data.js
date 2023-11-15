@@ -34,7 +34,7 @@ const header_data = {
 
             {
 
-                name: "Blog",
+                name: "Blogs",
                 url: `${window.origin}/build/pages/blog/page.html`,               
 
             },
