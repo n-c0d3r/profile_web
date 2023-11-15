@@ -26,6 +26,7 @@ Post({
 })
 .appendInner(
 
-    Post.EnhancedTextSection(introduction)
+    Post.Paragraph("Introduction"),
+    Post.EnhancedTextSection(introduction),
 
 );

@@ -9,6 +9,40 @@ module.use({
 
 
 
+function ApplyPostWidth(){
+
+    this.setStyle({
+        
+        width: `min(66vw, 840px)`,
+
+    });
+}
+
+function EnhancedTextSection(content) {
+
+    return Common.EnhancedTextBody(content).exe(ApplyPostWidth);
+}
+
+function Paragraph(name) {
+
+    return n0d3s.UI.Element("div").setStyle({
+
+        fontSize: "30px",
+
+    })
+    .setTextContent(name);
+}
+function Break() {
+
+    return n0d3s.UI.Element("div").setStyle({
+
+        height: "50px",
+
+    });
+}
+
+
+
 function Post(info){
 
     $("title").setInner(info.title);
@@ -42,8 +76,11 @@ function Post(info){
                 lineHeight: `min(4.1vw, ${800 / 2 * 0.138 / 2}px)`,
 
                 color: "rgba(230, 255, 255, 0.84)",
+
+                textAlign: "center",
     
             })
+            .exe(ApplyPostWidth)
             .setInner(`${info.title}`),
 
             Common.Section(
@@ -103,21 +140,29 @@ function Post(info){
         ),
     );
 
-    var contents = Common.PageContent();
+    var contents = Common.PageContent()
+        .exe(ApplyPostWidth)
+        .setStyle({
+
+            flexWrap: "none",
+            flexFlow: "column",
+
+            marginLeft: `max(17vw, calc(50vw - 420px))`,
+
+            paddingLeft: "0",
+            paddingRight: "0",
+            
+        });
     $("body").appendInner(contents);
     return contents;
 }
 
 
 
-Post.EnhancedTextSection = function(content) {
-
-    return Common.EnhancedTextBody(content).setStyle({
-        
-        width: `min(100%, 840px)`,
-
-    });
-}
+Post.EnhancedTextSection = EnhancedTextSection;
+Post.ApplyPostWidth = ApplyPostWidth;
+Post.Paragraph = Paragraph;
+Post.Break = Break;
 
 
 
