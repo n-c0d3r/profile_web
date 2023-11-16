@@ -13,7 +13,7 @@ n0d3s.UI.Style(`
 
 .hello-content {
 
-    background: linear-gradient(to top right, rgba(12, 12, 12, 0.75), rgba(14, 22, 26, 0.75));
+    background: linear-gradient(to top right, rgba(12, 12, 12, 1), rgba(18, 26, 30, 0.75));
 
 }
 

@@ -1,0 +1,3 @@
+Unlike high-level programming languages nowaday, C++ offers a more hardware-friendly approach. For instance, C++ supports pointers, CPU intrinsic functions, inline assembly embedded code and much more low-level functionalities. This also means that supporting new platform or cpu could be more efficient when using C++.
+
+On the other hand, C++ programs may be built with OS SDK to have direct access to OS API. By this way, we can use C++ to enable platform-specific features helping us optimize better for the target platform.
