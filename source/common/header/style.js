@@ -152,7 +152,7 @@ n0d3s.UI.Style(`
 
         color: ${MENU_NAV_BTN_TEXT_OTHER_PAGE_COLOR};
 
-        font-weight: 200;
+        font-weight: 360;
     
     }
 
@@ -422,7 +422,7 @@ n0d3s.UI.Style(`
 
         color: rgba(72, 72, 72, 1);
 
-        font-weight: 200;
+        font-weight: 360;
 
     }
 
