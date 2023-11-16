@@ -42,4 +42,9 @@ Post({
     Post.Paragraph("OS API Direct Access"),
     Post.EnhancedTextSection(os_api_direct_access),
 
+    Common.HR(),
+
+    Post.Paragraph("Compile-time Features"),
+    Post.EnhancedTextSection(compile_time_features),
+
 );
