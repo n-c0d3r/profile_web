@@ -13,8 +13,9 @@ module.use({
     hardware_friendly_and_os_api_direct_access: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/hardware_friendly_and_os_api_direct_access",
     mem: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/mem",
     preprocessor_and_mtp: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/preprocessor_and_mtp",
+    stl: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/stl",
+    build_systems: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/build_systems",
     conclusion: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/conclusion",
-    cmake: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/cmake",
 
 })
 .register_page();
@@ -71,8 +72,25 @@ Post({
 
     Common.HR(),
 
-    Post.Paragraph("CMake"),
-    Post.EnhancedTextSection(cmake),
+    Post.Paragraph("The Standard Template Library (STL)"),
+    Post.EnhancedTextSection(stl),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/EASTL.png`
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/folly.png`
+    ),
+
+    Common.HR(),
+
+    Post.Paragraph("Build Systems"),
+    Post.EnhancedTextSection(build_systems),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/cmake.png`
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/macro_generation_cmake.png`
+    ),
 
     Common.HR(),
 
