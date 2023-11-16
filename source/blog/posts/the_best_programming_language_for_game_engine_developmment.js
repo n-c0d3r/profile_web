@@ -65,6 +65,9 @@ Post({
 
     Post.Paragraph("Memory Management"),
     Post.EnhancedTextSection(mem),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/incr_chunk_allocator.png`
+    ),
 
     Common.HR(),
 
