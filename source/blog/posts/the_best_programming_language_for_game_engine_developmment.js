@@ -75,10 +75,12 @@ Post({
     Post.Paragraph("The Standard Template Library (STL)"),
     Post.EnhancedTextSection(stl),
     Post.ImageBody(
-        `${window.origin}/resources/image/for_blogs/EASTL.png`
+        `${window.origin}/resources/image/for_blogs/EASTL.png`,
+        "https://github.com/electronicarts/EASTL"
     ),
     Post.ImageBody(
-        `${window.origin}/resources/image/for_blogs/folly.png`
+        `${window.origin}/resources/image/for_blogs/folly.png`,
+        "https://github.com/facebook/folly"
     ),
 
     Common.HR(),
@@ -86,7 +88,8 @@ Post({
     Post.Paragraph("Build Systems"),
     Post.EnhancedTextSection(build_systems),
     Post.ImageBody(
-        `${window.origin}/resources/image/for_blogs/cmake.png`
+        `${window.origin}/resources/image/for_blogs/cmake.png`,
+        "https://cmake.org/"
     ),
     Post.ImageBody(
         `${window.origin}/resources/image/for_blogs/macro_generation_cmake.png`
