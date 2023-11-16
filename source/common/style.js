@@ -68,6 +68,41 @@ n0d3s.UI.Style(`
 
     }
 
+    .info-text-5 {
+
+        font-weight: 400;
+        color: rgba(150, 125, 200, 0.8);
+
+    }
+
+    .info-text-6 {
+
+        font-weight: 400;
+        color: rgba(120, 230, 110, 0.8);
+
+    }
+
+    .info-text-7 {
+
+        font-weight: 400;
+        color: rgba(80, 130, 255, 0.8);
+
+    }
+
+    .info-text-8 {
+
+        font-weight: 400;
+        color: rgba(230, 170, 30, 0.8);
+
+    }
+
+    .info-text-9 {
+
+        font-weight: 400;
+        color: rgba(80, 100, 200, 0.8);
+
+    }
+
     * {
 
         font-family:  -apple-system, -apple-system, 

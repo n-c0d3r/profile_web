@@ -41,6 +41,10 @@ function Break() {
 
     });
 }
+function ImageBody(url, href){
+
+    return Common.ImageBody(url, href).exe(ApplyPostWidth);
+}
 function Navigator(info){
 
     function LinkToBlog(){
@@ -317,6 +321,7 @@ Post.ApplyPostWidth = ApplyPostWidth;
 Post.Paragraph = Paragraph;
 Post.Break = Break;
 Post.Navigator = Navigator;
+Post.ImageBody = ImageBody;
 
 
 

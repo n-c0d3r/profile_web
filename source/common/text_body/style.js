@@ -22,7 +22,7 @@ n0d3s.UI.Style(`
 
 .text-body {
 
-    color: rgb(180, 180, 180);
+    color: rgb(200, 200, 200);
 
     word-wrap: break-word;
 
@@ -34,7 +34,7 @@ n0d3s.UI.Style(`
 
     transition: filter 0.75s;
 
-    font-weight: 200;
+    font-weight: 240;
 }
 
 .text-body > span {

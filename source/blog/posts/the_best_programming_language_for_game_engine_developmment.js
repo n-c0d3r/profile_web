@@ -14,6 +14,7 @@ module.use({
     mem: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/mem",
     preprocessor_and_mtp: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/preprocessor_and_mtp",
     conclusion: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/conclusion",
+    cmake: "text/blog/posts/the_best_programming_language_for_game_engine_developmment/cmake",
 
 })
 .register_page();
@@ -32,11 +33,33 @@ Post({
 
     Post.Paragraph("Introduction"),
     Post.EnhancedTextSection(introduction),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/a_piece_of_ing_engine_code.png`,
+        "https://github.com/INGTechnologies/ING/blob/main/Source/Engine/ING/Source/ING/Engine/Engine.cpp"
+    ),
 
     Common.HR(),
 
     Post.Paragraph("Hardware-Friendly & OS API Direct Access"),
     Post.EnhancedTextSection(hardware_friendly_and_os_api_direct_access),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/cpu_intrinsic_func_cpp.png`
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/inline_assembly_cpp.png`,
+        "https://github.com/electronicarts/EAThread/blob/master/include/eathread/arm/eathread_sync_arm.h"
+    ),
+
+    Common.HR(),
+
+    Post.Paragraph("Preprocessor & Meta-Template Programming"),
+    Post.EnhancedTextSection(preprocessor_and_mtp),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/macro_usage.png`
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/mtp.png`
+    ),
 
     Common.HR(),
 
@@ -45,8 +68,8 @@ Post({
 
     Common.HR(),
 
-    Post.Paragraph("Preprocessor & Meta-Template Programming"),
-    Post.EnhancedTextSection(preprocessor_and_mtp),
+    Post.Paragraph("CMake"),
+    Post.EnhancedTextSection(cmake),
 
     Common.HR(),
 
