@@ -252,8 +252,6 @@ function Post(info){
     
                     color: "rgb(65, 70, 70)",
                     fontWeight: "200",
-
-                    borderTop: "solid 2px rgba(30, 40, 42, 1.0)",
     
                 })
     
@@ -265,8 +263,6 @@ function Post(info){
     
                     color: "rgb(150, 100, 230)",
                     fontWeight: "300",
-
-                    borderTop: "solid 2px rgba(30, 40, 42, 1.0)",
     
                 })
     
