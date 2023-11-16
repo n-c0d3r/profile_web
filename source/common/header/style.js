@@ -401,6 +401,10 @@ n0d3s.UI.Style(`
 
         transform: translate(0, -50px);
 
+        border-bottom: solid 1px rgba(30, 30, 30, 0.3);
+
+        border-color: rgba(40, 40, 40, 0.3);
+
     }
 
     .header-menu-nav-btn-text-current-page {
@@ -409,16 +413,14 @@ n0d3s.UI.Style(`
 
         font-weight: 400;
         font-size: 24px;
-
-        border-bottom: solid 1px rgba(100, 140, 142, 0.5);
+        
+        background-color: rgba(18, 18, 19, 0.4);
 
     }
 
     .header-menu-nav-btn-text-other-page {
 
         color: rgba(72, 72, 72, 1);
-
-        border-bottom: solid 1px rgba(40, 40, 40, 0.3);
 
         font-weight: 200;
 

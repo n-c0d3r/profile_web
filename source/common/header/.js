@@ -149,6 +149,16 @@ function HeaderMenuMobile(current_page_index){
             )
             .setHRef(btnInfo.url);
 
+            if(i == 0) {
+
+                btn.setStyle({
+
+                    borderTop: "solid 1px rgba(30, 30, 30, 0.3)",
+
+                });
+
+            }
+
             btns.push(btn);
 
         }

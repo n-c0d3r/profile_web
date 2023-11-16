@@ -25,7 +25,7 @@ n0d3s.UI.Style(`
 
 .my-journey-content {
 
-    background-color: rgba(70, 95, 110, 0.1);
+    background-color: rgba(50, 65, 80, 0.1);
 
 }
 

@@ -25,7 +25,7 @@ n0d3s.UI.Style(`
 
 .cg-content {
 
-    background-color: rgba(40, 42, 42, 0.4);
+    background-color: rgba(25, 27, 27, 0.4);
 
 }
 
@@ -37,7 +37,7 @@ n0d3s.UI.Style(`
 
 .games-demos-content {
 
-    background-color: rgba(37, 39, 42, 0.4);
+    background-color: rgba(27, 29, 32, 0.4);
 
 }
 
