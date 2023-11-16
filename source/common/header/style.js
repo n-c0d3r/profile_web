@@ -51,7 +51,7 @@ n0d3s.UI.Style(`
 
     z-index: 39;
 
-    border-bottom: solid 1px rgb(24, 24, 24);
+    border-bottom: solid 1px rgb(10, 10, 10);
 
 }
 
