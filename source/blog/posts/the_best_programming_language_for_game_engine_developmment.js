@@ -6,6 +6,8 @@ module.use({
     Common: "./common",
     Post: "./blog/post",
 
+    info: "the_best_programming_language_for_game_engine_developmment_info",
+
 })
 .text({
 
@@ -22,14 +24,7 @@ module.use({
 
 
 
-Post({
-
-    title: "C++, The Best Programming Language for Game Engine Development",
-
-    author: "NCoder",
-    date: "November 16th, 2023",
-
-})
+Post(info)
 .appendInner(
 
     Post.Paragraph("Introduction"),
