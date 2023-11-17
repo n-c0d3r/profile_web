@@ -37,21 +37,24 @@ n0d3s.UI.Style(`
     .info-text-0 {
 
         font-weight: 400;
-        color: rgba(140, 235, 240, 0.8);
+        color: rgba(120, 230, 240, 0.8);
+        text-decoration: underline dotted rgba(120, 230, 240, 0.3);
 
     }
 
     .info-text-1 {
 
         font-weight: 400;
-        color: rgba(140, 200, 255, 0.8);
+        color: rgba(110, 200, 255, 0.8);
+        text-decoration: underline dotted rgba(110, 200, 255, 0.3);
 
     }
 
     .info-text-2 {
 
         font-weight: 400;
-        color: rgba(180, 255, 180, 0.8);
+        color: rgba(180, 240, 120, 0.8);
+        text-decoration: underline dotted rgba(180, 240, 120, 0.3);
 
     }
 
@@ -59,12 +62,14 @@ n0d3s.UI.Style(`
 
         font-weight: 420;
         color: rgba(240, 240, 240, 1);
+        text-decoration: underline dotted rgba(240, 240, 240, 0.3);
 
     }
 
     .info-text-4 {
 
         color: rgb(160, 160, 160);
+        text-decoration: underline dotted rgba(160, 160, 160, 0.3);
 
     }
 
@@ -72,34 +77,39 @@ n0d3s.UI.Style(`
 
         font-weight: 400;
         color: rgba(150, 125, 200, 0.8);
+        text-decoration: underline dotted rgba(150, 125, 200, 0.3);
 
     }
 
     .info-text-6 {
 
         font-weight: 400;
-        color: rgba(120, 230, 110, 0.8);
+        color: rgba(70, 200, 150, 0.8);
+        text-decoration: underline dotted rgba(70, 200, 150, 0.3);
 
     }
 
     .info-text-7 {
 
         font-weight: 400;
-        color: rgba(80, 130, 255, 0.8);
+        color: rgba(150, 130, 255, 0.8);
+        text-decoration: underline dotted rgba(150, 130, 255, 0.3);
 
     }
 
     .info-text-8 {
 
         font-weight: 400;
-        color: rgba(230, 170, 30, 0.8);
+        color: rgba(190, 200, 40, 0.8);
+        text-decoration: underline dotted rgba(190, 200, 40, 0.3);
 
     }
 
     .info-text-9 {
 
         font-weight: 400;
-        color: rgba(80, 100, 200, 0.8);
+        color: rgba(110, 130, 230, 0.8);
+        text-decoration: underline dotted rgba(110, 130, 230, 0.3);
 
     }
 
