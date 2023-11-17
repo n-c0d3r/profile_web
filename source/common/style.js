@@ -351,7 +351,7 @@ n0d3s.UI.Style(`
 
         color: rgb(60, 160, 170);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
@@ -377,7 +377,7 @@ n0d3s.UI.Style(`
 
         color: rgb(160, 60, 170);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
@@ -403,7 +403,7 @@ n0d3s.UI.Style(`
 
         color: rgb(160, 170, 60);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
@@ -429,7 +429,7 @@ n0d3s.UI.Style(`
 
         color: rgb(30, 170, 120);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
@@ -455,7 +455,7 @@ n0d3s.UI.Style(`
 
         color: rgb(80, 170, 40);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
@@ -481,7 +481,7 @@ n0d3s.UI.Style(`
 
         color: rgb(170, 40, 40);
 
-        background-color: rgb(36, 36, 36);
+        background-color: rgb(27, 27, 27);
 
         font-weight: 400;
 
