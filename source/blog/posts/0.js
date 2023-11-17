@@ -11,7 +11,7 @@ module.use({
 })
 .use({
 
-    the_best_programming_language_for_game_engine_developmment_info: "../the_best_programming_language_for_game_engine_developmment_info"
+    infos: "./0/**"
 
 })
 .register_page();
@@ -24,7 +24,7 @@ BlogPage(
     false,
     [
 
-        Post.Navigator(the_best_programming_language_for_game_engine_developmment_info),
+        Post.Navigator(infos),
 
         Common.HR(),
 

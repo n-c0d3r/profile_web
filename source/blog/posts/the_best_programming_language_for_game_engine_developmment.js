@@ -6,7 +6,7 @@ module.use({
     Common: "./common",
     Post: "./blog/post",
 
-    info: "the_best_programming_language_for_game_engine_developmment_info",
+    info: "./0/the_best_programming_language_for_game_engine_developmment",
 
 })
 .text({
