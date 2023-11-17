@@ -100,8 +100,8 @@ n0d3s.UI.Style(`
     .info-text-8 {
 
         font-weight: 400;
-        color: rgba(190, 200, 40, 0.8);
-        text-decoration: underline dotted rgba(190, 200, 40, 0.3);
+        color: rgba(220, 220, 40, 0.8);
+        text-decoration: underline dotted rgba(220, 220, 70, 0.3);
 
     }
 
