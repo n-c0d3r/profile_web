@@ -83,7 +83,7 @@ module.use(
 
             }
         );
-        list_module.add_variable_dependencies("infos", post_info_modules, true);
+        list_module.add_variable_dependencies("infos", local_post_info_modules, true);
 
         // add entry_list_page_relative_path to post_list_analysis_data
         if(list_index == 0) {
