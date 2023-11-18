@@ -1,3 +1,1 @@
-module;
-
-return post_list_analysis_data;
+module.auto_return({});

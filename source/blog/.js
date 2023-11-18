@@ -121,10 +121,6 @@ module.use(
 
 
     // embed post_list_analysis_data to post_list_analysis_data module
-    let post_list_analysis_data_module = module.use_and_get("./post_list_analysis_data")[0];
-    post_list_analysis_data_module.add_data(
-        "post_list_analysis_data", 
-        post_list_analysis_data
-    );
+    module.use_and_get("./post_list_analysis_data")[0].auto_return(post_list_analysis_data);
 
 });
