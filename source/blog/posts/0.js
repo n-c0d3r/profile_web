@@ -9,11 +9,18 @@ module.use({
     BlogPage: "./blog/page",
 
 })
-.use({
+.use(
+    {
 
-    infos: "./0/**"
+        infos: "./0/**",
 
-})
+    },
+    {
+        
+        entry_prefix: 'info',
+
+    }
+)
 .register_page();
 
 
