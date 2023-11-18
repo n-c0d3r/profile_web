@@ -45,8 +45,6 @@ module.use(
     let post_index = 0;
     for(let list_index = 0; list_index < list_count; ++list_index) {
 
-        let list_dir = `${module.src_dir}/${list_index}`;
-
         let local_post_info_modules = post_info_modules.slice(
             post_index, 
             Math.min(post_index + list_config.max_post_count_per_list, post_count)
