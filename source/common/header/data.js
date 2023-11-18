@@ -3,7 +3,7 @@ module.use({
 
     n0d3s: "./n0d3s",
 
-    blog_post_list_analysis_data: "./blog/posts/post_list_analysis_data",
+    blog_post_list_analysis_data: "./blog/post_list_analysis_data",
 
 })
 .use([
