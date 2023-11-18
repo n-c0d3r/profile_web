@@ -3,6 +3,8 @@ module.use({
 
     n0d3s: "./n0d3s",
 
+    blog_post_list_analysis_data: "./blog/posts/post_list_analysis_data",
+
 })
 .use([
 
@@ -35,7 +37,7 @@ const header_data = {
             {
 
                 name: "Blogs",
-                url: `${window.origin}/build/pages/blog/posts/0.html`,               
+                url: `${window.origin}/build/${blog_post_list_analysis_data.entry_list_page_relative_path}`,               
 
             },
 
