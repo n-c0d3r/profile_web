@@ -414,7 +414,7 @@ n0d3s.UI.Style(`
         font-weight: 400;
         font-size: 24px;
         
-        background-color: rgba(18, 18, 19, 0.4);
+        background-color: rgba(19, 19, 20, 0.4);
 
     }
 

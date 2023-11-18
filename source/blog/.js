@@ -1,13 +1,12 @@
-
 module.use(
     [
 
-        "./posts/**"
+        "./posts/**",
 
     ],
     {
 
-        entry_prefix: "page"
+        entry_prefix: "page",
 
     }
 )
@@ -27,7 +26,7 @@ module.use(
 
 
     // compute post count
-    let post_paths = module.path_query(
+    let post_info_modules = module.use_and_get(
         "./posts/**", 
         {
 
@@ -35,7 +34,7 @@ module.use(
 
         }
     );
-    let post_count = post_paths.length;
+    let post_count = post_info_modules.length;
 
 
 
@@ -48,21 +47,10 @@ module.use(
 
         let list_dir = `${module.src_dir}/${list_index}`;
 
-        let info_use_path_query_code = '';
-        let info_pass_code = '[';
-        let local_post_end_index = Math.min(post_index + list_config.max_post_count_per_list, post_count);
-        for(let i = post_index; i < local_post_end_index; ++i){
-
-            info_use_path_query_code += `info_${post_index}: module.decode_js_str(${
-                module.encode_js_str(
-                    post_paths[post_index]
-                )
-            }),`;
-
-            info_pass_code += `info_${post_index},`;
-
-        }
-        info_pass_code += "]";
+        let local_post_info_modules = post_info_modules.slice(
+            post_index, 
+            Math.min(post_index + list_config.max_post_count_per_list, post_count)
+        );
 
         // create virtual module for list
         let list_module = module.create_virtual_module(
@@ -77,27 +65,15 @@ module.use(
                     BlogPage: "./blog/page",
                 
                 })
-                .use(
-                    {
-                
-                        ${info_use_path_query_code}
-                
-                    },
-                    {
-                        
-                        entry_prefix: 'info',
-                
-                    }
-                )
                 .register_page();
                 
-                
+                console.log(infos);
                 
                 BlogPage(
                     ${list_index},
                     ${list_index != 0},
                     ${list_index != (list_count - 1)},
-                    ${info_pass_code}
+                    infos
                 );
             
             `,
@@ -107,6 +83,7 @@ module.use(
 
             }
         );
+        list_module.add_variable_dependencies("infos", post_info_modules, true);
 
         // add entry_list_page_relative_path to post_list_analysis_data
         if(list_index == 0) {

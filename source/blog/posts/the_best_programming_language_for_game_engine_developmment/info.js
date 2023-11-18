@@ -1,13 +1,5 @@
 
-module.use({
-
-    n0d3s: "./n0d3s",
-
-    Post: "./blog/post",
-
-})
-
-
+module;
 
 return {
 

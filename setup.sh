@@ -1,6 +1,7 @@
 
 #!/bin/bash
 
-cd $(dirname $0)/n0d3s
+cd "$(dirname $0)/n0d3s"
 
-call $(dirname $0)/n0d3s/setup.sh
+chmod +x ./setup.sh
+./setup.sh
