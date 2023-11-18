@@ -4,6 +4,7 @@ module.use({
     n0d3s: "./n0d3s",
 
     Common: "./common",
+    Post: "./post",
 
 })
 .use([
@@ -23,7 +24,6 @@ return function Contents(list) {
 
     let contents = [
 
-        // Hello
         Common.PageContent()
         .appendClass("item-center")
         .appendClass("blog")
@@ -81,6 +81,18 @@ return function Contents(list) {
         ),
     
     ];
+
+
+
+    let built_list_contents = [];
+    for (let i = 0; i < list.length; ++i){
+
+        built_list_contents.push(Post.Navigator(list[i]));
+
+        if(i != (list.length - 1))
+            built_list_contents.push(Common.HR());
+
+    }
     
     
     
@@ -89,7 +101,7 @@ return function Contents(list) {
         Common.PageContent()
         .appendInner(
     
-            ...list
+            ...built_list_contents
     
         )
     

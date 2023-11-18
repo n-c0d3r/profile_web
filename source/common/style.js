@@ -193,7 +193,7 @@ n0d3s.UI.Style(`
 
     .text-tag-0 {
 
-        background-color: rgb(60, 160, 170);
+        background-color: rgba(60, 160, 170, 0.84);
 
         color: rgb(18, 18, 18);
 
@@ -219,7 +219,7 @@ n0d3s.UI.Style(`
 
     .text-tag-1 {
 
-        background-color: rgb(160, 60, 170);
+        background-color: rgba(160, 60, 170, 0.84);
 
         color: rgb(18, 18, 18);
 
@@ -245,7 +245,7 @@ n0d3s.UI.Style(`
 
     .text-tag-2 {
 
-        background-color: rgb(160, 170, 60);
+        background-color: rgba(160, 170, 60, 0.84);
 
         color: rgb(18, 18, 18);
 
@@ -271,7 +271,7 @@ n0d3s.UI.Style(`
 
     .text-tag-3 {
 
-        background-color: rgb(30, 170, 120);
+        background-color: rgba(30, 170, 120, 0.84);
 
         color: rgb(18, 18, 18);
 
@@ -297,7 +297,7 @@ n0d3s.UI.Style(`
 
     .text-tag-4 {
 
-        background-color: rgb(80, 170, 40);
+        background-color: rgba(80, 170, 40, 0.84);
 
         color: rgb(18, 18, 18);
 
@@ -323,7 +323,7 @@ n0d3s.UI.Style(`
 
     .text-tag-5 {
 
-        background-color: rgb(170, 40, 40);
+        background-color: rgba(170, 40, 40, 0.84);
 
         color: rgb(18, 18, 18);
 

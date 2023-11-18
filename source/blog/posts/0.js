@@ -22,11 +22,5 @@ BlogPage(
     0,
     false,
     false,
-    [
-
-        Post.Navigator(infos),
-
-        Common.HR(),
-
-    ]
+    infos
 );
