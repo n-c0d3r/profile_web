@@ -65,8 +65,6 @@ module.use(
                 })
                 .register_page();
                 
-                console.log(infos);
-                
                 BlogPage(
                     ${list_index},
                     ${list_index != 0},
