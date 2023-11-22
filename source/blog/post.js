@@ -9,6 +9,14 @@ module.use({
 
 
 
+function ParseInfo(info){
+
+    let result = JSON.parse(JSON.stringify(info));
+
+    result.tags = result.tags || [];
+
+    return result;
+}
 function ApplyPostWidth(){
 
     this.setStyle({
@@ -31,7 +39,8 @@ function Paragraph(name) {
         color: "rgba(255, 255, 255, 0.75)",
 
     })
-    .setTextContent(name);
+    .setTextContent(name)
+    .exe(ApplyPostWidth);
 }
 function Break() {
 
@@ -47,10 +56,32 @@ function ImageBody(url, href){
 }
 function Navigator(info){
 
-    function LinkToBlog(){
+    let parsedInfo = ParseInfo(info);
 
-        
+    
+    
+    let tag_elements = [];
+    let tag_index = 0;
+    for (let tag of parsedInfo.tags) {
+
+        tag_elements.push(
+
+            n0d3s.UI.Element("div")
+            .appendClass(`ex-link-${tag_index % 6}`)
+            .setStyle({
+
+                
+
+            })
+            .setTextContent(tag)
+
+        );
+
+        ++tag_index;
+
     }
+
+
 
     return Common.SubPageContent()
     .setStyle({
@@ -60,7 +91,7 @@ function Navigator(info){
     })
     .appendInner(
 
-        Common.ImageBody(info.thumbnailURL)
+        Common.ImageBody(parsedInfo.thumbnailURL)
         .setStyle({
 
             width: `min(calc(100vw - 40px), 500px)`,
@@ -68,7 +99,7 @@ function Navigator(info){
             borderRadius: "10px",
 
         })
-        .exe(Common.LinkTo(info.targetURL)),
+        .exe(Common.LinkTo(parsedInfo.targetURL)),
 
         n0d3s.UI.Element("div")
         .setStyle({
@@ -86,7 +117,7 @@ function Navigator(info){
                 paddingRight: "0",
                 paddingLeft: "0",
                 paddingTop: "5px",
-                paddingBottom: "30px",
+                paddingBottom: "15px",
 
                 fontSize: `min(5vw, ${600 / 2 * 0.138 / 2}px)`,
                 lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
@@ -99,11 +130,37 @@ function Navigator(info){
                 width: `min(calc(100vw - 40px), 500px)`,
     
             })
-            .setInner(`${info.title}`)
-            .exe(Common.LinkTo(info.targetURL)),
+            .setInner(`${parsedInfo.title}`)
+            .exe(Common.LinkTo(parsedInfo.targetURL)),
+
+            Common.HR(),
+
+            Common.PageContent()
+            .setStyle({
+    
+                paddingRight: "0",
+                paddingLeft: "0",
+                paddingTop: "15px",
+                paddingBottom: "15px",
+
+                width: `min(calc(100vw - 40px), 500px)`,
+
+                justifyContent: "left",
+
+                gap: "10px",
+                flexWrap: "wrap",
+
+            })
+            .appendInner(
+
+                ...tag_elements,
+
+            ),
+
+            Common.HR(),
 
             Common.Section(
-                ["Written by ", info.author, " at ", info.date]
+                ["Written by ", parsedInfo.author, " at ", parsedInfo.date]
             )
             .appendClass("prevent-select")
             .setStyle({
@@ -155,7 +212,7 @@ function Navigator(info){
                 e => e
                 .setStyle({
     
-                    color: "rgb(170, 50, 185)",
+                    color: "rgb(120, 50, 185)",
                     fontWeight: "300",
     
                 })
@@ -165,16 +222,18 @@ function Navigator(info){
                 ".paragraph-name > span:nth-child(2)",
                 e => {
                     
-                    if(info.author == "NCoder") 
+                    if(parsedInfo.author == "NCoder") 
                         e.setStyle({
             
-                            color: "rgb(50, 170, 185)",
+                            color: "rgb(80, 200, 235)",
             
                         })
 
                     e.setStyle({
 
                         fontWeight: "300",
+                        fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
+                        lineHeight: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
 
                     })
 
@@ -191,7 +250,36 @@ function Navigator(info){
 
 function Post(info){
 
-    $("title").setInner(info.title);
+    let parsedInfo = ParseInfo(info);
+
+
+
+    $("title").setInner(parsedInfo.title);
+
+    
+    
+    let tag_elements = [];
+    let tag_index = 0;
+    for (let tag of parsedInfo.tags) {
+
+        tag_elements.push(
+
+            n0d3s.UI.Element("div")
+            .appendClass(`ex-link-${tag_index % 6}`)
+            .setStyle({
+
+                
+
+            })
+            .setTextContent(tag)
+
+        );
+
+        ++tag_index;
+
+    }
+
+
 
     $("body")
     .appendInner(
@@ -228,10 +316,10 @@ function Post(info){
     
             })
             .exe(ApplyPostWidth)
-            .setInner(`${info.title}`),
+            .setInner(`${parsedInfo.title}`),
 
             Common.Section(
-                ["Written by ", info.author, " at ", info.date]
+                ["Written by ", parsedInfo.author, " at ", parsedInfo.date]
             )
             .$$(
                 ".paragraph-name > span",
@@ -275,10 +363,10 @@ function Post(info){
                 ".paragraph-name > span:nth-child(2)",
                 e => {
                     
-                    if(info.author == "NCoder") 
+                    if(parsedInfo.author == "NCoder") 
                         e.setStyle({
             
-                            color: "rgb(100, 220, 255)",
+                            color: "rgb(80, 200, 235)",
             
                         })
 
@@ -309,7 +397,32 @@ function Post(info){
             paddingLeft: "0",
             paddingRight: "0",
             
-        });
+        })
+        .appendInner(
+
+            n0d3s.UI.Element("div")
+            .setStyle({
+
+                justifyContent: "left",
+
+                flexFlow: "row",
+                flexWrap: "wrap",
+
+                gap: "10px",
+
+                display: "flex",
+
+            })
+            .exe(ApplyPostWidth)
+            .appendInner(
+
+                ...tag_elements,
+
+            ),
+
+            Common.HR(),
+
+        );
     $("body").appendInner(contents);
     return contents;
 }
@@ -322,6 +435,7 @@ Post.Paragraph = Paragraph;
 Post.Break = Break;
 Post.Navigator = Navigator;
 Post.ImageBody = ImageBody;
+Post.ParseInfo = ParseInfo;
 
 
 

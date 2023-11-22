@@ -401,7 +401,7 @@ n0d3s.UI.Style(`
 
     .ex-link-2 {
 
-        color: rgb(160, 170, 60);
+        color: rgb(30, 170, 120);
 
         background-color: rgb(27, 27, 27);
 
@@ -427,7 +427,7 @@ n0d3s.UI.Style(`
 
     .ex-link-3 {
 
-        color: rgb(30, 170, 120);
+        color: rgb(80, 170, 40);
 
         background-color: rgb(27, 27, 27);
 
@@ -453,7 +453,7 @@ n0d3s.UI.Style(`
 
     .ex-link-4 {
 
-        color: rgb(80, 170, 40);
+        color: rgb(160, 170, 60);
 
         background-color: rgb(27, 27, 27);
 
