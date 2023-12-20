@@ -20,7 +20,30 @@ module.use({
 
 
 
-return function Contents(list) {
+n0d3s.UI.Style(`
+
+    .blog-list-nav-btn{
+
+        margin-top: 20px;
+        margin-bottom: 20px;
+
+        padding-right: 10px;
+        padding-left: 10px;
+        padding-top: 6px;
+        padding-bottom: 9px;
+
+        border-radius: 5px;
+
+        background-color: rgba(50, 30, 80, 0.14);
+        color: rgba(70, 30, 160, 0.4);
+
+    }
+
+`);
+
+
+
+return function Contents(list, index, prev, next) {
 
     let contents = [
 
@@ -78,7 +101,7 @@ return function Contents(list) {
     
             ),
     
-        ),
+        )
     
     ];
 
@@ -106,6 +129,51 @@ return function Contents(list) {
         )
     
     );
+
+
+
+
+    contents.push(
+        
+        Common.SubPageContent()
+        .setStyle({
+
+            justifyContent: "center",
+            color: "rgba(200, 200, 200, 0.75)", 
+            backgroundColor: "rgba(18, 18, 20, 0.5)",
+            gap: "2px",
+
+        })
+        .appendInner(
+
+            n0d3s.UI.Element("span")
+            .setTextContent("Previous Page")
+            .appendClass("blog-list-nav-btn")
+            .appendClass("prevent-select link")
+            .setStyle((!prev) ? {} : {
+
+                backgroundColor: "rgba(70, 30, 160, 0.2)",
+                color: "rgb(70, 30, 160)",
+
+            })
+            .exe((!prev) ? ()=>{} : Common.LinkTo(`${window.origin}/build/pages/blog/lists/${index - 1}.html`)),
+
+            n0d3s.UI.Element("span")
+            .setTextContent("Next Page")
+            .appendClass("blog-list-nav-btn")
+            .appendClass("prevent-select link")
+            .setStyle((!next) ? {} : {
+
+                backgroundColor: "rgba(70, 30, 160, 0.2)",
+                color: "rgb(70, 30, 160)",
+                filter: "hue-rotate(12deg)",
+
+            })
+            .exe((!next) ? ()=>{} : Common.LinkTo(`${window.origin}/build/pages/blog/lists/${index + 1}.html`)),
+
+        )
+
+    )
     
     
     

@@ -583,4 +583,13 @@ n0d3s.UI.Style(`
         user-select: none; /* Standard syntax */
     }
 
+    .c-hr {
+        outline: none;
+        border: none;
+        height: 1px;
+        background-color: rgba(30, 30, 30, 0.66);
+        padding: 0;
+        margin: 0;
+    }
+
 `);
