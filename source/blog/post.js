@@ -133,7 +133,7 @@ function Navigator(info){
             .setInner(`${parsedInfo.title}`)
             .exe(Common.LinkTo(parsedInfo.targetURL)),
 
-            Common.HR(),
+            Common.HR().setStyle({ opacity: "0.42", }),
 
             Common.PageContent()
             .setStyle({
@@ -157,7 +157,7 @@ function Navigator(info){
 
             ),
 
-            Common.HR(),
+            Common.HR().setStyle({ opacity: "0.42", }),
 
             Common.Section(
                 ["Written by ", parsedInfo.author, " at ", parsedInfo.date]

@@ -13,7 +13,9 @@ return function HR(){
     .setStyle({
 
         width: "100%",
-        borderColor: "rgba(33, 33, 33, 0.2)",
+        backgroundColor: "rgba(110, 110, 110, 0.3)",
+        height: "1px",
+        border: "none",
 
     });
 };
