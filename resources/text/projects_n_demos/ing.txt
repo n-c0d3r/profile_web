@@ -1,8 +1,6 @@
 <span class="info-text-3">ING</span>, a <span class="info-text-9">C++</span> <span class="info-text-1">game engine</span> for <span class="info-text-8">Windows</span>
-        <hr class="c-hr"/>
         <span class="ex-link-4">DirectX 11</span>
         <span class="ex-link-0">C++ 17</span> <span class="ex-link-1">C#</span> 
-        <hr class="c-hr"/>
         ⦿ <span>Features</span>:
                 ○ Dynamic C++ Plugin System
                 ○ RTTI, Relfection System

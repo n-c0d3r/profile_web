@@ -21,9 +21,11 @@ function BigSection(name, content, level = 3, tabs = 0, width_level = 2, use_htm
     
             fontWeight: "300",
 
-            fontSize: `min(4vw, ${700 / 2 * 0.1122}px)`,
+            fontSize: `min(5vw, ${700 / 2 * 0.1122}px)`,
             lineHeight: `min(6.85vw, ${1400 / 2 * 0.1122}px)`,
             letterSpacing: `min(2vw, ${300 / 2 * 0.1122}px)`,
+
+            fontWeight: "bold"
     
         })
 

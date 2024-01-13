@@ -1,9 +1,7 @@
 <span class="info-text-3">N0d3s</span>, a set of <span class="info-text-2">build tool</span>, <span class="info-text-1">libraries</span>,... for <span class="info-text-0">web programming</span> and also what I used to build this web
-        <hr class="c-hr"/>
         <span class="ex-link-4">NodeJS</span>
         <span class="ex-link-1">JS</span> <span class="ex-link-2">HTML</span> <span class="ex-link-3">CSS</span>
         <a href="https://github.com/n-c0d3r/n0d3s" class="ex-link-1">GitHub 🔗</a>
-        <hr class="c-hr"/>
         ⦿ <span>Focus on static web</span>
         ⦿ <span>Features</span>:
                 ○ Simple, Convenient UI Library</span>

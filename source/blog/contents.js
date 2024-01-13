@@ -34,8 +34,9 @@ n0d3s.UI.Style(`
 
         border-radius: 5px;
 
-        background-color: rgba(50, 30, 80, 0.14);
-        color: rgba(70, 30, 160, 0.4);
+        background-color: rgba(50, 40, 60, 0.2);
+        color: rgba(0, 0, 0, 0.5);
+        font-weight: bold;
 
     }
 
@@ -63,6 +64,12 @@ return function Contents(list, index, prev, next) {
                 )
                 .appendClass("item-center")
                 .setWidthLevel(0)
+
+                .$$(
+                    'span',
+                    e => e
+                    .appendClass("free-style-text-1")
+                )
         
                 .$(
                     '.paragraph-name',
@@ -110,23 +117,37 @@ return function Contents(list, index, prev, next) {
     let built_list_contents = [];
     for (let i = 0; i < list.length; ++i){
 
-        built_list_contents.push(Post.Navigator(list[i]));
+        built_list_contents.push(
+            Common.PageContent()
+            .appendInner(Post.Navigator(list[i]))
+            .setStyle({
 
-        if(i != (list.length - 1))
-            built_list_contents.push(Common.HR());
+                backgroundColor: [ "rgba(0,0,0,0)", "rgba(60, 60, 80, 0.1)" ][i % 2],
+
+            })
+        );
+
+        // built_list_contents.push(
+        //     Post.Navigator(list[i])
+        // );
+
+        // if(i != (list.length - 1))
+        //     built_list_contents.push(Common.HR());
 
     }
     
     
     
     contents.push(
+
+        ...built_list_contents
     
-        Common.PageContent()
-        .appendInner(
+        // Common.PageContent()
+        // .appendInner(
     
-            ...built_list_contents
+        //     ...built_list_contents
     
-        )
+        // )
     
     );
 
@@ -140,7 +161,7 @@ return function Contents(list, index, prev, next) {
 
             justifyContent: "center",
             color: "rgba(200, 200, 200, 0.75)", 
-            backgroundColor: "rgba(18, 18, 20, 0.5)",
+            backgroundColor: "rgba(40, 40, 50, 0.3)",
             gap: "2px",
 
         })

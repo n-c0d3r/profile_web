@@ -51,6 +51,13 @@ return [
                 0
             )
             .appendClass("item-center")
+
+            .$$(
+                'span',
+                e => e
+                .appendClass("free-style-text-1")
+            )
+            
             .$(
                 ".paragraph-name",
                 e => e
@@ -147,7 +154,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -158,7 +165,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 230, 160)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -169,7 +176,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 160, 230)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -180,7 +187,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 150, 200)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -290,7 +297,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -301,7 +308,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 150, 210)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -312,7 +319,7 @@ return [
             .setStyle({
 
                 color: "rgb(200, 160, 180)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -407,7 +414,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -418,7 +425,7 @@ return [
             .setStyle({
 
                 color: "rgb(90, 200, 230)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -429,7 +436,7 @@ return [
             .setStyle({
 
                 color: "rgb(120, 200, 180)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -521,7 +528,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -532,7 +539,7 @@ return [
             .setStyle({
 
                 color: "rgb(180, 200, 160)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -543,7 +550,7 @@ return [
             .setStyle({
 
                 color: "rgb(150, 160, 230)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 

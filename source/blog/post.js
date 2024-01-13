@@ -128,6 +128,8 @@ function Navigator(info){
                 textAlign: "left",
 
                 width: `min(calc(100vw - 40px), 500px)`,
+
+                fontWeight: "bold"
     
             })
             .setInner(`${parsedInfo.title}`)
@@ -160,7 +162,7 @@ function Navigator(info){
             Common.HR().setStyle({ opacity: "0.42", }),
 
             Common.Section(
-                ["Written by ", parsedInfo.author, " at ", parsedInfo.date]
+                [parsedInfo.date]
             )
             .appendClass("prevent-select")
             .setStyle({
@@ -197,49 +199,98 @@ function Navigator(info){
                 }),
             )
             .$$(
-                ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
+                ".paragraph-name > span:nth-child(1)",
                 e => e
                 .setStyle({
     
-                    color: "rgb(65, 70, 70)",
-                    fontWeight: "200",
+                    color: "rgb(70, 50, 100)",
+                    fontWeight: "400",
     
                 })
-    
-            )
-            .$$(
-                ".paragraph-name > span:nth-child(4)",
-                e => e
-                .setStyle({
-    
-                    color: "rgb(120, 50, 185)",
-                    fontWeight: "300",
-    
-                })
-    
-            )
-            .$$(
-                ".paragraph-name > span:nth-child(2)",
-                e => {
-                    
-                    if(parsedInfo.author == "NCoder") 
-                        e.setStyle({
-            
-                            color: "rgb(80, 200, 235)",
-            
-                        })
-
-                    e.setStyle({
-
-                        fontWeight: "300",
-                        fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
-                        lineHeight: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
-
-                    })
-
-                }
     
             ),
+
+            // Common.Section(
+            //     ["Written by ", parsedInfo.author, " at ", parsedInfo.date]
+            // )
+            // .appendClass("prevent-select")
+            // .setStyle({
+
+            //     width: `min(calc(100vw - 40px), 500px)`,
+
+            // })
+            // .$(
+            //     ".paragraph-name",
+            //     e => e
+            //     .setStyle({
+
+            //         textAlign: "left",
+        
+            //     }),
+            // )
+            // .$$(
+            //     ".paragraph-name > span",
+            //     e => e
+            //     .setStyle({
+        
+            //         paddingRight: "0",
+            //         paddingLeft: "0",
+            //         paddingTop: "5px",
+            //         paddingBottom: "5px",
+    
+            //         fontSize: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
+            //         lineHeight: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
+        
+            //         letterSpacing: `1px`,
+
+            //         textAlign: "left",
+        
+            //     }),
+            // )
+            // .$$(
+            //     ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
+            //     e => e
+            //     .setStyle({
+    
+            //         color: "rgb(65, 70, 70)",
+            //         fontWeight: "bold",
+    
+            //     })
+    
+            // )
+            // .$$(
+            //     ".paragraph-name > span:nth-child(4)",
+            //     e => e
+            //     .setStyle({
+    
+            //         color: "rgb(100, 50, 140)",
+            //         fontWeight: "400",
+    
+            //     })
+    
+            // )
+            // .$$(
+            //     ".paragraph-name > span:nth-child(2)",
+            //     e => {
+                    
+            //         if(parsedInfo.author == "NCoder") 
+            //             e.setStyle({
+            
+            //                 color: "rgb(80, 160, 185)",
+            
+            //             })
+
+            //         e.setStyle({
+
+            //             fontWeight: "400",
+            //             fontSize: `min(4vw, ${600 / 2.2 * 0.138 / 2.2}px)`,
+            //             lineHeight: `min(4vw, ${600 / 2.2 * 0.138 / 2.2}px)`,
+
+            //         })
+
+            //     }
+    
+            // ),
 
         )
 
@@ -313,6 +364,8 @@ function Post(info){
                 color: "rgba(230, 255, 255, 0.84)",
 
                 textAlign: "center",
+
+                fontWeight: "bold"
     
             })
             .exe(ApplyPostWidth)
@@ -343,7 +396,7 @@ function Post(info){
                 .setStyle({
     
                     color: "rgb(65, 70, 70)",
-                    fontWeight: "200",
+                    fontWeight: "bold",
     
                 })
     
@@ -353,8 +406,8 @@ function Post(info){
                 e => e
                 .setStyle({
     
-                    color: "rgb(150, 100, 230)",
-                    fontWeight: "300",
+                    color: "rgb(120, 80, 180)",
+                    fontWeight: "bold",
     
                 })
     
@@ -366,13 +419,13 @@ function Post(info){
                     if(parsedInfo.author == "NCoder") 
                         e.setStyle({
             
-                            color: "rgb(80, 200, 235)",
+                            color: "rgb(80, 200, 205)",
             
                         })
 
                     e.setStyle({
 
-                        fontWeight: "300",
+                        fontWeight: "bold",
                         fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
                         lineHeight: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
 

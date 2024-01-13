@@ -58,6 +58,12 @@ return [
             .$(
                 '.paragraph-name',
                 e => e
+
+                .$$(
+                    'span',
+                    e => e
+                    .appendClass("free-style-text-1")
+                )
     
                 // Text colors
                 .$(
@@ -137,7 +143,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 100, 100)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -148,7 +154,7 @@ return [
             .setStyle({
 
                 color: "rgb(100, 220, 225)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -212,7 +218,7 @@ return [
             .setStyle({
 
                 color: "rgb(110, 115, 120)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -223,7 +229,7 @@ return [
             .setStyle({
 
                 color: "rgb(120, 210, 220)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -403,7 +409,7 @@ return [
             .setStyle({
 
                 color: "rgb(110, 115, 120)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 
@@ -415,7 +421,7 @@ return [
             .setStyle({
 
                 color: "rgb(240, 240, 240)",
-                fontWeight: "300",
+                fontWeight: "bold",
 
             })
 

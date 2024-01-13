@@ -1,9 +1,7 @@
 <span class="info-text-3">NFramework</span>, a <span class="info-text-2">cross-side</span> <span class="info-text-0">web framework</span>
-        <hr class="c-hr"/>
         <span class="ex-link-4">NodeJS</span> <span class="ex-link-3">Express</span> <span class="ex-link-5">Socket.io</span>
         <span class="ex-link-0">NLC</span> <span class="ex-link-1">JS</span> <span class="ex-link-2">EJS</span> 
         <a href="https://github.com/N1ghtTeam/NFramework" class="ex-link-1">GitHub 🔗</a>
-        <hr class="c-hr"/>
         ⦿ <span>Features</span>:
                 ○ Convenient HTTP Routing</span>
                 ○ Convenient Server-Client Interacting</span> with basic function

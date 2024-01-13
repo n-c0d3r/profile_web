@@ -325,7 +325,7 @@ function Header(options = new Object()) {
             .setHRef(about_me_url),
 
             n0d3s.UI.Element("div")
-            .appendClass("header-logo-text item-center prevent-select")
+            .appendClass("header-logo-text item-center prevent-select free-style-text-1")
             .setInner("C O D E R")
             .setHRef(about_me_url)
             .on('click', function() {window.location.href = about_me_url;}),

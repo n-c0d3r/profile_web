@@ -36,89 +36,102 @@ n0d3s.UI.Style(`
 
     .info-text-0 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(120, 230, 240, 0.8);
-        text-decoration: underline dotted rgba(120, 230, 240, 0.3);
 
     }
 
     .info-text-1 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(110, 200, 255, 0.8);
-        text-decoration: underline dotted rgba(110, 200, 255, 0.3);
 
     }
 
     .info-text-2 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(180, 240, 120, 0.8);
-        text-decoration: underline dotted rgba(180, 240, 120, 0.3);
 
     }
 
     .info-text-3 {
 
-        font-weight: 420;
+        font-weight: bold;
         color: rgba(240, 240, 240, 1);
-        text-decoration: underline dotted rgba(240, 240, 240, 0.3);
 
     }
 
     .info-text-4 {
 
         color: rgb(160, 160, 160);
-        text-decoration: underline dotted rgba(160, 160, 160, 0.3);
 
     }
 
     .info-text-5 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(150, 125, 200, 0.8);
-        text-decoration: underline dotted rgba(150, 125, 200, 0.3);
 
     }
 
     .info-text-6 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(70, 200, 150, 0.8);
-        text-decoration: underline dotted rgba(70, 200, 150, 0.3);
 
     }
 
     .info-text-7 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(150, 130, 255, 0.8);
-        text-decoration: underline dotted rgba(150, 130, 255, 0.3);
 
     }
 
     .info-text-8 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(220, 220, 40, 0.8);
-        text-decoration: underline dotted rgba(220, 220, 70, 0.3);
 
     }
 
     .info-text-9 {
 
-        font-weight: 400;
+        font-weight: bold;
         color: rgba(110, 130, 230, 0.8);
-        text-decoration: underline dotted rgba(110, 130, 230, 0.3);
 
+    }
+   
+    @font-face {
+        font-family: 'MajorMonoDisplay';
+        src: url('${window.origin}/resources/fonts/MajorMonoDisplay-Regular.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'SpaceMono';
+        src: url('${window.origin}/resources/fonts/SpaceMono-Bold.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/SpaceMono-BoldItalic.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/SpaceMono-Italic.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/SpaceMono-Regular.ttf') format('truetype');
+    }
+    @font-face {
+        font-family: 'Quicksand';
+        src: url('${window.origin}/resources/fonts/Quicksand-Medium.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/Quicksand-Light.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/Quicksand-Bold.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/Quicksand-SemiBold.ttf') format('truetype');
+        src: url('${window.origin}/resources/fonts/Quicksand-Regular.ttf') format('truetype');
     }
 
     * {
 
-        font-family:  -apple-system, -apple-system, 
-        BlinkMacSystemFont, 'Segoe UI', Roboto, 
-        Oxygen, Ubuntu, Cantarell, 'Open Sans', 
-        'Helvetica Neue', sans-serif;
+        font-family: 'Quicksand';
+
+    }
+
+    .free-style-text-1 {
+
+        font-family: 'Quicksand';
 
     }
 
@@ -197,7 +210,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -223,7 +236,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -249,7 +262,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -275,7 +288,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -301,7 +314,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -327,7 +340,7 @@ n0d3s.UI.Style(`
 
         color: rgb(18, 18, 18);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -353,7 +366,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -379,7 +392,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -405,7 +418,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -431,7 +444,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -457,7 +470,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;
@@ -483,7 +496,7 @@ n0d3s.UI.Style(`
 
         background-color: rgb(27, 27, 27);
 
-        font-weight: 400;
+        font-weight: bold;
 
         padding-left: 3px;
         padding-right: 3px;

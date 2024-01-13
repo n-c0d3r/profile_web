@@ -13,7 +13,7 @@ return function HR(){
     .setStyle({
 
         width: "100%",
-        backgroundColor: "rgba(110, 110, 110, 0.3)",
+        backgroundColor: "rgba(60, 60, 60, 0.2)",
         height: "1px",
         border: "none",
 
