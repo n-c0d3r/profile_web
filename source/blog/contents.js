@@ -122,7 +122,7 @@ return function Contents(list, index, prev, next) {
             .appendInner(Post.Navigator(list[i]))
             .setStyle({
 
-                backgroundColor: [ "rgba(0,0,0,0)", "rgba(60, 60, 80, 0.1)" ][i % 2],
+                backgroundColor: [ "rgba(0,0,0,0)", "rgba(40, 40, 40, 0.1)" ][i % 2],
 
             })
         );
@@ -161,7 +161,7 @@ return function Contents(list, index, prev, next) {
 
             justifyContent: "center",
             color: "rgba(200, 200, 200, 0.75)", 
-            backgroundColor: "rgba(40, 40, 50, 0.3)",
+            backgroundColor: "rgba(40, 40, 40, 0.3)",
             gap: "2px",
 
         })
