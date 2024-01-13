@@ -78,7 +78,7 @@ function TextBody(content, level = 3, tabs = 0, width_level = 2, use_content_as_
     .setStyle({
 
         fontSize: `${text_config.sizes[level]}px`,
-        lineHeight: `1.33em`,
+        lineHeight: `1.4em`,
         // lineHeight: `${text_config.line_heights[level]}px`,
 
         width: `min(100%, ${text_body_config.max_widths[width_level]}px)`,
@@ -111,7 +111,8 @@ function TextBody(content, level = 3, tabs = 0, width_level = 2, use_content_as_
             text_body.setStyle({
 
                 fontSize: `${text_config.sizes[level]}px`,
-                lineHeight: `${text_config.line_heights[level]}px`,
+                lineHeight: `1.4em`,
+                // lineHeight: `${text_config.line_heights[level]}px`,
         
             });
 
