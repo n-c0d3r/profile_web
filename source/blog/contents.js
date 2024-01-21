@@ -35,8 +35,11 @@ n0d3s.UI.Style(`
         border-radius: 5px;
 
         background-color: rgba(50, 40, 60, 0.2);
-        color: rgba(0, 0, 0, 0.5);
+        color: rgba(110, 70, 150, 0.4);
         font-weight: bold;
+
+        width: 120px;
+        text-align: center;
 
     }
 
@@ -127,13 +130,6 @@ return function Contents(list, index, prev, next) {
             })
         );
 
-        // built_list_contents.push(
-        //     Post.Navigator(list[i])
-        // );
-
-        // if(i != (list.length - 1))
-        //     built_list_contents.push(Common.HR());
-
     }
     
     
@@ -141,13 +137,6 @@ return function Contents(list, index, prev, next) {
     contents.push(
 
         ...built_list_contents
-    
-        // Common.PageContent()
-        // .appendInner(
-    
-        //     ...built_list_contents
-    
-        // )
     
     );
 
@@ -173,8 +162,8 @@ return function Contents(list, index, prev, next) {
             .appendClass("prevent-select link")
             .setStyle((!prev) ? {} : {
 
-                backgroundColor: "rgba(70, 30, 160, 0.2)",
-                color: "rgb(70, 30, 160)",
+                backgroundColor: "rgba(90, 50, 140, 0.2)",
+                color: "rgb(90, 50, 140)",
 
             })
             .exe((!prev) ? ()=>{} : Common.LinkTo(`${window.origin}/build/pages/blog/lists/${index - 1}.html`)),
@@ -185,8 +174,8 @@ return function Contents(list, index, prev, next) {
             .appendClass("prevent-select link")
             .setStyle((!next) ? {} : {
 
-                backgroundColor: "rgba(70, 30, 160, 0.2)",
-                color: "rgb(70, 30, 160)",
+                backgroundColor: "rgba(90, 50, 140, 0.2)",
+                color: "rgb(90, 50, 140)",
                 filter: "hue-rotate(12deg)",
 
             })
