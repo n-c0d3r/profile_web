@@ -118,17 +118,23 @@ return function Contents(list, index, prev, next) {
 
 
     let built_list_contents = [];
+    let enabledI = 0;
     for (let i = 0; i < list.length; ++i){
+
+        if(list[i].enable == false)
+            continue;
 
         built_list_contents.push(
             Common.PageContent()
             .appendInner(Post.Navigator(list[i]))
             .setStyle({
 
-                backgroundColor: [ "rgba(0,0,0,0)", "rgba(40, 40, 40, 0.1)" ][i % 2],
+                backgroundColor: [ "rgba(0,0,0,0)", "rgba(40, 40, 40, 0.1)" ][enabledI % 2],
 
             })
         );
+
+        enabledI++;
 
     }
     
