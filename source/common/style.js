@@ -104,17 +104,6 @@ n0d3s.UI.Style(`
     }
    
     @font-face {
-        font-family: 'MajorMonoDisplay';
-        src: url('${window.origin}/resources/fonts/MajorMonoDisplay-Regular.ttf') format('truetype');
-    }
-    @font-face {
-        font-family: 'SpaceMono';
-        src: url('${window.origin}/resources/fonts/SpaceMono-Bold.ttf') format('truetype');
-        src: url('${window.origin}/resources/fonts/SpaceMono-BoldItalic.ttf') format('truetype');
-        src: url('${window.origin}/resources/fonts/SpaceMono-Italic.ttf') format('truetype');
-        src: url('${window.origin}/resources/fonts/SpaceMono-Regular.ttf') format('truetype');
-    }
-    @font-face {
         font-family: 'Quicksand';
         src: url('${window.origin}/resources/fonts/Quicksand-Medium.ttf') format('truetype');
         src: url('${window.origin}/resources/fonts/Quicksand-Light.ttf') format('truetype');
