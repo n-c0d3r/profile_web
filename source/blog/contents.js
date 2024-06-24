@@ -34,8 +34,8 @@ n0d3s.UI.Style(`
 
         border-radius: 5px;
 
-        background-color: rgba(50, 40, 60, 0.2);
-        color: rgba(110, 70, 150, 0.4);
+        background-color: rgba(50, 50, 60, 0.2);
+        color: rgba(110, 70, 150, 0.3);
         font-weight: bold;
 
         width: 120px;
@@ -129,7 +129,7 @@ return function Contents(list, index, prev, next) {
             .appendInner(Post.Navigator(list[i]))
             .setStyle({
 
-                backgroundColor: [ "rgba(0,0,0,0)", "rgba(40, 40, 40, 0.1)" ][enabledI % 2],
+                backgroundColor: [ "rgba(0,0,0,0)", "rgba(40, 40, 40, 0.25)" ][enabledI % 2],
 
             })
         );
@@ -156,7 +156,7 @@ return function Contents(list, index, prev, next) {
 
             justifyContent: "center",
             color: "rgba(200, 200, 200, 0.75)", 
-            backgroundColor: "rgba(40, 40, 40, 0.3)",
+            backgroundColor: "rgba(60, 60, 60, 0.25)",
             gap: "2px",
 
         })

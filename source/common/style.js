@@ -211,7 +211,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -237,7 +237,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -263,7 +263,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -289,7 +289,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -315,7 +315,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -341,7 +341,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -367,7 +367,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -393,7 +393,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -419,7 +419,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -445,7 +445,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -471,7 +471,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 
@@ -497,7 +497,7 @@ n0d3s.UI.Style(`
         font-size: 15px;
         line-height: 25px;
 
-        box-shadow: 3px 3px 3px rgba(0,0,0,0.3);
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
 
         word-break: keep-all;
 

@@ -6,5 +6,6 @@
                 <span class="ex-link-0">CMake</span>
                 <span class="ex-link-4">MSBuild</span>
                 <span class="ex-link-5">GCC</span>
+                <span class="ex-link-3">Apple Clang</span>
         <span class="text-0">○ <span class="info-text-1">Documentation</span></span>
                 <span class="ex-link-2">Doxygen</span>

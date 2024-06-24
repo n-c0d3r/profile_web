@@ -10,3 +10,4 @@
                 <span class="ex-link-3">Calculus</span>
                 <span class="ex-link-4">Linear Algebra</span>
                 <span class="ex-link-5">Quaternion</span>
+                <span class="ex-link-1">Probability Theory</span>

@@ -36,7 +36,7 @@ function Paragraph(name) {
     return n0d3s.UI.Element("div").setStyle({
 
         fontSize: "30px",
-        color: "rgba(255, 255, 255, 0.75)",
+        color: "rgba(200, 215, 215, 0.75)",
 
     })
     .setTextContent(name)
@@ -119,11 +119,11 @@ function Navigator(info){
                 paddingTop: "5px",
                 paddingBottom: "15px",
 
-                fontSize: `min(5vw, ${600 / 2 * 0.138 / 2}px)`,
+                fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
                 lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
-                letterSpacing: `min(1.5vw, ${150 / 2 * 0.138 / 2}px)`,
+                letterSpacing: `min(1.0vw, ${100 / 2 * 0.138 / 2}px)`,
 
-                color: "rgba(230, 255, 255, 0.75)",
+                color: "rgba(200, 215, 215, 0.75)",
 
                 textAlign: "left",
 
@@ -210,88 +210,6 @@ function Navigator(info){
     
             ),
 
-            // Common.Section(
-            //     ["Written by ", parsedInfo.author, " at ", parsedInfo.date]
-            // )
-            // .appendClass("prevent-select")
-            // .setStyle({
-
-            //     width: `min(calc(100vw - 40px), 500px)`,
-
-            // })
-            // .$(
-            //     ".paragraph-name",
-            //     e => e
-            //     .setStyle({
-
-            //         textAlign: "left",
-        
-            //     }),
-            // )
-            // .$$(
-            //     ".paragraph-name > span",
-            //     e => e
-            //     .setStyle({
-        
-            //         paddingRight: "0",
-            //         paddingLeft: "0",
-            //         paddingTop: "5px",
-            //         paddingBottom: "5px",
-    
-            //         fontSize: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
-            //         lineHeight: `min(3vw, ${400 / 2 * 0.138 / 2}px)`,
-        
-            //         letterSpacing: `1px`,
-
-            //         textAlign: "left",
-        
-            //     }),
-            // )
-            // .$$(
-            //     ".paragraph-name > span:nth-child(1), .paragraph-name > span:nth-child(3)",
-            //     e => e
-            //     .setStyle({
-    
-            //         color: "rgb(65, 70, 70)",
-            //         fontWeight: "bold",
-    
-            //     })
-    
-            // )
-            // .$$(
-            //     ".paragraph-name > span:nth-child(4)",
-            //     e => e
-            //     .setStyle({
-    
-            //         color: "rgb(100, 50, 140)",
-            //         fontWeight: "400",
-    
-            //     })
-    
-            // )
-            // .$$(
-            //     ".paragraph-name > span:nth-child(2)",
-            //     e => {
-                    
-            //         if(parsedInfo.author == "NCoder") 
-            //             e.setStyle({
-            
-            //                 color: "rgb(80, 160, 185)",
-            
-            //             })
-
-            //         e.setStyle({
-
-            //             fontWeight: "400",
-            //             fontSize: `min(4vw, ${600 / 2.2 * 0.138 / 2.2}px)`,
-            //             lineHeight: `min(4vw, ${600 / 2.2 * 0.138 / 2.2}px)`,
-
-            //         })
-
-            //     }
-    
-            // ),
-
         )
 
     )
@@ -345,7 +263,7 @@ function Post(info){
 
             paddingTop: "0",
 
-            background: "linear-gradient(to top right, rgba(12, 12, 12, 0.75), rgb(15, 19, 25))",
+            background: "linear-gradient(to top right, rgba(12, 12, 12, 0.75), rgb(15, 28, 35))",
 
         })
         .appendInner(
@@ -357,11 +275,11 @@ function Post(info){
                 paddingLeft: "0",
                 paddingBottom: "0",
 
-                fontSize: `min(5vw, ${600 / 2 * 0.138 / 2}px)`,
+                fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
                 lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
-                letterSpacing: `min(1.5vw, ${150 / 2 * 0.138 / 2}px)`,
+                // letterSpacing: `min(0.2vw, ${150 / 2 * 0.138 / 2}px)`,
 
-                color: "rgba(230, 255, 255, 0.84)",
+                color: "rgba(200, 215, 215, 0.75)",
 
                 textAlign: "center",
 
@@ -419,15 +337,15 @@ function Post(info){
                     if(parsedInfo.author == "NCoder") 
                         e.setStyle({
             
-                            color: "rgb(80, 200, 205)",
+                            color: "rgb(80, 170, 175)",
             
                         })
 
                     e.setStyle({
 
                         fontWeight: "bold",
-                        fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
-                        lineHeight: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
+                        fontSize: `min(3vw, ${500 / 2 * 0.138 / 2}px)`,
+                        lineHeight: `min(3vw, ${500 / 2 * 0.138 / 2}px)`,
 
                     })
 
