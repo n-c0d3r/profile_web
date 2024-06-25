@@ -12,9 +12,11 @@
                 <span class="ex-link-4">Chunking</span>
                 <span class="ex-link-1">Tools</span>
                         <span class="ex-link-5">Material Painting</span>
-        <span class="ex-link-3">Microfacet BRDF Models</span>
-                <span class="ex-link-0">Cook-Torrance</span>
-                <span class="ex-link-1">GGX</span>
+        <span class="ex-link-5">Shading Models</span>
+                <span class="ex-link-2">Blinn-Phong</span>
+                <span class="ex-link-4">Microfacet</span>
+                        <span class="ex-link-0">Cook-Torrance</span>
+                        <span class="ex-link-1">GGX</span>
         <span class="ex-link-5">Tone Mapping</span>
                 <span class="ex-link-0">Reinhard</span>
                 <span class="ex-link-2">Approximated ACES</span>
