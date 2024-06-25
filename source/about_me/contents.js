@@ -454,22 +454,22 @@ return [
             .appendClass("item-left"),
 
             Common.EnhancedTextBody(
-                knowledge_animation
-            )
-            .appendClass("item-left"),
-
-            Common.EnhancedTextBody(
                 knowledge_game_engine
             )
             .appendClass("item-left"),
 
             Common.EnhancedTextBody(
-                knowledge_tools
+                knowledge_animation
             )
             .appendClass("item-left"),
 
             Common.EnhancedTextBody(
                 knowledge_reverse_engineering
+            )
+            .appendClass("item-left"),
+
+            Common.EnhancedTextBody(
+                knowledge_tools
             )
             .appendClass("item-left")
             .useLargeWidth(),
