@@ -73,6 +73,18 @@ n0d3s.UI.Style(`
     
 @media (min-width: 1000px) {
 
+    .two-content-body {
+    
+        
+    
+    }
+    
+    .two-content-body-reverse {
+    
+        flex-flow: row-reverse wrap;
+    
+    }
+
 }
 
 @media (max-width: 1000px) {
@@ -85,7 +97,7 @@ n0d3s.UI.Style(`
     
     .two-content-body-reverse {
     
-        flex-flow: column-reverse;
+        flex-flow: column;
     
     }
 

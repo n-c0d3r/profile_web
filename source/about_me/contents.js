@@ -166,12 +166,8 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-
-                Common.ImageBody(
-                    `${window.origin}/resources/image/other/robotic2.jpg`
-                ),
 
                 Common.SubPageContent()
                 .setWidthLevel(2)
@@ -185,6 +181,10 @@ return [
                         "https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459"
                     ),
     
+                ),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/other/robotic2.jpg`
                 ),
 
             ),
@@ -241,22 +241,22 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
+
+                Common.EnhancedTextBody(first_stage)
+                .appendClass("item-justify"),
 
                 Common.ImageBody(
                     `${window.origin}/resources/image/other/robotic.jpg`
                 ),
-
-                Common.EnhancedTextBody(first_stage)
-                .appendClass("item-justify"),
 
             ),
 
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.EnhancedTextBody(second_stage_a)
@@ -274,13 +274,8 @@ return [
             .appendInner(
 
                 Common.SubPageContent()
-                .appendClass("two-content-body-reverse")
+                .appendClass("two-content-body")
                 .appendInner(
-    
-                    Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/ohhh.png`,
-                        "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
-                    ),
 
                     Common.SubPageContent()
                     .setStyle({
@@ -296,6 +291,11 @@ return [
                         Common.EnhancedTextBody(second_stage_b2)
                         .appendClass("item-justify"),
         
+                    ),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/ohhh.png`,
+                        "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
                     ),
 
                 ),
@@ -316,7 +316,7 @@ return [
             .appendInner(
 
                 Common.SubPageContent()
-                .appendClass("two-content-body")
+                .appendClass("two-content-body-reverse")
                 .appendInner(
 
                     Common.EnhancedTextBody(third_stage)
@@ -346,13 +346,8 @@ return [
             .appendInner(
 
                 Common.SubPageContent()
-                .appendClass("two-content-body-reverse")
+                .appendClass("two-content-body")
                 .appendInner(
-    
-                    Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/gdr.png`,
-                        "https://www.youtube.com/watch?v=Phhg8GvmpT4"
-                    ),
 
                     Common.SubPageContent()
                     .setStyle({
@@ -368,6 +363,11 @@ return [
                         Common.EnhancedTextBody(fourth_stage2)
                         .appendClass("item-justify"),
         
+                    ),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/gdr.png`,
+                        "https://www.youtube.com/watch?v=Phhg8GvmpT4"
                     ),
 
                 ),

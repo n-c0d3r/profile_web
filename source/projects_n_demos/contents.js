@@ -203,25 +203,25 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ing.png`,
-                    "https://github.com/INGTechnologies/ING"
-                ),
 
                 Common.EnhancedTextBody(
                     ing
                 )
                 .appendClass("item-left"),
 
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ing.png`,
+                    "https://github.com/INGTechnologies/ING"
+                ),
+
             ),
 
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.EnhancedTextBody(
@@ -239,7 +239,7 @@ return [
             Common.HR(),  
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
 
                 Common.EnhancedTextBody(
@@ -257,7 +257,7 @@ return [
             Common.HR(),  
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.EnhancedTextBody(
@@ -278,26 +278,26 @@ return [
             .appendClass("two-content-body")
             .appendInner(
 
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
-                    "https://github.com/n-c0d3r/nrhi"
-                ),
-
                 Common.EnhancedTextBody(
                     nrhi
                 )
                 .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
+                    "https://github.com/n-c0d3r/nrhi"
+                ),
 
             ),
 
             Common.HR(),   
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.SubPageContent()
-                .appendClass("two-content-body")
+                .appendClass("two-content-body-reverse")
                 .appendInner(
 
                     Common.EnhancedTextBody(
@@ -327,25 +327,25 @@ return [
             Common.HR(),            
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nframework.png`,
-                    "https://github.com/N1ghtTeam/NFramework"
-                ),
 
                 Common.EnhancedTextBody(
                     nframework
                 )
                 .appendClass("item-left"),
 
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nframework.png`,
+                    "https://github.com/N1ghtTeam/NFramework"
+                ),
+
             ),
 
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.EnhancedTextBody(
@@ -462,7 +462,7 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
     
                 Common.EnhancedTextBody(
@@ -540,25 +540,25 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/foot_placement.png`,
-                    "https://www.youtube.com/watch?v=0jOpu6XEZ58"
-                ),
     
                 Common.EnhancedTextBody(
                     foot_placement
                 )
                 .appendClass("item-left"),
     
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/foot_placement.png`,
+                    "https://www.youtube.com/watch?v=0jOpu6XEZ58"
+                ),
+    
             ),
 
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
     
                 Common.EnhancedTextBody(
@@ -576,18 +576,18 @@ return [
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/aa.png`,
-                    "https://www.youtube.com/watch?v=PmepmEqGyxQ"
-                ),
     
                 Common.EnhancedTextBody(
                     aa
                 )
                 .appendClass("item-left"),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/aa.png`,
+                    "https://www.youtube.com/watch?v=PmepmEqGyxQ"
+                ),
     
             ),
 
@@ -654,25 +654,25 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ohhh.png`,
-                    "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
-                ),
     
                 Common.EnhancedTextBody(
                     ohhh
                 )
                 .appendClass("item-left"),
     
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/ohhh.png`,
+                    "https://play.google.com/store/apps/details?id=com.DNGames.Ohhh_Remake"
+                ),
+    
             ),
 
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
     
                 Common.EnhancedTextBody(
@@ -690,18 +690,18 @@ return [
             Common.HR(),
 
             Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
+            .appendClass("two-content-body")
             .appendInner(
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/bhop.png`,
-                    "https://www.youtube.com/watch?v=8yr5bNBZKJs"
-                ),
     
                 Common.EnhancedTextBody(
                     bhop
                 )
                 .appendClass("item-left"),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/bhop.png`,
+                    "https://www.youtube.com/watch?v=8yr5bNBZKJs"
+                ),
     
             ),
 

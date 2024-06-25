@@ -505,6 +505,34 @@ n0d3s.UI.Style(`
 
     }
 
+    .ex-link-6 {
+
+        color: rgb(170, 170, 170);
+
+        background-color: rgb(27, 27, 27);
+
+        font-weight: bold;
+
+        padding-left: 3px;
+        padding-right: 3px;
+
+        padding-bottom: 1px;
+
+        border-radius: 6px;
+
+        font-size: 15px;
+        line-height: 25px;
+
+        box-shadow: 3px 3px 3px rgba(0,0,0,0.2);
+
+        word-break: keep-all;
+
+        border: solid 1px rgb(27, 27, 27);
+
+    }
+
+    
+
     /*
     line_heights: [
         55,

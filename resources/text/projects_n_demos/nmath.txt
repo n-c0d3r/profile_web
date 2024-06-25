@@ -32,3 +32,8 @@
                         • Quaternions:
                                 F_quaternion
                                 F_quaternion_f32
+                ○ SIMD-enabled
+                ○ Cross-flag packed data functions
+                ○ Basic functions and operators for scalars, vectors, matrix and quaternions.
+                ○ Some kinds of function for rendering applications:
+                        • T_projection_matrix(...)
