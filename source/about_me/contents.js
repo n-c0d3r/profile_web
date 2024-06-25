@@ -397,7 +397,7 @@ return [
     .appendInner(
 
         Common.Section(
-            [ " ", "MY KNOWLEDGE", " " ],
+            [ " ", "MY KNOWLEDGE & SKILLS", " " ],
         )    
         .appendClass("item-left")
         .useLargeWidth()
