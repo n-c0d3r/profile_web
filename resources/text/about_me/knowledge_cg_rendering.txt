@@ -25,6 +25,7 @@
         <span class="ex-link-2">Direct Lighting</span>
                 <span class="ex-link-5">Directional Light</span>
                 <span class="ex-link-0">Point Light</span>
+                <span class="ex-link-3">Spot Light</span>
                 <span class="ex-link-4">Cone Light</span>
         <span class="ex-link-1">Precomputed Radiance Transfer</span>
         <span class="ex-link-2">Monte Carlo Integration</span>
