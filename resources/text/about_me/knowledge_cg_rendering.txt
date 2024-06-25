@@ -25,7 +25,9 @@
                 <span class="ex-link-0">Point Light</span>
                 <span class="ex-link-4">Cone Light</span>
         <span class="ex-link-1">Precomputed Radiance Transfer</span>
-        <span class="ex-link-2">Monte Carlo Integration with Importance Sampling</span>
+        <span class="ex-link-2">Monte Carlo Integration</span>
+                <span class="ex-link-0">Uniform Sampling</span>
+                <span class="ex-link-5">Importance Sampling</span>
         <span class="ex-link-3">Image Based Sky Lighting</span>
                 <span class="ex-link-4">Diffuse</span>
                 <span class="ex-link-1">Specular</span>
