@@ -15,6 +15,10 @@ module.use({
 
     ing: "text/projects_n_demos/ing",
     ncpp: "text/projects_n_demos/ncpp",
+    nmath: "text/projects_n_demos/nmath",
+    nsurface: "text/projects_n_demos/nsurface",
+    nrhi: "text/projects_n_demos/nrhi",
+    nre: "text/projects_n_demos/nre",
     nframework: "text/projects_n_demos/nframework",
     n0d3s: "text/projects_n_demos/n0d3s",
 
@@ -228,6 +232,94 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/ncpp.png`,
                     "https://github.com/n-c0d3r/ncpp"
+                ),
+
+            ),
+
+            Common.HR(),  
+
+            Common.SubPageContent()
+            .appendClass("two-content-body-reverse")
+            .appendInner(
+
+                Common.EnhancedTextBody(
+                    nmath
+                )
+                .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nmath.png`,
+                    "https://github.com/n-c0d3r/nmath"
+                ),
+
+            ),
+
+            Common.HR(),  
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.EnhancedTextBody(
+                    nsurface
+                )
+                .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nsurface.png`,
+                    "https://github.com/n-c0d3r/nsurface"
+                ),
+
+            ),
+
+            Common.HR(),   
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
+                    "https://github.com/n-c0d3r/nrhi"
+                ),
+
+                Common.EnhancedTextBody(
+                    nrhi
+                )
+                .appendClass("item-left"),
+
+            ),
+
+            Common.HR(),   
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.SubPageContent()
+                .appendClass("two-content-body")
+                .appendInner(
+
+                    Common.EnhancedTextBody(
+                        nre
+                    )
+                    .appendClass("item-left"),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/nre/cube_with_texture_2d.png`,
+                        "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/cube_with_texture_2d.png"
+                    ),
+    
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nre/hdri_sky.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/hdri_sky.png"
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/ibl.png"
                 ),
 
             ),

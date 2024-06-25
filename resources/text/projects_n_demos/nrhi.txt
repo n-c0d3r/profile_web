@@ -1,0 +1,15 @@
+    <span class="info-text-3">NRHI</span>, a <span class="info-text-2">game engine</span> learning aimed <span class="info-text-0">C++ render hardware interface library</span>
+        <span class="ex-link-2">CMake</span> 
+        <span class="ex-link-0">C++ 20</span>  
+        <a href="https://github.com/n-c0d3r/NRHI" class="ex-link-1">GitHub 🔗</a>
+        ⦿ <span>Features</span>:
+                ○ Flexible, optimized and supports multiple drivers (drivers mean low-level graphics APIs like DirectX 11, DirectX 12, OpenGL, Vulkan,...):
+                        • Compile-time abstraction for single driver
+                        • Run-time abstraction for multiple drivers
+                        • Quick cross-driver implementation for enums and functions
+                        • ...
+                ○ Supported drivers:
+                        • DirectX 11
+                ○ Shading languages:
+                        • HLSL
+                        • NSL (NCoder's shading language)

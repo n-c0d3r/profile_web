@@ -1,19 +1,30 @@
 <span class="info-text-3">NCPP</span>, a <span class="info-text-2">game engine</span> learning aimed <span class="info-text-0">C++ library</span>
-        <span class="ex-link-5">Private</span> <span class="ex-link-1">Abytek team</span>
         <span class="ex-link-2">CMake</span> 
-        <span class="ex-link-0">C++ 17, 20</span>  
+        <span class="ex-link-0">C++ 20</span>  
+        <a href="https://github.com/n-c0d3r/NCPP" class="ex-link-1">GitHub 🔗</a>
         ⦿ <span>Features</span>:
                 ○ Memory management</span>:
-                        • Incremental chunk allocator</span>
-                        • Smart chunk allocator</span>
-                        • Link allocator</span>
-                        • Flexible and high performance</span>
-                ○ Logging</span>
-                        • eastl::basic_string</span>
-                        • eastl::vector</span>
-                        • eastl::array</span>
-                        • std::initialier_list</span>
-                        • ...                        
+                        • Uniform provider/storage/adaptor</span>
+                        • Reference allocator</span>
+                        • Powerful allocator base class</span>
+                ○ Conntainers</span>:
+                        • EASTL containers</span>
+                        • Ring buffer
+                        • Hash table
+                        • Container view
+                        • String</span>
+                        • Vector</span>
+                        • Array</span>
+                        • Initializer list</span>
+                        • Convenient coloring
+                        • ...                
+                ○ Object</span>
+                        • "X" oref (mixed from "S" and "K" semantics)
+                        • "S" oref
+                        • "U" oref
+                        • "K" oref
+                        • "W" oref
+                        Customizable oref requirements                   
                 ○ Utilities</span>
                         • Nth template argument getter</span>
                         • Function traits</span>
@@ -21,17 +32,13 @@
                         • Is streamable</span>
                         • Singleton</span>
                         • ...
-                ○ Containers</span>:
-                        • Ring buffer</span>
-                        • Concurrent ring buffer</span>
                 ○ Parallelism</span> and Concurrency</span>:
                         • Spinlock</span>
                 ○ RTTI</span>:
                         • Easy to use</span>
                         • No memory cost on reflected object</span>
                         • Metadata supports</span>
-                        • Flexible</span>
-                        • Highly customizable</span>
+                        • Flexible and highly customizable</span>
         ⦿ <span>Platforms</span>:
                 ○ Windows</span>
                 ○ Macos</span>
