@@ -13,9 +13,10 @@
                         <span class="ex-link-5">Material Painting</span>
         <span class="ex-link-5">Shading Models</span>
                 <span class="ex-link-2">Blinn-Phong</span>
-                <span class="ex-link-4">Microfacet</span>
-                        <span class="ex-link-0">Cook-Torrance</span>
-                        <span class="ex-link-1">GGX</span>
+                <span class="ex-link-3">Physically Based Shading</span>
+                        <span class="ex-link-4">Microfacet</span>
+                                <span class="ex-link-0">Cook-Torrance</span>
+                                <span class="ex-link-1">GGX</span>
         <span class="ex-link-2">Deferred Shading</span> <span class="ex-link-3">Forward Shading</span>
         <span class="ex-link-5">Tone Mapping</span>
                 <span class="ex-link-0">Reinhard</span>
@@ -39,6 +40,8 @@
                 <span class="ex-link-2">Shadow Mapping</span>
                         <span class="ex-link-4">Basic</span>
                         <span class="ex-link-3">Cascaded</span>
+        <span class="ex-link-1">Toon Rendering</span>
+                <span class="ex-link-2">Sobel Algorithm</span>
         <span class="ex-link-0">Voxel 2D Terrain (Rendering, Chunk Streaming,...)</span>
         <span class="ex-link-4">Fluid Simulation</span> (Theory)
         <span class="ex-link-1">Shallow Water Simulation</span> (Theory)
