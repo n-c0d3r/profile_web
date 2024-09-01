@@ -203,22 +203,56 @@ return [
         .appendInner(
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
-                Common.EnhancedTextBody(
-                    ing
-                )
-                .appendClass("item-left"),
+                Common.SubPageContent()
+                .appendClass("two-content-body-reverse")
+                .appendInner(
 
+                    Common.EnhancedTextBody(
+                        nre
+                    )
+                    .appendClass("item-left"),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/nre/cube_with_texture_2d.png`,
+                        "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/cube_with_texture_2d.png"
+                    ),
+    
+                ),
+    
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/ing.png`,
-                    "https://github.com/INGTechnologies/ING"
+                    `${window.origin}/resources/image/demonstrates/nre/hdri_sky.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/hdri_sky.png"
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/ibl.png"
                 ),
 
             ),
 
-            Common.HR(),
+            Common.HR(),    
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.EnhancedTextBody(
+                    nrhi
+                )
+                .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
+                    "https://github.com/n-c0d3r/nrhi"
+                ),
+
+            ),
+
+            Common.HR(),  
 
             Common.SubPageContent()
             .appendClass("two-content-body-reverse")
@@ -272,59 +306,25 @@ return [
 
             ),
 
-            Common.HR(),   
+            Common.HR(),    
 
             Common.SubPageContent()
             .appendClass("two-content-body")
             .appendInner(
 
                 Common.EnhancedTextBody(
-                    nrhi
+                    ing
                 )
                 .appendClass("item-left"),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
-                    "https://github.com/n-c0d3r/nrhi"
+                    `${window.origin}/resources/image/demonstrates/ing.png`,
+                    "https://github.com/INGTechnologies/ING"
                 ),
 
             ),
 
-            Common.HR(),   
-
-            Common.SubPageContent()
-            .appendClass("two-content-body-reverse")
-            .appendInner(
-
-                Common.SubPageContent()
-                .appendClass("two-content-body-reverse")
-                .appendInner(
-
-                    Common.EnhancedTextBody(
-                        nre
-                    )
-                    .appendClass("item-left"),
-    
-                    Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/nre/cube_with_texture_2d.png`,
-                        "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/cube_with_texture_2d.png"
-                    ),
-    
-                ),
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nre/hdri_sky.png`,
-                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/hdri_sky.png"
-                ),
-    
-                Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
-                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/ibl.png"
-                ),
-
-            ),
-
-            Common.HR(),            
+            Common.HR(),          
 
             Common.SubPageContent()
             .appendClass("two-content-body")

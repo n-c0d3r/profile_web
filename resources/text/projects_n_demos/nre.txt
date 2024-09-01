@@ -3,6 +3,17 @@
         <span class="ex-link-0">C++ 20</span>  
         <a href="https://github.com/n-c0d3r/NRHI" class="ex-link-1">GitHub 🔗</a>
         ⦿ <span>Features</span>:
+                ○ Render pipelines:
+                        • FirstRP:
+                                Support simple graphics APIs (DirectX 11)
+                                Cascaded shadows
+                                PBR
+                                Image-based sky lighting
+                        • NewRG
+                                Support advanced graphics APIs (DirectX 12)
+                                Render graph
+                                Multithreaded rendering
+                ○ Task system
                 ○ Basic actor system
                 ○ Hierarchy:
                         • Transform node
