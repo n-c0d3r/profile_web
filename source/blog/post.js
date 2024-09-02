@@ -127,6 +127,8 @@ function Navigator(info){
 
                 textAlign: "left",
 
+                justifyContent: "left",
+
                 width: `min(calc(100vw - 40px), 500px)`,
 
                 fontWeight: "bold"
