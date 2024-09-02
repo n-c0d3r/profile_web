@@ -177,14 +177,14 @@ return [
                     .appendClass("item-justify"),
 
                     Common.ImageBody(
-                        `${window.origin}/resources/image/other/ge_arch.png`,
+                        `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
                         "https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459"
                     ),
     
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/other/robotic2.jpg`
+                    `${window.origin}/resources/image/demonstrates/nrhi.png`
                 ),
 
             ),
