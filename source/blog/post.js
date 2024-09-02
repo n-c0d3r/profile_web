@@ -121,7 +121,7 @@ function Navigator(info){
 
                 fontSize: `min(4vw, ${600 / 2 * 0.138 / 2}px)`,
                 lineHeight: `min(6.1vw, ${800 / 2 * 0.138 / 2}px)`,
-                letterSpacing: `min(1.0vw, ${100 / 2 * 0.138 / 2}px)`,
+                // letterSpacing: `min(1.0vw, ${100 / 2 * 0.138 / 2}px)`,
 
                 color: "rgba(200, 215, 215, 0.75)",
 
