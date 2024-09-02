@@ -16,6 +16,7 @@ module.use({
     ing: "text/projects_n_demos/ing",
     ncpp: "text/projects_n_demos/ncpp",
     nmath: "text/projects_n_demos/nmath",
+    nts: "text/projects_n_demos/nts",
     nsurface: "text/projects_n_demos/nsurface",
     nrhi: "text/projects_n_demos/nrhi",
     nre: "text/projects_n_demos/nre",
@@ -295,6 +296,24 @@ return [
             .appendInner(
 
                 Common.EnhancedTextBody(
+                    nts
+                )
+                .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nts.png`,
+                    "https://github.com/n-c0d3r/nts"
+                ),
+
+            ),
+
+            Common.HR(),  
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.EnhancedTextBody(
                     nsurface
                 )
                 .appendClass("item-left"),
@@ -309,7 +328,7 @@ return [
             Common.HR(),    
 
             Common.SubPageContent()
-            .appendClass("two-content-body")
+            .appendClass("two-content-body-reverse")
             .appendInner(
 
                 Common.EnhancedTextBody(
