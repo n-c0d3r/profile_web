@@ -2,7 +2,7 @@
         <span class="text-0">○ <span class="info-text-1">Programming</span></span>
                 <span class="ex-link-0">C/C++</span> <span class="ex-link-1">C#</span> <span class="ex-link-2">JS</span> <span class="ex-link-3">Python</span> <span class="ex-link-4">Pascal</span>
                 <span class="ex-link-5">NCoder's Shading Language</span>
-                <span class="ex-link-1">NLC</span> (NFramework's Scripting Language)
+                <a class="ex-link-1" href="https://github.com/N1ghtTeam/NFramework">NLC 🔗</a>
                 <span class="ex-link-1">BGFX Shading Language</span>
                 <span class="ex-link-0">HLSL</span>
                 <span class="ex-link-4">GDScript</span>

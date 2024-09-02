@@ -1,2 +1,2 @@
-<span class="info-text-3">NCPP</span>, a <span class="info-text-2">game engine</span> learning aimed <span class="info-text-0">C++ library</span>
+<span class="info-text-3">NCPP</span>, a game engine learning aimed C++ library.
 <span class="ex-link-2">CMake</span> <span class="ex-link-0">C++ 20</span> <span class="ex-link-3">Memory Management</span> <span class="ex-link-5">Smart Object Reference</span> <a href="https://github.com/n-c0d3r/NCPP" class="ex-link-1">GitHub 🔗</a>

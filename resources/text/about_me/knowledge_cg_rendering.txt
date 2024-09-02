@@ -49,4 +49,4 @@
         <span class="ex-link-0">Voxel 2D Terrain (Rendering, Chunk Streaming,...)</span>
         <span class="ex-link-4">Fluid Simulation</span> (Theory)
         <span class="ex-link-1">Shallow Water Simulation</span> (Theory)
-        <span class="ex-link-2">CPU-Based Ray Tracing</span> (Just Basic Stuffs like Shadows, Interreflection,...)
+        <span class="ex-link-2">CPU-Based Ray Tracing</span> (Just Basic Stuff like Shadows, Interreflection,...)
