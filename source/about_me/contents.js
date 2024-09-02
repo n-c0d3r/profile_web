@@ -129,12 +129,12 @@ return [
         Common.Section(
             [ " WHO I AM ? . ", "I AM A TECHNOLOGY LOVER", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
@@ -204,12 +204,12 @@ return [
         Common.Section(
             [ " MY JOURNEY . ", "THE THIRD DOOR", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
@@ -399,13 +399,13 @@ return [
         Common.Section(
             [ " ", "MY KNOWLEDGE & SKILLS", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$$(
 
             ".paragraph-name > span",
             e => e
-            .appendClass("item-left")
+            // .appendClass("item-left")
             .setStyle({
 
                 color: "rgb(110, 115, 120)",
@@ -429,7 +429,7 @@ return [
         .$(
             ".paragraph-name",
             e => e            
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         ),
 

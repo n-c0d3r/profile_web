@@ -144,12 +144,12 @@ return [
         Common.Section(
             [ " ", "ENGINES", ", ", "LIBRARIES", ", ", "FRAMEWORKS"," " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
@@ -375,12 +375,12 @@ return [
         Common.Section(
             [ " ", "COMPUTER ", "GRAPHICS", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
@@ -492,12 +492,12 @@ return [
         Common.Section(
             [ " ", "ADVANCED ", "ANIMATION", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
@@ -606,12 +606,12 @@ return [
         Common.Section(
             [ " ", "GAMES ", "& ", "DEMOS", " " ],
         )    
-        .appendClass("item-left")
+        // .appendClass("item-left")
         .useLargeWidth()
         .$(
             ".paragraph-name",
             e => e
-            .appendClass("item-left"),
+            // .appendClass("item-left"),
 
         )
         .$$(
