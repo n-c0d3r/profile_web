@@ -36,7 +36,7 @@ const header_data = {
 
             {
 
-                name: "Blogs",
+                name: "Blog",
                 url: `${window.origin}/build/${blog_post_list_analysis_data.entry_list_page_relative_path}`,               
 
             },

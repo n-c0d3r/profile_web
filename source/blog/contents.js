@@ -60,7 +60,7 @@ return function Contents(list, index, prev, next) {
             .appendInner(
     
                 Common.BigSection(
-                    ["NCoder", "'", "s ", "Blogs"],
+                    ["NCoder", "'", "s ", "Blog"],
                     null, 
                     3,
                     0

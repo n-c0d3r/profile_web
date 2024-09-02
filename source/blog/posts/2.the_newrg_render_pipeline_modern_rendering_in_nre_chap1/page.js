@@ -11,7 +11,7 @@ module.use({
 })
 .text({
 
-    
+    introduction: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/introduction",
     
 })
 .register_page();
@@ -21,6 +21,13 @@ module.use({
 Post(info)
 .appendInner(
 
-    
+    Post.Paragraph("Introduction"),
+    Post.EnhancedTextSection(introduction),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/a_piece_of_ing_engine_code.png`,
+        "https://github.com/INGTechnologies/ING/blob/main/Source/Engine/ING/Source/ING/Engine/Engine.cpp"
+    ),
+
+    Common.HR(),
 
 );
