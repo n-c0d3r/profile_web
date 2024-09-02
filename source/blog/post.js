@@ -203,7 +203,7 @@ function Navigator(info){
                 e => e
                 .setStyle({
     
-                    color: "rgb(70, 50, 100)",
+                    color: "rgb(75, 65, 80)",
                     fontWeight: "400",
     
                 })
@@ -324,7 +324,7 @@ function Post(info){
                 e => e
                 .setStyle({
     
-                    color: "rgb(120, 80, 180)",
+                    color: "rgb(120, 90, 140)",
                     fontWeight: "bold",
     
                 })
@@ -337,7 +337,7 @@ function Post(info){
                     if(parsedInfo.author == "NCoder") 
                         e.setStyle({
             
-                            color: "rgb(80, 170, 175)",
+                            color: "rgb(80, 150, 155)",
             
                         })
 

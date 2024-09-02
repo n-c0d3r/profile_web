@@ -427,18 +427,18 @@ return [
             .appendInner(
 
                 Common.SubPageContent()
-                .appendClass("two-content-body-reverse")
+                .appendClass("two-content-body")
                 .appendInner(
-    
-                    Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/gdr.png`,
-                        "https://www.youtube.com/watch?v=Phhg8GvmpT4"
-                    ),
     
                     Common.EnhancedTextBody(
                         gdr
                     )
                     .appendClass("item-left"),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/gdr.png`,
+                        "https://www.youtube.com/watch?v=Phhg8GvmpT4"
+                    ),
     
                 ),
     
