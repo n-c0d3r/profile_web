@@ -24,7 +24,7 @@ Post(info)
     Post.Paragraph("Introduction"),
     Post.EnhancedTextSection(introduction),
     Post.ImageBody(
-        `${window.origin}/resources/image/for_blogs/a_piece_of_ing_engine_code.png`,
+        `${window.origin}/resources/image/for_blogs/nre_render_graph.png`,
         "https://github.com/INGTechnologies/ING/blob/main/Source/Engine/ING/Source/ING/Engine/Engine.cpp"
     ),
 
