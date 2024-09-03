@@ -16,7 +16,10 @@ module.use({
     multithreaded_rendering: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/multithreaded_rendering",
     directx_11_vs_directx_12: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/directx_11_vs_directx_12",
     nrhi_0_2: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/nrhi_0_2",
-
+    general_resource_uploader: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/general_resource_uploader",
+    binder_signature: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/binder_signature",
+    intermediate_descriptor_manager: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/intermediate_descriptor_manager",
+    
 })
 .register_page();
 
@@ -50,4 +53,19 @@ Post(info)
 
     Post.Paragraph("NRHI 0.2"),
     Post.EnhancedTextSection(nrhi_0_2),
+
+    Common.HR(),
+
+    Post.Paragraph("General Resource Uploader"),
+    Post.EnhancedTextSection(general_resource_uploader),
+
+    Common.HR(),
+
+    Post.Paragraph("Intermediate Descriptor Manager"),
+    Post.EnhancedTextSection(intermediate_descriptor_manager),
+
+    Common.HR(),
+
+    Post.Paragraph("Binder Signature"),
+    Post.EnhancedTextSection(binder_signature),
 );

@@ -178,13 +178,14 @@ return [
 
                     Common.ImageBody(
                         `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
-                        "https://www.amazon.com/Engine-Architecture-Third-Jason-Gregory/dp/1138035459"
+                        "https://github.com/n-c0d3r/NRE"
                     ),
     
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nrhi.png`
+                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
+                        "https://github.com/n-c0d3r/NRHI"
                 ),
 
             ),
