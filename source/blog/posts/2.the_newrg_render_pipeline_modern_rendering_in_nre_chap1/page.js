@@ -45,16 +45,26 @@ Post(info)
 
     Post.Paragraph("Multithreaded Rendering"),
     Post.EnhancedTextSection(multithreaded_rendering),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/multithreaded_rendering.png`
+    ),
 
     Common.HR(),
 
     Post.Paragraph("DirectX 11 vs DirectX 12"),
     Post.EnhancedTextSection(directx_11_vs_directx_12),
-
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/dx11_vs_dx12.png`
+    ),
+    
     Common.HR(),
 
     Post.Paragraph("NRHI 0.2"),
     Post.EnhancedTextSection(nrhi_0_2),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/nrhi_0_2.png`,
+        'https://github.com/n-c0d3r/NRHI'
+    ),
 
     Common.HR(),
 
@@ -65,6 +75,14 @@ Post(info)
 
     Post.Paragraph("Intermediate Descriptor Manager"),
     Post.EnhancedTextSection(intermediate_descriptor_manager),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/resource_view_create.png`,
+        'https://github.com/n-c0d3r/NRE/blob/main/nre/source/nre/rendering/newrg/rhi_alternatives/resource_view.cpp'
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/destroy_resource_view.png`,
+        'https://github.com/n-c0d3r/NRE/blob/main/nre/source/nre/rendering/newrg/rhi_alternatives/resource_view.cpp'
+    ),
 
     Common.HR(),
 
@@ -72,6 +90,10 @@ Post(info)
     Post.EnhancedTextSection(binder_signature),
     Post.ImageBody(
         `${window.origin}/resources/image/for_blogs/nsl_root_signature.png`
+    ),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/binder_signature.png`,
+        'https://github.com/n-c0d3r/NRE/blob/main/nre/samples/newrg/render_graph/binder_group/source/bootstrap.cpp'
     ),
 
     Common.HR(),
