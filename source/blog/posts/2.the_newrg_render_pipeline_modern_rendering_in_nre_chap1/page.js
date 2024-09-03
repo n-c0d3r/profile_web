@@ -15,6 +15,7 @@ module.use({
     differences_between_firstrp_and_newrg: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/differences_between_firstrp_and_newrg",
     multithreaded_rendering: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/multithreaded_rendering",
     directx_11_vs_directx_12: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/directx_11_vs_directx_12",
+    nrhi_0_2: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/nrhi_0_2",
 
 })
 .register_page();
@@ -46,4 +47,7 @@ Post(info)
     Post.EnhancedTextSection(directx_11_vs_directx_12),
 
     Common.HR(),
+
+    Post.Paragraph("NRHI 0.2"),
+    Post.EnhancedTextSection(nrhi_0_2),
 );
