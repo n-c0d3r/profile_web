@@ -19,14 +19,15 @@ module.use({
     general_resource_uploader: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/general_resource_uploader",
     binder_signature: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/binder_signature",
     intermediate_descriptor_manager: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/intermediate_descriptor_manager",
+    summary: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/chapter1_summary",
     
 })
-.register_page(
-    `
-        <div id="fb-root"></div>
-        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="RM4pcjOt"></script>
-    `
-);
+.register_page(`
+    <div id="fb-root">
+    </div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="RM4pcjOt">
+    </script>
+`);
 
 
 
@@ -34,10 +35,6 @@ Post(info)
 .appendInner(
     Post.Paragraph("Introduction"),
     Post.EnhancedTextSection(introduction),
-    Post.ImageBody(
-        `${window.origin}/resources/image/for_blogs/nre_render_graph.png`,
-        "https://github.com/INGTechnologies/ING/blob/main/Source/Engine/ING/Source/ING/Engine/Engine.cpp"
-    ),
 
     Common.HR(),
 
@@ -73,6 +70,14 @@ Post(info)
 
     Post.Paragraph("Binder Signature"),
     Post.EnhancedTextSection(binder_signature),
+    Post.ImageBody(
+        `${window.origin}/resources/image/for_blogs/nsl_root_signature.png`
+    ),
+
+    Common.HR(),
+
+    Post.Paragraph("Summary"),
+    Post.EnhancedTextSection(summary),
 
     Common.HR(),
 
