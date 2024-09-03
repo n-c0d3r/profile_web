@@ -221,7 +221,7 @@ function FBComments(url)
     let result = n0d3s.UI.Element('div')
         .appendClass('fb-comments')
         .setAttribute('data-href', `${url}`)
-        .setAttribute('data-width', ``)
+        .setAttribute('data-width', `100%`)
         .setAttribute('data-numposts', `1`);
         
     result.setStyle({
