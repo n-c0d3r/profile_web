@@ -216,6 +216,20 @@ function Navigator(info){
 
     )
 }
+function FBComments(url)
+{
+    let result = n0d3s.UI.Element('div')
+        .appendClass('fb-comments')
+        .setAttribute('data-href', `${url}`)
+        .setAttribute('data-width', ``)
+        .setAttribute('data-numposts', `1`);
+        
+    result.setStyle({
+        width: "100%"
+    });
+
+    return result;
+}
 
 
 
@@ -409,6 +423,7 @@ Post.Break = Break;
 Post.Navigator = Navigator;
 Post.ImageBody = ImageBody;
 Post.ParseInfo = ParseInfo;
+Post.FBComments = FBComments;
 
 
 

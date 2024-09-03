@@ -21,7 +21,12 @@ module.use({
     intermediate_descriptor_manager: "text/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre/intermediate_descriptor_manager",
     
 })
-.register_page();
+.register_page(
+    `
+        <div id="fb-root"></div>
+        <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v20.0" nonce="RM4pcjOt"></script>
+    `
+);
 
 
 
@@ -68,4 +73,8 @@ Post(info)
 
     Post.Paragraph("Binder Signature"),
     Post.EnhancedTextSection(binder_signature),
+
+    Common.HR(),
+
+    Post.FBComments('http://n-c0d3r.github.io/build/pages/blog/posts/2.the_newrg_render_pipeline_modern_rendering_in_nre_chap1/page.html')
 );
