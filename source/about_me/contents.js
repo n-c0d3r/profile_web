@@ -21,6 +21,7 @@ module.use({
     third_stage: "text/about_me/third_stage",
     fourth_stage1: "text/about_me/fourth_stage1",
     fourth_stage2: "text/about_me/fourth_stage2",
+    fifth_stage: "text/about_me/fifth_stage",
 
     knowledge_animation: "text/about_me/knowledge_animation",
     knowledge_cg_rendering: "text/about_me/knowledge_cg_rendering",
@@ -381,6 +382,47 @@ return [
                 Common.ImageBody(
                     `${window.origin}/resources/image/demonstrates/mesh_clustering.png`,
                     "https://www.youtube.com/watch?v=cJYO5oo_A3o&t=65s"
+                ),
+
+            ),
+
+            Common.HR(),
+
+            Common.SubPageContent()
+            .appendInner(
+
+                Common.SubPageContent()
+                .appendClass("two-content-body")
+                .appendInner(
+
+                    Common.SubPageContent()
+                    .setStyle({
+    
+                        width: `min(100%, ${1400 / 3 - 50}px)`,
+    
+                    })
+                    .appendInner(
+        
+                        Common.EnhancedTextBody(fifth_stage)
+                        .appendClass("item-justify"),
+        
+                    ),
+    
+                    Common.ImageBody(
+                        `${window.origin}/resources/image/demonstrates/oit_vg.png`,
+                        "https://www.youtube.com/watch?v=_oPfejvvoxc"
+                    ),
+
+                ),
+    
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/ibl.png"
+                ),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/nre/hdri_sky.png`,
+                    "https://github.com/n-c0d3r/NRE/blob/main/nre/resources/textures/screenshots/hdri_sky.png"
                 ),
 
             ),

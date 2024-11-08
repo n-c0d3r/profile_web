@@ -20,6 +20,7 @@ module.use({
     nsurface: "text/projects_n_demos/nsurface",
     nrhi: "text/projects_n_demos/nrhi",
     nre: "text/projects_n_demos/nre",
+    nre_ultimate: "text/projects_n_demos/nre.ultimate",
     nframework: "text/projects_n_demos/nframework",
     n0d3s: "text/projects_n_demos/n0d3s",
 
@@ -202,6 +203,24 @@ return [
 
         Common.SubPageContent()
         .appendInner(
+
+            Common.SubPageContent()
+            .appendClass("two-content-body")
+            .appendInner(
+
+                Common.EnhancedTextBody(
+                    nre_ultimate
+                )
+                .appendClass("item-left"),
+
+                Common.ImageBody(
+                    `${window.origin}/resources/image/demonstrates/oit_vg.png`,
+                    "https://www.youtube.com/watch?v=_oPfejvvoxc"
+                ),
+
+            ),
+
+            Common.HR(),  
 
             Common.SubPageContent()
             .appendClass("two-content-body-reverse")
