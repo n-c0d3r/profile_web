@@ -43,15 +43,15 @@ const header_data = {
 
             {
 
-                name: "Contact",
-                url: `${window.origin}/build/pages/contact/page.html`,               
+                name: "Portfolio",
+                url: `${window.origin}/build/pages/portfolio/page.html`,               
 
             },
 
             {
 
-                name: "Portfolio",
-                url: `${window.origin}/build/pages/portfolio/page.html`,               
+                name: "Contact",
+                url: `${window.origin}/build/pages/contact/page.html`,               
 
             },
 
