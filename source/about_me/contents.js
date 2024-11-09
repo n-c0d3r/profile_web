@@ -178,15 +178,15 @@ return [
                     .appendClass("item-justify"),
 
                     Common.ImageBody(
-                        `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
-                        "https://github.com/n-c0d3r/NRE"
+                        `${window.origin}/resources/image/demonstrates/oit_vg.png`,
+                        "https://www.youtube.com/watch?v=_oPfejvvoxc"
                     ),
     
                 ),
 
                 Common.ImageBody(
-                    `${window.origin}/resources/image/demonstrates/nrhi.png`,
-                        "https://github.com/n-c0d3r/NRHI"
+                    `${window.origin}/resources/image/demonstrates/nre/ibl.png`,
+                    "https://github.com/n-c0d3r/NRE"
                 ),
 
             ),
